@@ -2,6 +2,7 @@
 import express, { type NextFunction, type Response, type Request, type ErrorRequestHandler } from "express";
 import { mongoConnect } from "../domain/repositories/mongo-repository";
 import { productRouter } from "./product.routes";
+import { categoryRouter } from "./category.routes";
 
 export const configureRoutes = (app: any): any => {
   // Swagger
@@ -23,6 +24,7 @@ export const configureRoutes = (app: any): any => {
 
   // Usamos las rutas
   app.use("/product", productRouter);
+  app.use("/categorie", categoryRouter);
   app.use("/", router);
 
   // Middleware de gestión de errores
