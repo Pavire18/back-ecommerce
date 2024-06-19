@@ -9,7 +9,12 @@ const getProductsCount = async (): Promise<number> => {
   return await Product.countDocuments();
 };
 
+const getProductsByCategory = async (categoryId: string): Promise<any> => {
+  return await Product.find({ category: categoryId }).populate("category");
+};
+
 export const productOdm = {
   getAllProducts,
-  getProductsCount
+  getProductsCount,
+  getProductsByCategory
 }
