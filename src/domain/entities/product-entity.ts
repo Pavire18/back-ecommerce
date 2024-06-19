@@ -13,22 +13,19 @@ const skuDetailsSchema = new Schema(
 );
 
 export interface IProduct {
-  image: string;
   title: Record<string, string>;
   description: Record<string, string>;
   price: Record<string, number>;
   sku: Record<string, { color: string; size: number; image: string; stock: number; }>;
   stock: number;
   category?: ObjectId;
-  famous: boolean;
+  featured: boolean;
+  image: string;
+  imageSmall: string;
 }
 
 const productSchema = new Schema<IProduct>(
   {
-    image: {
-      type: String,
-      required: true,
-    },
     title: {
       type: Map,
       of: String,
@@ -56,11 +53,19 @@ const productSchema = new Schema<IProduct>(
     category: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Category",
-      required: false,
+      required: true,
     },
-    famous: {
+    featured: {
       type: Boolean,
       default: false,
+    },
+    image: {
+      type: String,
+      required: true,
+    },
+    imageSmall: {
+      type: String,
+      required: true,
     },
   },
   {
