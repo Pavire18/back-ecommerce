@@ -3,7 +3,7 @@ import { mongoConnect } from "../repositories/mongo-repository";
 import { Product } from "../entities/product-entity";
 import { productos } from "./product.data";
 import { Category } from "../entities/category.entity";
-import { categories } from "./category.data";
+import { categories, categoryKids, categoryMen, categoryWomen } from "./category.data";
 
 const randomNumber = (max: number, min: number): number => {
   const number = Math.floor(Math.random() * (max - min)) + min;
@@ -20,6 +20,9 @@ async function populateBBDD(): Promise<void> {
     await Category.collection.drop();
 
     const categoryDocuments = categories.map((category) => new Category(category));
+    await categoryKids.save();
+    await categoryMen.save();
+    await categoryWomen.save()
     await Category.insertMany(categoryDocuments);
     
     // PRODUCTOS EJEMPLO

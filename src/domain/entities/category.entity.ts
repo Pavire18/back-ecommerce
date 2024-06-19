@@ -10,13 +10,13 @@ const categorySchema = new mongoose.Schema<ICategory>(
     name: {
       type: Map,
       of: String,
-      required: true,
+      required: true
     },
     parentCategory: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Category",
-      required: false,
-    },
+      required: false
+    }
   },
   {
     timestamps: true,
