@@ -2,9 +2,9 @@
 import { Category } from "../entities/category.entity";
 
 export const getCategoryById = async (id: string) => {
-  return await Category.findById(id).populate("mainCategory").populate("subcategories");
+  return await Category.findById(id).populate("mainCategory");
 };
 
 export const getAllCategories = async () => {
-  return await Category.find().populate("mainCategory").populate("subcategories");
+  return await Category.find().populate("mainCategory");
 };

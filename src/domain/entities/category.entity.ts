@@ -23,12 +23,6 @@ const categorySchema = new mongoose.Schema<ICategory>(
       ref: "Category",
       required: false,
     },
-    subcategories: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Category",
-      },
-    ],
   },
   {
     timestamps: true,
