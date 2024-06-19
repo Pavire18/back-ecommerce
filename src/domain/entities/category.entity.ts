@@ -4,7 +4,6 @@ export interface ICategory {
   name: string;
   description?: string;
   mainCategory?: ObjectId;
-  subcategories?: ObjectId[];
 }
 
 const categorySchema = new mongoose.Schema<ICategory>(
