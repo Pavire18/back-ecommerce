@@ -1,13 +1,10 @@
 import {Category, ICategory } from "../entities/category.entity";
 
-const categoryMen = new Category({name: {es: "Hombre", en: "Men"}, parentCategory: null});
-const categoryKids = new Category({name: {es: "Infantil", en: "Kids"}, parentCategory: null});
-const categoryWomen = new Category({name: {es: "Mujer", en: "Women"}, parentCategory: null});
+export const categoryMen = new Category({name: {es: "Hombre", en: "Men"}, parentCategory: null});
+export const categoryKids = new Category({name: {es: "Infantil", en: "Kids"}, parentCategory: null});
+export const categoryWomen = new Category({name: {es: "Mujer", en: "Women"}, parentCategory: null});
 
 export const categories: ICategory[] = [
-    {name: {es: "Infantil", en: "Kids"}, parentCategory: null},
-    {name: {es: "Mujer", en: "Women"}, parentCategory: null},
-    {name: {es: "Hombre", en: "Men"}, parentCategory: null},
     {name: {es: "Casual", en: "Casual"}, parentCategory: categoryMen.id},
     {name: {es: "Deporte", en: "Sports"}, parentCategory: categoryMen.id},
     {name: {es: "Formal", en: "Formal"}, parentCategory: categoryMen.id},
