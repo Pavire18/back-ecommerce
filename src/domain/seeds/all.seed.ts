@@ -1,6 +1,14 @@
 import mongoose from "mongoose";
 import { mongoConnect } from "../repositories/mongo-repository";
-import { IProduct, Product } from "../entities/product-entity";
+import { Product } from "../entities/product-entity";
+import { productos } from "./product.data";
+import { Category } from "../entities/category.entity";
+import { categories } from "./category.data";
+
+const randomNumber = (max: number, min: number): number => {
+  const number = Math.floor(Math.random() * (max - min)) + min;
+  return number;
+};
 
 async function populateBBDD(): Promise<void> {
   try {
@@ -9,40 +17,20 @@ async function populateBBDD(): Promise<void> {
 
     // BORRADO DE DATOS
     await Product.collection.drop();
-    // PRODUCTO EJEMPLO
-    const producto: IProduct = {
-      "image": "https://example.com/image.jpg",
-      "title": {
-        "es": "Nike Air",
-        "en": "Nike Air"
-      },
-      "description": {
-        "es": "Zapatillas deportivas Nike Air",
-        "en": "Nike Air sports shoes"
-      },
-      "price": {
-        "EUR": 120,
-        "DOLLAR": 150
-      },
-      "sku": {
-        "23131231": {
-          color: "rojo",
-          size: 40,
-          image: "https://example.com/red_shoe.jpg",
-          stock: 10
-        },
-        "41424141": {
-          color: "azul",
-          size: 42,
-          image: "https://example.com/blue_shoe.jpg",
-          stock: 5
-        }
-      },
-      "stock": 15,
-      "famous": true
+    await Category.collection.drop();
+
+    const categoryDocuments = categories.map((category) => new Category(category));
+    await Category.insertMany(categoryDocuments);
+    
+    // PRODUCTOS EJEMPLO
+    const productDocuments = productos.map((product) => new Product(product));
+    for (let i = 0; i < productDocuments.length; i++) {
+      const product = productDocuments[i];
+      product.category= categoryDocuments[randomNumber(categoryDocuments.length, 0)].id
+      await product.save();
     }
-    const finalProduct = new Product(producto);
-    await finalProduct.save();
+
+    
 
     console.log("Datos guardados correctamente!");
   } catch (error) {

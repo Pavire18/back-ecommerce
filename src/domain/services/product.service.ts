@@ -25,6 +25,22 @@ export const getProducts = async (req: Request, res: Response, next: NextFunctio
   }
 };
 
+export const getProductsByCategory = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  const categoryId = req.params.categoryId;
+
+  try {
+    const products = await productOdm.getProductsByCategory(categoryId);
+    if (products?.length) {
+      res.json(products);
+    } else {
+      res.status(404).json([]);
+    }
+  } catch (error) {
+    next(error);
+  }
+};
+
 export const prductService = {
-  getProducts
+  getProducts,
+  getProductsByCategory
 };

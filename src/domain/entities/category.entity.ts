@@ -1,23 +1,18 @@
 import mongoose, { ObjectId } from "mongoose";
 
 export interface ICategory {
-  name: string;
-  description?: string;
-  mainCategory?: ObjectId;
+  name: Record<string, string>;
+  parentCategory: ObjectId | null;
 }
 
 const categorySchema = new mongoose.Schema<ICategory>(
   {
     name: {
-      type: String,
+      type: Map,
+      of: String,
       required: true,
-      unique: true,
     },
-    description: {
-      type: String,
-      default: "",
-    },
-    mainCategory: {
+    parentCategory: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Category",
       required: false,
