@@ -9,7 +9,6 @@ export const getAllCategories = async () => {
   return await Category.find().populate("parentCategory");
 };
 
-
 export const categorieOdm = {
   getCategoryById,
   getAllCategories
