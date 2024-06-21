@@ -19,21 +19,20 @@ async function populateBBDD(): Promise<void> {
     await Product.collection.drop();
     await Category.collection.drop();
 
-    const categoryDocuments = categories.map((category) => new Category(category));
+    let categoryDocuments = categories.map((category) => new Category(category));
     await categoryKids.save();
     await categoryMen.save();
-    await categoryWomen.save()
+    await categoryWomen.save();
     await Category.insertMany(categoryDocuments);
-    
+    categoryDocuments = [...categoryDocuments, categoryKids, categoryMen, categoryWomen]
+
     // PRODUCTOS EJEMPLO
     const productDocuments = productos.map((product) => new Product(product));
     for (let i = 0; i < productDocuments.length; i++) {
       const product = productDocuments[i];
-      product.category= categoryDocuments[randomNumber(categoryDocuments.length, 0)].id
+      product.category = categoryDocuments[randomNumber(categoryDocuments.length, 0)].id
       await product.save();
     }
-
-    
 
     console.log("Datos guardados correctamente!");
   } catch (error) {

@@ -6,7 +6,7 @@ const skuDetailsSchema = new Schema(
   {
     color: { type: String, required: true },
     size: { type: Number, required: true },
-    image: { type: String, required: true },
+    imageSquare: { type: String, required: true },
     stock: { type: Number, required: true },
   },
   { _id: false }
@@ -16,12 +16,12 @@ export interface IProduct {
   title: Record<string, string>;
   description: Record<string, string>;
   price: Record<string, number>;
-  sku: Record<string, { color: string; size: number; image: string; stock: number; }>;
+  sku: Record<string, { color: string; size: number; imageSquare: string; stock: number; }>;
   stock: number;
   category?: ObjectId;
   featured: boolean;
-  image: string;
-  imageSmall: string;
+  imageLarge: string;
+  imageSquare: string;
 }
 
 const productSchema = new Schema<IProduct>(
@@ -59,11 +59,11 @@ const productSchema = new Schema<IProduct>(
       type: Boolean,
       default: false,
     },
-    image: {
+    imageLarge: {
       type: String,
       required: true,
     },
-    imageSmall: {
+    imageSquare: {
       type: String,
       required: true,
     },
