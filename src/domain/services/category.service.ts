@@ -1,5 +1,5 @@
 import { type Request, type Response, type NextFunction } from "express";
-import { getCategoryById, getAllCategories, categorieOdm } from "../odm/category.odm";
+import { categorieOdm } from "../odm/category.odm";
 
 export const getCategory = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
