@@ -1,7 +1,9 @@
 import { type Request, type Response, type NextFunction } from "express";
 import { categorieOdm } from "../odm/category.odm";
-import { Types } from "mongoose";
+import { Types } from 'mongoose';
+import { Category, ICategory } from "../entities/category.entity";
 const { ObjectId } = Types;
+
 
 export const getCategory = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
@@ -26,15 +28,15 @@ export const getCategories = async (req: Request, res: Response, next: NextFunct
 };
 
 export const getChildenCategories = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
-  try {
+  const id = req.params.id;
 
-    const categories = await categorieOdm.getAllCategories();
-    const childrenCategories = categories.filter(categorie => categorie?.parentCategory?.toString() === req.params.id);
-    if (!childrenCategories) {
-      res.status(404).json({ message: "Category not found" });
-      return;
+  try {
+    const categories = await categorieOdm.getChildenCategories(id);
+    if (categories?.length) {
+      res.json(categories);
+    } else {
+      res.status(404).json({ message: "categories not found" });
     }
-    res.json(childrenCategories);
   } catch (error) {
     next(error);
   }

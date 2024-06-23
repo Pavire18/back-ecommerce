@@ -13,7 +13,7 @@ const getProductsByCategory = async (categoryId: string): Promise<any> => {
   return await Product.find({ category: categoryId }).populate("category");
 };
 
-export const getProductById = async (id: string) => {
+export const getProductById = async (id: string): Promise<any> => {
   return await Product.findById(id).populate("category");
 };
 
