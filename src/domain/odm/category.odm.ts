@@ -6,7 +6,7 @@ export const getCategoryById = async (id: string) => {
 };
 
 export const getAllCategories = async () => {
-  return await Category.find().populate("parentCategory");
+  return await Category.find();
 };
 
 export const categorieOdm = {

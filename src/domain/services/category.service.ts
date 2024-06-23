@@ -1,5 +1,7 @@
 import { type Request, type Response, type NextFunction } from "express";
 import { categorieOdm } from "../odm/category.odm";
+import { Types } from "mongoose";
+const { ObjectId } = Types;
 
 export const getCategory = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
@@ -23,7 +25,23 @@ export const getCategories = async (req: Request, res: Response, next: NextFunct
   }
 };
 
+export const getChildenCategories = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  try {
+
+    const categories = await categorieOdm.getAllCategories();
+    const childrenCategories = categories.filter(categorie => categorie?.parentCategory?.toString() === req.params.id);
+    if (!childrenCategories) {
+      res.status(404).json({ message: "Category not found" });
+      return;
+    }
+    res.json(childrenCategories);
+  } catch (error) {
+    next(error);
+  }
+};
+
 export const categoryService = {
   getCategory,
-  getCategories
+  getCategories,
+  getChildenCategories
 };

@@ -5,3 +5,4 @@ export const categoryRouter = express.Router();
 
 categoryRouter.get("/", categoryService.getCategories);
 categoryRouter.get("/:id", categoryService.getCategory);
+categoryRouter.get("/children/:id", categoryService.getChildenCategories);
