@@ -9,7 +9,12 @@ export const getAllCategories = async () => {
   return await Category.find().populate("parentCategory");
 };
 
+const getChildenCategories = async (id: string): Promise<any> => {
+  return await Category.find({ parentCategory: id });
+};
+
 export const categorieOdm = {
   getCategoryById,
-  getAllCategories
+  getAllCategories,
+  getChildenCategories
 }

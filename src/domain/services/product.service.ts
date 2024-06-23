@@ -33,8 +33,21 @@ export const getProductsByCategory = async (req: Request, res: Response, next: N
     if (products?.length) {
       res.json(products);
     } else {
-      res.status(404).json([]);
+      res.status(404).json({ message: "Products not found" });
     }
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const getProductById = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  try {
+    const product = await productOdm.getProductById(req.params.id);
+    if (!product) {
+      res.status(404).json({ message: "Product not found" });
+      return;
+    }
+    res.json(product);
   } catch (error) {
     next(error);
   }
@@ -42,5 +55,6 @@ export const getProductsByCategory = async (req: Request, res: Response, next: N
 
 export const prductService = {
   getProducts,
-  getProductsByCategory
+  getProductsByCategory,
+  getProductById
 };
