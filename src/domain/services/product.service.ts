@@ -1,5 +1,6 @@
 import { type Request, type Response, type NextFunction } from "express";
 import { productOdm } from "../odm/product.odm";
+import { IProduct } from "../entities/product-entity";
 
 export const getProducts = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
@@ -40,6 +41,29 @@ export const getProductsByCategory = async (req: Request, res: Response, next: N
   }
 };
 
+export const getProductBySku = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  const skuId = req.params.skuId.toString();
+
+  try {
+    const products: IProduct[] = await productOdm.getAllProducts(1,0);
+    const filteredProducts = products.filter((product) => {
+      const skuKeys = Object.keys(JSON.parse(JSON.stringify(product.sku)));
+      if(skuKeys.includes(skuId)){
+        return product;
+      }
+    });
+
+    if (filteredProducts?.length) {
+      res.json(filteredProducts);
+    } else {
+      res.status(404).json({ message: "Products not found" });
+    }
+  } catch (error) {
+    next(error);
+  }
+};
+
+
 export const getProductById = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const product = await productOdm.getProductById(req.params.id);
@@ -53,8 +77,35 @@ export const getProductById = async (req: Request, res: Response, next: NextFunc
   }
 };
 
+
+export const getFeaturedProducts = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  try {
+    // Ternario que se queda con el parametro si llega
+    const page = req.query.page ? parseInt(req.query.page as string) : 1;
+    const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
+
+    const users = await productOdm.getFeaturedProducts(page, limit);
+
+    // Num total de elementos
+    const totalElements = await productOdm.getFeaturedProductsCount();
+
+    const response = {
+      totalItems: totalElements,
+      totalPages: Math.ceil(totalElements / limit),
+      currentPage: page,
+      data: users,
+    };
+
+    res.json(response);
+  } catch (error) {
+    next(error);
+  }
+};
+
 export const prductService = {
   getProducts,
   getProductsByCategory,
-  getProductById
+  getProductById,
+  getProductBySku,
+  getFeaturedProducts
 };
