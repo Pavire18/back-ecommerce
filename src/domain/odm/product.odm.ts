@@ -8,9 +8,17 @@ const getAllProducts = async (page: number, limit: number): Promise<any> => {
 const getProductsCount = async (): Promise<number> => {
   return await Product.countDocuments();
 };
+const getFeaturedProductsCount = async (): Promise<number> => {
+  return await Product.countDocuments({ featured: true });
+};
 
 const getProductsByCategory = async (categoryId: string): Promise<any> => {
   return await Product.find({ category: categoryId }).populate("category");
+};
+
+const getFeaturedProducts = async (page: number, limit: number): Promise<any> => {
+  return await Product.find({ featured: true }).limit(limit)
+  .skip((page - 1) * limit).populate("category");
 };
 
 export const getProductById = async (id: string): Promise<any> => {
@@ -21,5 +29,7 @@ export const productOdm = {
   getAllProducts,
   getProductsCount,
   getProductsByCategory,
-  getProductById
+  getProductById,
+  getFeaturedProducts,
+  getFeaturedProductsCount
 }
