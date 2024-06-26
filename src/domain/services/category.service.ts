@@ -1,9 +1,5 @@
 import { type Request, type Response, type NextFunction } from "express";
 import { categorieOdm } from "../odm/category.odm";
-import { Types } from 'mongoose';
-import { Category, ICategory } from "../entities/category.entity";
-const { ObjectId } = Types;
-
 
 export const getCategory = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {

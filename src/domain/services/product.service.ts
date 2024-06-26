@@ -45,12 +45,13 @@ export const getProductBySku = async (req: Request, res: Response, next: NextFun
   const skuId = req.params.skuId.toString();
 
   try {
-    const products: IProduct[] = await productOdm.getAllProducts(1,0);
+    const products: IProduct[] = await productOdm.getAllProducts(1, 0);
     const filteredProducts = products.filter((product) => {
       const skuKeys = Object.keys(JSON.parse(JSON.stringify(product.sku)));
-      if(skuKeys.includes(skuId)){
+      if (skuKeys.includes(skuId)) {
         return product;
       }
+      return null;
     });
 
     if (filteredProducts?.length) {
@@ -62,7 +63,6 @@ export const getProductBySku = async (req: Request, res: Response, next: NextFun
     next(error);
   }
 };
-
 
 export const getProductById = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
@@ -76,7 +76,6 @@ export const getProductById = async (req: Request, res: Response, next: NextFunc
     next(error);
   }
 };
-
 
 export const getFeaturedProducts = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
