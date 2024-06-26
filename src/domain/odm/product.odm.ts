@@ -18,7 +18,7 @@ const getProductsByCategory = async (categoryId: string): Promise<any> => {
 
 const getFeaturedProducts = async (page: number, limit: number): Promise<any> => {
   return await Product.find({ featured: true }).limit(limit)
-  .skip((page - 1) * limit).populate("category");
+    .skip((page - 1) * limit).populate("category");
 };
 
 export const getProductById = async (id: string): Promise<any> => {
