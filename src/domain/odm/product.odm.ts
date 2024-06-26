@@ -20,7 +20,6 @@ const getProductBySku = async (skuId: string): Promise<any> => {
   return await Product.find({ skus: skuId }).populate("category");
 };
 
-
 const getFeaturedProducts = async (page: number, limit: number): Promise<any> => {
   return await Product.find({ featured: true }).limit(limit)
     .skip((page - 1) * limit).populate("category");

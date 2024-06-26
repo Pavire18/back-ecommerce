@@ -16,7 +16,7 @@ export interface IProduct {
   title: Record<string, string>;
   description: Record<string, string>;
   price: Record<string, number>;
-  skus: string[];
+  skus?: string[];
   sku: Record<string, { color: string; size: number; imageSquare: string; stock: number; }>;
   stock: number;
   category?: ObjectId;
@@ -44,7 +44,7 @@ const productSchema = new Schema<IProduct>(
     },
     skus: {
       type: [String],
-      required: true,
+      required: false,
     },
     sku: {
       type: Map,
