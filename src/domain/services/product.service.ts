@@ -1,6 +1,5 @@
 import { type Request, type Response, type NextFunction } from "express";
 import { productOdm } from "../odm/product.odm";
-import { IProduct } from "../entities/product-entity";
 
 export const getProducts = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {

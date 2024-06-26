@@ -14,7 +14,6 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
-    skus:[],
     sku: {
       "11111111": {
         color: "rojo",
@@ -31,19 +30,19 @@ export const productos: IProduct[] = [
       "33333333": {
         color: "beige",
         size: 43,
-        imageSquare: "03_square_v1-min.jpg",
+        imageSquare: "03_square-min.jpg",
         stock: 9,
       },
       "44444444": {
         color: "azul",
         size: 44,
-        imageSquare: "04_square_v1-min.jpg",
+        imageSquare: "04_square-min.jpg",
         stock: 5,
       },
       "55555555": {
         color: "negro",
         size: 45,
-        imageSquare: "05_square_v1-min.jpg",
+        imageSquare: "05_square-min.jpg",
         stock: 2,
       },
     },
@@ -65,7 +64,6 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
-    skus:[],
     sku: {
       "23131222": {
         color: "rojo",
@@ -98,7 +96,6 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 170,
     },
-    skus:[],
     sku: {
       "14545454": {
         color: "negro",
@@ -131,7 +128,6 @@ export const productos: IProduct[] = [
       EUR: 90,
       DOLLAR: 110,
     },
-    skus:[],
     sku: {
       "61676767": {
         color: "verde",
@@ -164,7 +160,6 @@ export const productos: IProduct[] = [
       EUR: 75,
       DOLLAR: 95,
     },
-    skus:[],
     sku: {
       "12321212": {
         color: "negro",
@@ -197,7 +192,6 @@ export const productos: IProduct[] = [
       EUR: 65,
       DOLLAR: 80,
     },
-    skus:[],
     sku: {
       "56566656": {
         color: "rojo",
@@ -230,7 +224,6 @@ export const productos: IProduct[] = [
       EUR: 70,
       DOLLAR: 85,
     },
-    skus:[],
     sku: {
       "23232393": {
         color: "negro",
@@ -263,7 +256,6 @@ export const productos: IProduct[] = [
       EUR: 80,
       DOLLAR: 100,
     },
-    skus:[],
     sku: {
       "89898919": {
         color: "gris",
@@ -296,7 +288,6 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
-    skus:[],
     sku: {
       "12121210": {
         color: "blanco",
@@ -329,7 +320,6 @@ export const productos: IProduct[] = [
       EUR: 85,
       DOLLAR: 105,
     },
-    skus:[],
     sku: {
       "21898989": {
         color: "blanco",
@@ -362,25 +352,24 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
-    skus:[],
     sku: {
       "98676767": {
         color: "gris",
         size: 43,
-        imageSquare: "01_square-min.jpg",
+        imageSquare: "01_square_v1-min.jpg",
         stock: 7,
       },
       "99545454": {
         color: "azul",
         size: 42,
-        imageSquare: "01_square-min.jpg",
+        imageSquare: "01_square_v1-min.jpg",
         stock: 10,
       },
     },
     stock: 17,
     featured: true,
     imageLarge: "02_large-min.jpg",
-    imageSquare: "01_square-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
   },
   {
     title: {
@@ -395,7 +384,6 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
-    skus:[],
     sku: {
       "33121212": {
         color: "azul",
@@ -428,7 +416,6 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
-    skus:[],
     sku: {
       "11365656": {
         color: "negro",
@@ -461,25 +448,24 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
-    skus:[],
     sku: {
       "98123232": {
         color: "azul",
         size: 42,
-        imageSquare: "01_square-min.jpg",
+        imageSquare: "01_square_v1-min.jpg",
         stock: 10,
       },
       "98221212": {
         color: "negro",
         size: 43,
-        imageSquare: "01_square-min.jpg",
+        imageSquare: "02_square_v1-min.jpg",
         stock: 8,
       },
     },
     stock: 18,
     featured: true,
     imageLarge: "01_large-min.jpg",
-    imageSquare: "01_square-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
   },
   {
     title: {
@@ -494,7 +480,6 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 145,
     },
-    skus:[],
     sku: {
       "48622323": {
         color: "negro",
@@ -527,7 +512,6 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
-    skus:[],
     sku: {
       "78257478": {
         color: "negro",
@@ -560,7 +544,6 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
-    skus:[],
     sku: {
       "12121212": {
         color: "marrón",
@@ -593,7 +576,6 @@ export const productos: IProduct[] = [
       EUR: 150,
       DOLLAR: 180,
     },
-    skus:[],
     sku: {
       "67671589": {
         color: "marrón",
@@ -626,7 +608,6 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
-    skus:[],
     sku: {
       "29992323": {
         color: "gris",
@@ -659,7 +640,6 @@ export const productos: IProduct[] = [
       EUR: 125,
       DOLLAR: 155,
     },
-    skus:[],
     sku: {
       "12124587": {
         color: "negro",
@@ -692,7 +672,6 @@ export const productos: IProduct[] = [
       EUR: 160,
       DOLLAR: 200,
     },
-    skus:[],
     sku: {
       "23239999": {
         color: "marrón",
@@ -725,7 +704,6 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 175,
     },
-    skus:[],
     sku: {
       "78787777": {
         color: "negro",
@@ -758,7 +736,6 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
-    skus:[],
     sku: {
       "12127412": {
         color: "marrón",
@@ -791,7 +768,6 @@ export const productos: IProduct[] = [
       EUR: 105,
       DOLLAR: 130,
     },
-    skus:[],
     sku: {
       "12215454": {
         color: "negro",
@@ -824,7 +800,6 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 140,
     },
-    skus:[],
     sku: {
       "14417878": {
         color: "azul",
@@ -857,7 +832,6 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
-    skus:[],
     sku: {
       "14141212": {
         color: "blanco",
@@ -890,7 +864,6 @@ export const productos: IProduct[] = [
       EUR: 75,
       DOLLAR: 95,
     },
-    skus:[],
     sku: {
       "15685499": {
         color: "rojo",
@@ -923,7 +896,6 @@ export const productos: IProduct[] = [
       EUR: 150,
       DOLLAR: 180,
     },
-    skus:[],
     sku: {
       "00098989": {
         color: "gris",
@@ -956,7 +928,6 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 145,
     },
-    skus:[],
     sku: {
       "10101202": {
         color: "negro",
@@ -989,7 +960,6 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 170,
     },
-    skus:[],
     sku: {
       "54545400": {
         color: "negro",
@@ -1022,7 +992,6 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
-    skus:[],
     sku: {
       "78787001": {
         color: "azul",
@@ -1055,7 +1024,6 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
-    skus:[],
     sku: {
       "12121003": {
         color: "negro",
@@ -1088,7 +1056,6 @@ export const productos: IProduct[] = [
       EUR: 95,
       DOLLAR: 120,
     },
-    skus:[],
     sku: {
       "54545005": {
         color: "blanco",
@@ -1121,7 +1088,6 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
-    skus:[],
     sku: {
       "78780077": {
         color: "negro",
@@ -1154,7 +1120,6 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
-    skus:[],
     sku: {
       "12121118": {
         color: "negro",
@@ -1187,7 +1152,6 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
-    skus:[],
     sku: {
       "56565120": {
         color: "negro",
@@ -1220,7 +1184,6 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
-    skus:[],
     sku: {
       "23232122": {
         color: "azul",
@@ -1253,7 +1216,6 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 170,
     },
-    skus:[],
     sku: {
       "34343124": {
         color: "negro",
@@ -1286,7 +1248,6 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
-    skus:[],
     sku: {
       "12121126": {
         color: "azul",
@@ -1319,7 +1280,6 @@ export const productos: IProduct[] = [
       EUR: 135,
       DOLLAR: 165,
     },
-    skus:[],
     sku: {
       "67676128": {
         color: "negro",
@@ -1352,7 +1312,6 @@ export const productos: IProduct[] = [
       EUR: 125,
       DOLLAR: 155,
     },
-    skus:[],
     sku: {
       "34343130": {
         color: "negro",
@@ -1385,7 +1344,6 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 145,
     },
-    skus:[],
     sku: {
       "12121133": {
         color: "azul",
@@ -1418,7 +1376,6 @@ export const productos: IProduct[] = [
       EUR: 150,
       DOLLAR: 180,
     },
-    skus:[],
     sku: {
       "23232134": {
         color: "gris",
@@ -1451,7 +1408,6 @@ export const productos: IProduct[] = [
       EUR: 135,
       DOLLAR: 165,
     },
-    skus:[],
     sku: {
       "78787137": {
         color: "azul",
@@ -1484,7 +1440,6 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 140,
     },
-    skus:[],
     sku: {
       "45454139": {
         color: "negro",
@@ -1517,7 +1472,6 @@ export const productos: IProduct[] = [
       EUR: 95,
       DOLLAR: 120,
     },
-    skus:[],
     sku: {
       "21212142": {
         color: "rosa",
@@ -1550,7 +1504,6 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 170,
     },
-    skus:[],
     sku: {
       "10101144": {
         color: "negro",
@@ -1583,7 +1536,6 @@ export const productos: IProduct[] = [
       EUR: 105,
       DOLLAR: 130,
     },
-    skus:[],
     sku: {
       "13131145": {
         color: "blanco",
@@ -1616,7 +1568,6 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
-    skus:[],
     sku: {
       "15151147": {
         color: "gris",
@@ -1649,7 +1600,6 @@ export const productos: IProduct[] = [
       EUR: 85,
       DOLLAR: 105,
     },
-    skus:[],
     sku: {
       "17171150": {
         color: "negro",
@@ -1682,7 +1632,6 @@ export const productos: IProduct[] = [
       EUR: 125,
       DOLLAR: 155,
     },
-    skus:[],
     sku: {
       "19191152": {
         color: "azul",
@@ -1715,7 +1664,6 @@ export const productos: IProduct[] = [
       EUR: 135,
       DOLLAR: 165,
     },
-    skus:[],
     sku: {
       "21212154": {
         color: "negro",
@@ -1748,7 +1696,6 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
-    skus:[],
     sku: {
       "23232156": {
         color: "blanco",
@@ -1781,7 +1728,6 @@ export const productos: IProduct[] = [
       EUR: 105,
       DOLLAR: 130,
     },
-    skus:[],
     sku: {
       "25252158": {
         color: "azul",
@@ -1814,7 +1760,6 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
-    skus:[],
     sku: {
       "27272160": {
         color: "gris",
@@ -1847,7 +1792,6 @@ export const productos: IProduct[] = [
       EUR: 135,
       DOLLAR: 165,
     },
-    skus:[],
     sku: {
       "29292163": {
         color: "blanco",
@@ -1880,7 +1824,6 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 140,
     },
-    skus:[],
     sku: {
       "31313164": {
         color: "verde",
@@ -1913,7 +1856,6 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 115,
     },
-    skus:[],
     sku: {
       "31313166": {
         color: "verde",
@@ -1946,7 +1888,6 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
-    skus:[],
     sku: {
       "43434168": {
         color: "negro",
@@ -1979,7 +1920,6 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 120,
     },
-    skus:[],
     sku: {
       "56565170": {
         color: "blanco",
@@ -2003,7 +1943,6 @@ export const productos: IProduct[] = [
     title: { es: "Converse Chuck Taylor", en: "Converse Chuck Taylor" },
     description: { es: "Zapatillas Converse Chuck Taylor", en: "Converse Chuck Taylor shoes" },
     price: { EUR: 55, DOLLAR: 70 },
-    skus:[],
     sku: {
       "72727172": { color: "negro", size: 40, imageSquare: "01_square_v1-min.jpg", stock: 15 },
       "73737173": { color: "blanco", size: 41, imageSquare: "02_square_v1-min.jpg", stock: 12 },
@@ -2017,36 +1956,33 @@ export const productos: IProduct[] = [
     title: { es: "Vans Slip-On", en: "Vans Slip-On" },
     description: { es: "Zapatillas sin cordones Vans Slip-On", en: "Vans Slip-On shoes" },
     price: { EUR: 60, DOLLAR: 75 },
-    skus:[],
     sku: {
-      "74747174": { color: "negro", size: 42, imageSquare: "03_square_v1-min.jpg", stock: 8 },
-      "75757175": { color: "cuadros", size: 43, imageSquare: "04_square_v1-min.jpg", stock: 6 },
+      "74747174": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 8 },
+      "75757175": { color: "cuadros", size: 43, imageSquare: "04_square-min.jpg", stock: 6 },
     },
     stock: 14,
     featured: true,
     imageLarge: "02_large-min.jpg",
-    imageSquare: "03_square_v1-min.jpg",
+    imageSquare: "03_square-min.jpg",
   },
   {
     title: { es: "Dr. Martens 1460", en: "Dr. Martens 1460" },
     description: { es: "Botas Dr. Martens 1460", en: "Dr. Martens 1460 boots" },
     price: { EUR: 160, DOLLAR: 195 },
-    skus:[],
     sku: {
-      "76767176": { color: "negro", size: 41, imageSquare: "05_square_v1-min.jpg", stock: 5 },
+      "76767176": { color: "negro", size: 41, imageSquare: "05_square-min.jpg", stock: 5 },
       "77777177": { color: "cereza", size: 42, imageSquare: "01_square_v1-min.jpg", stock: 4 },
     },
     stock: 9,
     featured: true,
     imageLarge: "03_large-min.jpg",
-    imageSquare: "05_square_v1-min.jpg",
+    imageSquare: "05_square-min.jpg",
   },
 
   {
     title: { es: "Converse Chuck Taylor", en: "Converse Chuck Taylor" },
     description: { es: "Zapatillas Converse Chuck Taylor", en: "Converse Chuck Taylor shoes" },
     price: { EUR: 55, DOLLAR: 70 },
-    skus:[],
     sku: {
       "72727172": { color: "negro", size: 40, imageSquare: "17_square-min.jpg", stock: 15 },
       "73737173": { color: "blanco", size: 41, imageSquare: "18_square-min.jpg", stock: 12 },
@@ -2060,7 +1996,6 @@ export const productos: IProduct[] = [
     title: { es: "Vans Slip-On", en: "Vans Slip-On" },
     description: { es: "Zapatillas sin cordones Vans Slip-On", en: "Vans Slip-On shoes" },
     price: { EUR: 60, DOLLAR: 75 },
-    skus:[],
     sku: {
       "74747174": { color: "negro", size: 42, imageSquare: "08_square-min.jpg", stock: 8 },
       "75757175": { color: "cuadros", size: 43, imageSquare: "09_square-min.jpg", stock: 6 },
@@ -2074,7 +2009,6 @@ export const productos: IProduct[] = [
     title: { es: "Dr. Martens 1460", en: "Dr. Martens 1460" },
     description: { es: "Botas Dr. Martens 1460", en: "Dr. Martens 1460 boots" },
     price: { EUR: 160, DOLLAR: 195 },
-    skus:[],
     sku: {
       "76767176": { color: "negro", size: 41, imageSquare: "13_square-min.jpg", stock: 5 },
       "77777177": { color: "cereza", size: 42, imageSquare: "13_square-min.jpg", stock: 4 },
@@ -2088,7 +2022,6 @@ export const productos: IProduct[] = [
     title: { es: "Nike Blazer", en: "Nike Blazer" },
     description: { es: "Zapatillas Nike Blazer", en: "Nike Blazer shoes" },
     price: { EUR: 90, DOLLAR: 110 },
-    skus:[],
     sku: {
       "11111172": { color: "blanco", size: 42, imageSquare: "13_square-min.jpg", stock: 8 },
       "22222273": { color: "negro", size: 43, imageSquare: "13_square-min.jpg", stock: 5 },
@@ -2102,7 +2035,6 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Superstar", en: "Adidas Superstar" },
     description: { es: "Zapatillas Adidas Superstar", en: "Adidas Superstar shoes" },
     price: { EUR: 80, DOLLAR: 100 },
-    skus:[],
     sku: {
       "33333374": { color: "blanco", size: 41, imageSquare: "01_square_v1-min.jpg", stock: 12 },
       "44444475": { color: "negro", size: 42, imageSquare: "01_square_v2-min.jpg", stock: 10 },
@@ -2116,7 +2048,6 @@ export const productos: IProduct[] = [
     title: { es: "Puma Cali", en: "Puma Cali" },
     description: { es: "Zapatillas Puma Cali", en: "Puma Cali shoes" },
     price: { EUR: 70, DOLLAR: 85 },
-    skus:[],
     sku: {
       "55555576": { color: "blanco", size: 38, imageSquare: "02_square-min.jpg", stock: 7 },
       "66666677": { color: "rosa", size: 39, imageSquare: "02_square-min.jpg", stock: 9 },
@@ -2130,7 +2061,6 @@ export const productos: IProduct[] = [
     title: { es: "Nike Air Force 1", en: "Nike Air Force 1" },
     description: { es: "Zapatillas icónicas Nike Air Force 1", en: "Iconic Nike Air Force 1 shoes" },
     price: { EUR: 100, DOLLAR: 120 },
-    skus:[],
     sku: {
       "94949184": { color: "blanco", size: 41, imageSquare: "02_square-min.jpg", stock: 10 },
       "95959185": { color: "negro", size: 42, imageSquare: "07_square-min.jpg", stock: 8 },
@@ -2144,7 +2074,6 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Stan Smith", en: "Adidas Stan Smith" },
     description: { es: "Zapatillas clásicas Adidas Stan Smith", en: "Classic Adidas Stan Smith shoes" },
     price: { EUR: 85, DOLLAR: 105 },
-    skus:[],
     sku: {
       "96969186": { color: "blanco", size: 40, imageSquare: "11_square-min.jpg", stock: 12 },
       "97979187": { color: "verde", size: 41, imageSquare: "15_square-min.jpg", stock: 9 },
@@ -2158,7 +2087,6 @@ export const productos: IProduct[] = [
     title: { es: "Puma RS-X3", en: "Puma RS-X3" },
     description: { es: "Zapatillas deportivas Puma RS-X3", en: "Puma RS-X3 sports shoes" },
     price: { EUR: 110, DOLLAR: 135 },
-    skus:[],
     sku: {
       "98989188": { color: "negro", size: 42, imageSquare: "18_square-min.jpg", stock: 7 },
       "99999189": { color: "blanco", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2172,7 +2100,6 @@ export const productos: IProduct[] = [
     title: { es: "Reebok Club C 85", en: "Reebok Club C 85" },
     description: { es: "Zapatillas clásicas Reebok Club C 85", en: "Reebok Club C 85 classic shoes" },
     price: { EUR: 70, DOLLAR: 85 },
-    skus:[],
     sku: {
       "01010190": { color: "blanco", size: 40, imageSquare: "02_square-min.jpg", stock: 14 },
       "02020191": { color: "verde", size: 41, imageSquare: "08_square-min.jpg", stock: 11 },
@@ -2186,7 +2113,6 @@ export const productos: IProduct[] = [
     title: { es: "Converse One Star", en: "Converse One Star" },
     description: { es: "Zapatillas Converse One Star", en: "Converse One Star shoes" },
     price: { EUR: 65, DOLLAR: 80 },
-    skus:[],
     sku: {
       "03030192": { color: "negro", size: 42, imageSquare: "12_square-min.jpg", stock: 9 },
       "04040193": { color: "amarillo", size: 43, imageSquare: "16_square-min.jpg", stock: 7 },
@@ -2200,7 +2126,6 @@ export const productos: IProduct[] = [
     title: { es: "Vans Authentic", en: "Vans Authentic" },
     description: { es: "Zapatillas Vans Authentic", en: "Vans Authentic shoes" },
     price: { EUR: 60, DOLLAR: 75 },
-    skus:[],
     sku: {
       "05050194": { color: "negro", size: 39, imageSquare: "06_square-min.jpg", stock: 10 },
       "06060195": { color: "cuadros", size: 40, imageSquare: "14_square-min.jpg", stock: 8 },
@@ -2214,7 +2139,6 @@ export const productos: IProduct[] = [
     title: { es: "New Balance 327", en: "New Balance 327" },
     description: { es: "Zapatillas New Balance 327", en: "New Balance 327 shoes" },
     price: { EUR: 95, DOLLAR: 115 },
-    skus:[],
     sku: {
       "07070196": { color: "gris", size: 41, imageSquare: "07_square-min.jpg", stock: 11 },
       "08080197": { color: "naranja", size: 42, imageSquare: "10_square-min.jpg", stock: 13 },
@@ -2228,7 +2152,6 @@ export const productos: IProduct[] = [
     title: { es: "Fila MB", en: "Fila MB" },
     description: { es: "Zapatillas Fila MB", en: "Fila MB shoes" },
     price: { EUR: 80, DOLLAR: 100 },
-    skus:[],
     sku: {
       "09090198": { color: "blanco", size: 43, imageSquare: "03_square-min.jpg", stock: 6 },
       "10100199": { color: "negro", size: 44, imageSquare: "09_square-min.jpg", stock: 7 },
@@ -2242,7 +2165,6 @@ export const productos: IProduct[] = [
     title: { es: "Asics Gel-Lyte III", en: "Asics Gel-Lyte III" },
     description: { es: "Zapatillas Asics Gel-Lyte III", en: "Asics Gel-Lyte III shoes" },
     price: { EUR: 110, DOLLAR: 135 },
-    skus:[],
     sku: {
       "11110200": { color: "morado", size: 40, imageSquare: "11_square-min.jpg", stock: 8 },
       "12120201": { color: "azul", size: 41, imageSquare: "17_square-min.jpg", stock: 9 },
@@ -2256,7 +2178,6 @@ export const productos: IProduct[] = [
     title: { es: "Saucony Jazz Original", en: "Saucony Jazz Original" },
     description: { es: "Zapatillas Saucony Jazz Original", en: "Saucony Jazz Original shoes" },
     price: { EUR: 75, DOLLAR: 95 },
-    skus:[],
     sku: {
       "13130202": { color: "gris", size: 42, imageSquare: "13_square-min.jpg", stock: 10 },
       "14140203": { color: "beige", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2270,7 +2191,6 @@ export const productos: IProduct[] = [
     title: { es: "Diadora Heritage", en: "Diadora Heritage" },
     description: { es: "Zapatillas Diadora Heritage", en: "Diadora Heritage shoes" },
     price: { EUR: 90, DOLLAR: 110 },
-    skus:[],
     sku: {
       "15150204": { color: "blanco", size: 38, imageSquare: "08_square-min.jpg", stock: 12 },
       "16160205": { color: "azul", size: 39, imageSquare: "18_square-min.jpg", stock: 8 },
@@ -2284,7 +2204,6 @@ export const productos: IProduct[] = [
     title: { es: "Nike Dunk Low", en: "Nike Dunk Low" },
     description: { es: "Zapatillas Nike Dunk Low", en: "Nike Dunk Low shoes" },
     price: { EUR: 110, DOLLAR: 135 },
-    skus:[],
     sku: {
       "17170206": { color: "negro", size: 41, imageSquare: "06_square-min.jpg", stock: 7 },
       "18180207": { color: "blanco", size: 42, imageSquare: "12_square-min.jpg", stock: 9 },
@@ -2298,7 +2217,6 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Forum", en: "Adidas Forum" },
     description: { es: "Zapatillas Adidas Forum", en: "Adidas Forum shoes" },
     price: { EUR: 95, DOLLAR: 115 },
-    skus:[],
     sku: {
       "19190208": { color: "blanco", size: 43, imageSquare: "04_square-min.jpg", stock: 11 },
       "20200209": { color: "azul", size: 44, imageSquare: "12_square-min.jpg", stock: 9 },
@@ -2312,7 +2230,6 @@ export const productos: IProduct[] = [
     title: { es: "Puma Future Rider", en: "Puma Future Rider" },
     description: { es: "Zapatillas deportivas Puma Future Rider", en: "Puma Future Rider sports shoes" },
     price: { EUR: 100, DOLLAR: 125 },
-    skus:[],
     sku: {
       "21210210": { color: "negro", size: 40, imageSquare: "09_square-min.jpg", stock: 8 },
       "22220211": { color: "rosa", size: 41, imageSquare: "13_square-min.jpg", stock: 10 },
@@ -2326,7 +2243,6 @@ export const productos: IProduct[] = [
     title: { es: "Reebok Instapump Fury", en: "Reebok Instapump Fury" },
     description: { es: "Zapatillas futuristas Reebok Instapump Fury", en: "Reebok Instapump Fury futuristic shoes" },
     price: { EUR: 150, DOLLAR: 185 },
-    skus:[],
     sku: {
       "23230212": { color: "negro", size: 42, imageSquare: "17_square-min.jpg", stock: 6 },
       "24240213": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 7 },
@@ -2340,7 +2256,6 @@ export const productos: IProduct[] = [
     title: { es: "Converse Jack Purcell", en: "Converse Jack Purcell" },
     description: { es: "Zapatillas minimalistas Converse Jack Purcell", en: "Converse Jack Purcell minimalist shoes" },
     price: { EUR: 70, DOLLAR: 85 },
-    skus:[],
     sku: {
       "25250214": { color: "blanco", size: 39, imageSquare: "05_square-min.jpg", stock: 12 },
       "26260215": { color: "azul marino", size: 40, imageSquare: "10_square-min.jpg", stock: 9 },
@@ -2354,7 +2269,6 @@ export const productos: IProduct[] = [
     title: { es: "Vans Sk8-Hi", en: "Vans Sk8-Hi" },
     description: { es: "Zapatillas altas Vans Sk8-Hi", en: "Vans Sk8-Hi high-top shoes" },
     price: { EUR: 75, DOLLAR: 95 },
-    skus:[],
     sku: {
       "27270216": { color: "negro", size: 41, imageSquare: "15_square-min.jpg", stock: 8 },
       "28280217": { color: "cuadros", size: 42, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2368,7 +2282,6 @@ export const productos: IProduct[] = [
     title: { es: "Dr. Martens Jadon", en: "Dr. Martens Jadon" },
     description: { es: "Botas con plataforma Dr. Martens Jadon", en: "Dr. Martens Jadon platform boots" },
     price: { EUR: 180, DOLLAR: 220 },
-    skus:[],
     sku: {
       "29290218": { color: "negro", size: 38, imageSquare: "03_square-min.jpg", stock: 5 },
       "30300219": { color: "blanco", size: 39, imageSquare: "07_square-min.jpg", stock: 4 },
@@ -2382,7 +2295,6 @@ export const productos: IProduct[] = [
     title: { es: "Timberland 6-Inch Premium", en: "Timberland 6-Inch Premium" },
     description: { es: "Botas clásicas Timberland 6-Inch Premium", en: "Timberland 6-Inch Premium classic boots" },
     price: { EUR: 190, DOLLAR: 230 },
-    skus:[],
     sku: {
       "31310220": { color: "amarillo", size: 42, imageSquare: "12_square-min.jpg", stock: 7 },
       "32320221": { color: "marrón", size: 43, imageSquare: "18_square-min.jpg", stock: 9 },
@@ -2396,7 +2308,6 @@ export const productos: IProduct[] = [
     title: { es: "Lacoste Carnaby Evo", en: "Lacoste Carnaby Evo" },
     description: { es: "Zapatillas casuales Lacoste Carnaby Evo", en: "Lacoste Carnaby Evo casual shoes" },
     price: { EUR: 80, DOLLAR: 100 },
-    skus:[],
     sku: {
       "33330222": { color: "blanco", size: 41, imageSquare: "04_square-min.jpg", stock: 12 },
       "34340223": { color: "verde", size: 42, imageSquare: "11_square-min.jpg", stock: 9 },
@@ -2410,7 +2321,6 @@ export const productos: IProduct[] = [
     title: { es: "Karhu Fusion 2.0", en: "Karhu Fusion 2.0" },
     description: { es: "Zapatillas deportivas Karhu Fusion 2.0", en: "Karhu Fusion 2.0 sports shoes" },
     price: { EUR: 110, DOLLAR: 135 },
-    skus:[],
     sku: {
       "35350224": { color: "negro", size: 43, imageSquare: "16_square-min.jpg", stock: 7 },
       "36360225": { color: "azul", size: 44, imageSquare: "08_square-min.jpg", stock: 8 },
@@ -2424,7 +2334,6 @@ export const productos: IProduct[] = [
     title: { es: "Veja V-10", en: "Veja V-10" },
     description: { es: "Zapatillas sostenibles Veja V-10", en: "Veja V-10 sustainable shoes" },
     price: { EUR: 120, DOLLAR: 145 },
-    skus:[],
     sku: {
       "37370226": { color: "blanco", size: 39, imageSquare: "03_square-min.jpg", stock: 10 },
       "38380227": { color: "marrón", size: 40, imageSquare: "13_square-min.jpg", stock: 11 },
@@ -2438,7 +2347,6 @@ export const productos: IProduct[] = [
     title: { es: "Filling Pieces Low Top", en: "Filling Pieces Low Top" },
     description: { es: "Zapatillas de lujo Filling Pieces Low Top", en: "Filling Pieces Low Top luxury shoes" },
     price: { EUR: 200, DOLLAR: 240 },
-    skus:[],
     sku: {
       "39390228": { color: "negro", size: 42, imageSquare: "06_square-min.jpg", stock: 5 },
       "40400229": { color: "blanco", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2452,7 +2360,6 @@ export const productos: IProduct[] = [
     title: { es: "Golden Goose Superstar", en: "Golden Goose Superstar" },
     description: { es: "Zapatillas de lujo Golden Goose Superstar", en: "Golden Goose Superstar luxury shoes" },
     price: { EUR: 450, DOLLAR: 550 },
-    skus:[],
     sku: {
       "41410230": { color: "blanco", size: 39, imageSquare: "07_square-min.jpg", stock: 3 },
       "42420231": { color: "plata", size: 40, imageSquare: "11_square-min.jpg", stock: 2 },
@@ -2466,7 +2373,6 @@ export const productos: IProduct[] = [
     title: { es: "Axel Arigato Clean 90", en: "Axel Arigato Clean 90" },
     description: { es: "Zapatillas minimalistas Axel Arigato Clean 90", en: "Axel Arigato Clean 90 minimalist shoes" },
     price: { EUR: 180, DOLLAR: 220 },
-    skus:[],
     sku: {
       "43430232": { color: "blanco", size: 41, imageSquare: "12_square-min.jpg", stock: 8 },
       "44440233": { color: "beige", size: 42, imageSquare: "18_square-min.jpg", stock: 6 },
@@ -2480,7 +2386,6 @@ export const productos: IProduct[] = [
     title: { es: "Common Projects Achilles", en: "Common Projects Achilles" },
     description: { es: "Zapatillas de lujo Common Projects Achilles", en: "Common Projects Achilles luxury shoes" },
     price: { EUR: 350, DOLLAR: 420 },
-    skus:[],
     sku: {
       "45450234": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 4 },
       "46460235": { color: "negro", size: 44, imageSquare: "09_square-min.jpg", stock: 5 },
@@ -2494,7 +2399,6 @@ export const productos: IProduct[] = [
     title: { es: "Yeezy Boost 350 V2", en: "Yeezy Boost 350 V2" },
     description: { es: "Zapatillas Yeezy Boost 350 V2", en: "Yeezy Boost 350 V2 shoes" },
     price: { EUR: 220, DOLLAR: 260 },
-    skus:[],
     sku: {
       "47470236": { color: "beige", size: 41, imageSquare: "05_square-min.jpg", stock: 3 },
       "48480237": { color: "negro", size: 42, imageSquare: "14_square-min.jpg", stock: 2 },
@@ -2508,7 +2412,6 @@ export const productos: IProduct[] = [
     title: { es: "Balenciaga Triple S", en: "Balenciaga Triple S" },
     description: { es: "Zapatillas Balenciaga Triple S", en: "Balenciaga Triple S shoes" },
     price: { EUR: 800, DOLLAR: 950 },
-    skus:[],
     sku: {
       "49490238": { color: "blanco", size: 40, imageSquare: "08_square-min.jpg", stock: 4 },
       "50500239": { color: "negro", size: 41, imageSquare: "12_square-min.jpg", stock: 3 },
@@ -2522,7 +2425,6 @@ export const productos: IProduct[] = [
     title: { es: "Off-White x Nike Air Jordan 1", en: "Off-White x Nike Air Jordan 1" },
     description: { es: "Zapatillas Off-White x Nike Air Jordan 1", en: "Off-White x Nike Air Jordan 1 shoes" },
     price: { EUR: 1200, DOLLAR: 1400 },
-    skus:[],
     sku: {
       "51510240": { color: "blanco", size: 42, imageSquare: "15_square-min.jpg", stock: 2 },
       "52520241": { color: "negro", size: 43, imageSquare: "19_square-min.jpg", stock: 1 },
@@ -2536,7 +2438,6 @@ export const productos: IProduct[] = [
     title: { es: "Gucci Ace", en: "Gucci Ace" },
     description: { es: "Zapatillas Gucci Ace", en: "Gucci Ace shoes" },
     price: { EUR: 650, DOLLAR: 780 },
-    skus:[],
     sku: {
       "53530242": { color: "blanco", size: 39, imageSquare: "02_square-min.jpg", stock: 5 },
       "54540243": { color: "verde", size: 40, imageSquare: "06_square-min.jpg", stock: 4 },
@@ -2550,7 +2451,6 @@ export const productos: IProduct[] = [
     title: { es: "Prada Cloudbust Thunder", en: "Prada Cloudbust Thunder" },
     description: { es: "Zapatillas Prada Cloudbust Thunder", en: "Prada Cloudbust Thunder shoes" },
     price: { EUR: 750, DOLLAR: 900 },
-    skus:[],
     sku: {
       "55550244": { color: "negro", size: 41, imageSquare: "10_square-min.jpg", stock: 3 },
       "56560245": { color: "blanco", size: 42, imageSquare: "14_square-min.jpg", stock: 2 },
@@ -2564,7 +2464,6 @@ export const productos: IProduct[] = [
     title: { es: "Alexander McQueen Oversized", en: "Alexander McQueen Oversized" },
     description: { es: "Zapatillas Alexander McQueen Oversized", en: "Alexander McQueen Oversized shoes" },
     price: { EUR: 500, DOLLAR: 600 },
-    skus:[],
     sku: {
       "57570246": { color: "blanco", size: 38, imageSquare: "17_square-min.jpg", stock: 4 },
       "58580247": { color: "negro", size: 39, imageSquare: "03_square-min.jpg", stock: 3 },
@@ -2578,7 +2477,6 @@ export const productos: IProduct[] = [
     title: { es: "Maison Margiela Replica", en: "Maison Margiela Replica" },
     description: { es: "Zapatillas Maison Margiela Replica", en: "Maison Margiela Replica shoes" },
     price: { EUR: 550, DOLLAR: 660 },
-    skus:[],
     sku: {
       "59590248": { color: "blanco", size: 40, imageSquare: "05_square-min.jpg", stock: 2 },
       "60600249": { color: "gris", size: 41, imageSquare: "09_square-min.jpg", stock: 3 },
@@ -2592,7 +2490,6 @@ export const productos: IProduct[] = [
     title: { es: "Rick Owens DRKSHDW", en: "Rick Owens DRKSHDW" },
     description: { es: "Zapatillas Rick Owens DRKSHDW", en: "Rick Owens DRKSHDW shoes" },
     price: { EUR: 600, DOLLAR: 720 },
-    skus:[],
     sku: {
       "61610250": { color: "negro", size: 42, imageSquare: "13_square-min.jpg", stock: 4 },
       "62620251": { color: "blanco", size: 43, imageSquare: "17_square-min.jpg", stock: 2 },
@@ -2606,7 +2503,6 @@ export const productos: IProduct[] = [
     title: { es: "Saint Laurent Court Classic", en: "Saint Laurent Court Classic" },
     description: { es: "Zapatillas Saint Laurent Court Classic", en: "Saint Laurent Court Classic shoes" },
     price: { EUR: 500, DOLLAR: 600 },
-    skus:[],
     sku: {
       "63630252": { color: "blanco", size: 38, imageSquare: "02_square-min.jpg", stock: 5 },
       "64640253": { color: "negro", size: 39, imageSquare: "06_square-min.jpg", stock: 4 },
@@ -2620,7 +2516,6 @@ export const productos: IProduct[] = [
     title: { es: "Valentino Garavani Rockstud", en: "Valentino Garavani Rockstud" },
     description: { es: "Zapatillas Valentino Garavani Rockstud", en: "Valentino Garavani Rockstud shoes" },
     price: { EUR: 700, DOLLAR: 840 },
-    skus:[],
     sku: {
       "65650254": { color: "blanco", size: 40, imageSquare: "10_square-min.jpg", stock: 3 },
       "66660255": { color: "rojo", size: 41, imageSquare: "14_square-min.jpg", stock: 2 },
@@ -2634,7 +2529,6 @@ export const productos: IProduct[] = [
     title: { es: "Versace Chain Reaction", en: "Versace Chain Reaction" },
     description: { es: "Zapatillas Versace Chain Reaction", en: "Versace Chain Reaction shoes" },
     price: { EUR: 850, DOLLAR: 1020 },
-    skus:[],
     sku: {
       "67670256": { color: "negro", size: 42, imageSquare: "18_square-min.jpg", stock: 4 },
       "68680257": { color: "dorado", size: 43, imageSquare: "04_square-min.jpg", stock: 3 },
@@ -2648,7 +2542,6 @@ export const productos: IProduct[] = [
     title: { es: "A Bathing Ape Bapesta", en: "A Bathing Ape Bapesta" },
     description: { es: "Zapatillas A Bathing Ape Bapesta", en: "A Bathing Ape Bapesta shoes" },
     price: { EUR: 300, DOLLAR: 360 },
-    skus:[],
     sku: {
       "69690258": { color: "blanco", size: 42, imageSquare: "08_square-min.jpg", stock: 4 },
       "70700259": { color: "camuflaje", size: 43, imageSquare: "16_square-min.jpg", stock: 3 },
@@ -2662,7 +2555,6 @@ export const productos: IProduct[] = [
     title: { es: "Visvim FBT", en: "Visvim FBT" },
     description: { es: "Botas Visvim FBT", en: "Visvim FBT boots" },
     price: { EUR: 650, DOLLAR: 780 },
-    skus:[],
     sku: {
       "71710260": { color: "marrón", size: 41, imageSquare: "02_square-min.jpg", stock: 2 },
       "72720261": { color: "negro", size: 42, imageSquare: "10_square-min.jpg", stock: 3 },
@@ -2676,7 +2568,6 @@ export const productos: IProduct[] = [
     title: { es: "Nike SB Dunk Low", en: "Nike SB Dunk Low" },
     description: { es: "Zapatillas de skate Nike SB Dunk Low", en: "Nike SB Dunk Low skate shoes" },
     price: { EUR: 150, DOLLAR: 180 },
-    skus:[],
     sku: {
       "73730262": { color: "azul", size: 43, imageSquare: "14_square-min.jpg", stock: 6 },
       "74740263": { color: "rojo", size: 44, imageSquare: "18_square-min.jpg", stock: 5 },
@@ -2690,7 +2581,6 @@ export const productos: IProduct[] = [
     title: { es: "Clarks Wallabee", en: "Clarks Wallabee" },
     description: { es: "Botines Clarks Wallabee", en: "Clarks Wallabee boots" },
     price: { EUR: 130, DOLLAR: 155 },
-    skus:[],
     sku: {
       "11111190": { color: "beige", size: 42, imageSquare: "02_square-min.jpg", stock: 8 },
       "22222191": { color: "marrón", size: 43, imageSquare: "07_square-min.jpg", stock: 6 },
@@ -2704,7 +2594,6 @@ export const productos: IProduct[] = [
     title: { es: "Dr. Martens Chelsea", en: "Dr. Martens Chelsea" },
     description: { es: "Botines Chelsea Dr. Martens", en: "Dr. Martens Chelsea boots" },
     price: { EUR: 140, DOLLAR: 165 },
-    skus:[],
     sku: {
       "33333192": { color: "negro", size: 41, imageSquare: "12_square-min.jpg", stock: 9 },
       "44444193": { color: "marrón", size: 42, imageSquare: "16_square-min.jpg", stock: 7 },
@@ -2718,7 +2607,6 @@ export const productos: IProduct[] = [
     title: { es: "Red Wing Moc Toe", en: "Red Wing Moc Toe" },
     description: { es: "Botas Red Wing Moc Toe", en: "Red Wing Moc Toe boots" },
     price: { EUR: 280, DOLLAR: 330 },
-    skus:[],
     sku: {
       "55555194": { color: "marrón", size: 43, imageSquare: "03_square-min.jpg", stock: 5 },
       "66666195": { color: "negro", size: 44, imageSquare: "08_square-min.jpg", stock: 4 },
@@ -2732,7 +2620,6 @@ export const productos: IProduct[] = [
     title: { es: "Timberland Earthkeepers", en: "Timberland Earthkeepers" },
     description: { es: "Botas Timberland Earthkeepers", en: "Timberland Earthkeepers boots" },
     price: { EUR: 170, DOLLAR: 200 },
-    skus:[],
     sku: {
       "77777196": { color: "marrón", size: 40, imageSquare: "13_square-min.jpg", stock: 8 },
       "88888197": { color: "verde", size: 41, imageSquare: "17_square-min.jpg", stock: 6 },
@@ -2746,7 +2633,6 @@ export const productos: IProduct[] = [
     title: { es: "Danner Mountain Light", en: "Danner Mountain Light" },
     description: { es: "Botas de montaña Danner Mountain Light", en: "Danner Mountain Light hiking boots" },
     price: { EUR: 350, DOLLAR: 410 },
-    skus:[],
     sku: {
       "99999198": { color: "marrón", size: 42, imageSquare: "05_square-min.jpg", stock: 5 },
       "00000199": { color: "negro", size: 43, imageSquare: "10_square-min.jpg", stock: 4 },
@@ -2760,7 +2646,6 @@ export const productos: IProduct[] = [
     title: { es: "Nike Air Zoom Alphafly NEXT%", en: "Nike Air Zoom Alphafly NEXT%" },
     description: { es: "Zapatillas de running Nike Air Zoom Alphafly NEXT%", en: "Nike Air Zoom Alphafly NEXT% running shoes" },
     price: { EUR: 250, DOLLAR: 300 },
-    skus:[],
     sku: {
       "01010200": { color: "blanco", size: 41, imageSquare: "02_square-min.jpg", stock: 6 },
       "02020201": { color: "negro", size: 42, imageSquare: "06_square-min.jpg", stock: 7 },
@@ -2774,10 +2659,9 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Adizero Adios Pro", en: "Adidas Adizero Adios Pro" },
     description: { es: "Zapatillas de running Adidas Adizero Adios Pro", en: "Adidas Adizero Adios Pro running shoes" },
     price: { EUR: 220, DOLLAR: 260 },
-    skus:[],
     sku: {
-      "03030202": { color: "rojo", size: 43, imageSquare: "11_square-min.jpg", stock: 8 },
-      "04040203": { color: "azul", size: 44, imageSquare: "15_square-min.jpg", stock: 5 },
+      "03030ASDAS202": { color: "rojo", size: 43, imageSquare: "11_square-min.jpg", stock: 8 },
+      "04040AAAAA203": { color: "azul", size: 44, imageSquare: "15_square-min.jpg", stock: 5 },
     },
     stock: 13,
     featured: true,
@@ -2788,7 +2672,6 @@ export const productos: IProduct[] = [
     title: { es: "Saucony Endorphin Pro", en: "Saucony Endorphin Pro" },
     description: { es: "Zapatillas de running Saucony Endorphin Pro", en: "Saucony Endorphin Pro running shoes" },
     price: { EUR: 200, DOLLAR: 240 },
-    skus:[],
     sku: {
       "05050204": { color: "blanco", size: 40, imageSquare: "07_square-min.jpg", stock: 9 },
       "06060205": { color: "negro", size: 41, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2802,7 +2685,6 @@ export const productos: IProduct[] = [
     title: { es: "Hoka Carbon X", en: "Hoka Carbon X" },
     description: { es: "Zapatillas de running Hoka Carbon X", en: "Hoka Carbon X running shoes" },
     price: { EUR: 180, DOLLAR: 215 },
-    skus:[],
     sku: {
       "07070206": { color: "blanco", size: 42, imageSquare: "04_square-min.jpg", stock: 7 },
       "08080207": { color: "negro", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
@@ -2816,7 +2698,6 @@ export const productos: IProduct[] = [
     title: { es: "Brooks Hyperion Elite", en: "Brooks Hyperion Elite" },
     description: { es: "Zapatillas de running Brooks Hyperion Elite", en: "Brooks Hyperion Elite running shoes" },
     price: { EUR: 210, DOLLAR: 250 },
-    skus:[],
     sku: {
       "09090208": { color: "negro", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
       "08070217": { color: "azul", size: 41, imageSquare: "13_square-min.jpg", stock: 8 },
@@ -2830,7 +2711,6 @@ export const productos: IProduct[] = [
     title: { es: "Brooks Hyperion Elite", en: "Brooks Hyperion Elite" },
     description: { es: "Zapatillas de running Brooks Hyperion Elite", en: "Brooks Hyperion Elite running shoes" },
     price: { EUR: 210, DOLLAR: 250 },
-    skus:[],
     sku: {
       "09090208": { color: "negro", size: 40, imageSquare: "08_square-min.jpg", stock: 7 },
       "10100209": { color: "azul", size: 41, imageSquare: "12_square-min.jpg", stock: 8 },
@@ -2844,7 +2724,6 @@ export const productos: IProduct[] = [
     title: { es: "Skechers GOrun Razor 3 Hyper", en: "Skechers GOrun Razor 3 Hyper" },
     description: { es: "Zapatillas de running Skechers GOrun Razor 3 Hyper", en: "Skechers GOrun Razor 3 Hyper running shoes" },
     price: { EUR: 130, DOLLAR: 155 },
-    skus:[],
     sku: {
       "11110210": { color: "naranja", size: 42, imageSquare: "16_square-min.jpg", stock: 9 },
       "12120211": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 6 },
@@ -2858,7 +2737,6 @@ export const productos: IProduct[] = [
     title: { es: "Newton Gravity 10", en: "Newton Gravity 10" },
     description: { es: "Zapatillas de running Newton Gravity 10", en: "Newton Gravity 10 running shoes" },
     price: { EUR: 170, DOLLAR: 200 },
-    skus:[],
     sku: {
       "13130212": { color: "azul", size: 44, imageSquare: "07_square-min.jpg", stock: 5 },
       "14140213": { color: "negro", size: 45, imageSquare: "11_square-min.jpg", stock: 4 },
@@ -2872,7 +2750,6 @@ export const productos: IProduct[] = [
     title: { es: "Topo Athletic Fli-Lyte 3", en: "Topo Athletic Fli-Lyte 3" },
     description: { es: "Zapatillas de running Topo Athletic Fli-Lyte 3", en: "Topo Athletic Fli-Lyte 3 running shoes" },
     price: { EUR: 140, DOLLAR: 165 },
-    skus:[],
     sku: {
       "15150214": { color: "rojo", size: 40, imageSquare: "15_square-min.jpg", stock: 8 },
       "16160215": { color: "verde", size: 41, imageSquare: "19_square-min.jpg", stock: 7 },
@@ -2886,7 +2763,6 @@ export const productos: IProduct[] = [
     title: { es: "Altra Escalante 2.5", en: "Altra Escalante 2.5" },
     description: { es: "Zapatillas de running Altra Escalante 2.5", en: "Altra Escalante 2.5 running shoes" },
     price: { EUR: 130, DOLLAR: 155 },
-    skus:[],
     sku: {
       "17170216": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 6 },
       "18180217": { color: "azul", size: 43, imageSquare: "09_square-min.jpg", stock: 9 },
@@ -2900,7 +2776,6 @@ export const productos: IProduct[] = [
     title: { es: "On Running Cloudstratus", en: "On Running Cloudstratus" },
     description: { es: "Zapatillas de running On Running Cloudstratus", en: "On Running Cloudstratus running shoes" },
     price: { EUR: 160, DOLLAR: 190 },
-    skus:[],
     sku: {
       "19190218": { color: "blanco", size: 44, imageSquare: "13_square-min.jpg", stock: 7 },
       "20200219": { color: "gris", size: 45, imageSquare: "17_square-min.jpg", stock: 8 },
@@ -2914,7 +2789,6 @@ export const productos: IProduct[] = [
     title: { es: "Salming Trail 5", en: "Salming Trail 5" },
     description: { es: "Zapatillas de trail running Salming Trail 5", en: "Salming Trail 5 trail running shoes" },
     price: { EUR: 135, DOLLAR: 160 },
-    skus:[],
     sku: {
       "21210220": { color: "negro", size: 41, imageSquare: "04_square-min.jpg", stock: 8 },
       "22220221": { color: "verde", size: 42, imageSquare: "10_square-min.jpg", stock: 7 },
@@ -2928,7 +2802,6 @@ export const productos: IProduct[] = [
     title: { es: "Inov-8 Trailfly Ultra G 280", en: "Inov-8 Trailfly Ultra G 280" },
     description: { es: "Zapatillas de trail running Inov-8 Trailfly Ultra G 280", en: "Inov-8 Trailfly Ultra G 280 trail running shoes" },
     price: { EUR: 160, DOLLAR: 190 },
-    skus:[],
     sku: {
       "23230222": { color: "negro", size: 43, imageSquare: "14_square-min.jpg", stock: 6 },
       "24240223": { color: "rojo", size: 44, imageSquare: "18_square-min.jpg", stock: 5 },
@@ -2942,7 +2815,6 @@ export const productos: IProduct[] = [
     title: { es: "Scott Kinabalu RC 2.0", en: "Scott Kinabalu RC 2.0" },
     description: { es: "Zapatillas de trail running Scott Kinabalu RC 2.0", en: "Scott Kinabalu RC 2.0 trail running shoes" },
     price: { EUR: 120, DOLLAR: 145 },
-    skus:[],
     sku: {
       "25250224": { color: "azul", size: 40, imageSquare: "02_square-min.jpg", stock: 9 },
       "26260225": { color: "verde", size: 41, imageSquare: "06_square-min.jpg", stock: 7 },
@@ -2956,7 +2828,6 @@ export const productos: IProduct[] = [
     title: { es: "Merrell Trail Glove 5", en: "Merrell Trail Glove 5" },
     description: { es: "Zapatillas minimalistas Merrell Trail Glove 5", en: "Merrell Trail Glove 5 minimalist shoes" },
     price: { EUR: 110, DOLLAR: 130 },
-    skus:[],
     sku: {
       "27270226": { color: "negro", size: 42, imageSquare: "11_square-min.jpg", stock: 8 },
       "28280227": { color: "naranja", size: 43, imageSquare: "15_square-min.jpg", stock: 6 },
@@ -2970,7 +2841,6 @@ export const productos: IProduct[] = [
     title: { es: "Vivobarefoot Ra II", en: "Vivobarefoot Ra II" },
     description: { es: "Zapatillas minimalistas Vivobarefoot Ra II", en: "Vivobarefoot Ra II minimalist shoes" },
     price: { EUR: 140, DOLLAR: 165 },
-    skus:[],
     sku: {
       "29290228": { color: "negro", size: 44, imageSquare: "19_square-min.jpg", stock: 5 },
       "30300229": { color: "marrón", size: 45, imageSquare: "03_square-min.jpg", stock: 4 },
@@ -2984,7 +2854,6 @@ export const productos: IProduct[] = [
     title: { es: "Salomon XA Pro 3D", en: "Salomon XA Pro 3D" },
     description: { es: "Zapatillas de trail running Salomon XA Pro 3D", en: "Salomon XA Pro 3D trail running shoes" },
     price: { EUR: 125, DOLLAR: 150 },
-    skus:[],
     sku: {
       "85850285": { color: "negro", size: 42, imageSquare: "08_square-min.jpg", stock: 7 },
       "86860286": { color: "verde", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
@@ -2998,7 +2867,6 @@ export const productos: IProduct[] = [
     title: { es: "La Sportiva Kaptiva", en: "La Sportiva Kaptiva" },
     description: { es: "Zapatillas de trail running La Sportiva Kaptiva", en: "La Sportiva Kaptiva trail running shoes" },
     price: { EUR: 150, DOLLAR: 180 },
-    skus:[],
     sku: {
       "87870287": { color: "rojo", size: 41, imageSquare: "16_square-min.jpg", stock: 6 },
       "88880288": { color: "azul", size: 42, imageSquare: "02_square-min.jpg", stock: 5 },
@@ -3012,7 +2880,6 @@ export const productos: IProduct[] = [
     title: { es: "Hoka Torrent 2", en: "Hoka Torrent 2" },
     description: { es: "Zapatillas de trail running Hoka Torrent 2", en: "Hoka Torrent 2 trail running shoes" },
     price: { EUR: 130, DOLLAR: 155 },
-    skus:[],
     sku: {
       "89890289": { color: "negro", size: 43, imageSquare: "07_square-min.jpg", stock: 9 },
       "90900290": { color: "naranja", size: 44, imageSquare: "11_square-min.jpg", stock: 7 },
@@ -3026,7 +2893,6 @@ export const productos: IProduct[] = [
     title: { es: "Brooks Cascadia 14", en: "Brooks Cascadia 14" },
     description: { es: "Zapatillas de trail running Brooks Cascadia 14", en: "Brooks Cascadia 14 trail running shoes" },
     price: { EUR: 140, DOLLAR: 165 },
-    skus:[],
     sku: {
       "91910291": { color: "gris", size: 40, imageSquare: "15_square-min.jpg", stock: 8 },
       "92920292": { color: "azul", size: 41, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -3040,7 +2906,6 @@ export const productos: IProduct[] = [
     title: { es: "Saucony Peregrine 10", en: "Saucony Peregrine 10" },
     description: { es: "Zapatillas de trail running Saucony Peregrine 10", en: "Saucony Peregrine 10 trail running shoes" },
     price: { EUR: 125, DOLLAR: 150 },
-    skus:[],
     sku: {
       "93930293": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 10 },
       "94940294": { color: "verde", size: 43, imageSquare: "09_square-min.jpg", stock: 7 },
@@ -3054,7 +2919,6 @@ export const productos: IProduct[] = [
     title: { es: "Altra Timp 3", en: "Altra Timp 3" },
     description: { es: "Zapatillas de trail running Altra Timp 3", en: "Altra Timp 3 trail running shoes" },
     price: { EUR: 135, DOLLAR: 160 },
-    skus:[],
     sku: {
       "95950295": { color: "azul", size: 44, imageSquare: "13_square-min.jpg", stock: 8 },
       "96960296": { color: "rojo", size: 45, imageSquare: "17_square-min.jpg", stock: 6 },
@@ -3068,7 +2932,6 @@ export const productos: IProduct[] = [
     title: { es: "Topo Athletic Ultraventure 2", en: "Topo Athletic Ultraventure 2" },
     description: { es: "Zapatillas de trail running Topo Athletic Ultraventure 2", en: "Topo Athletic Ultraventure 2 trail running shoes" },
     price: { EUR: 140, DOLLAR: 165 },
-    skus:[],
     sku: {
       "97970297": { color: "gris", size: 40, imageSquare: "05_square-min.jpg", stock: 9 },
       "98980298": { color: "naranja", size: 41, imageSquare: "09_square-min.jpg", stock: 7 },
@@ -3082,7 +2945,6 @@ export const productos: IProduct[] = [
     title: { es: "On Running Cloudventure", en: "On Running Cloudventure" },
     description: { es: "Zapatillas de trail running On Running Cloudventure", en: "On Running Cloudventure trail running shoes" },
     price: { EUR: 150, DOLLAR: 180 },
-    skus:[],
     sku: {
       "99990299": { color: "negro", size: 42, imageSquare: "12_square-min.jpg", stock: 6 },
       "00000300": { color: "blanco", size: 43, imageSquare: "18_square-min.jpg", stock: 5 },
@@ -3096,7 +2958,6 @@ export const productos: IProduct[] = [
     title: { es: "Nike ZoomX Zegama", en: "Nike ZoomX Zegama" },
     description: { es: "Zapatillas de trail running Nike ZoomX Zegama", en: "Nike ZoomX Zegama trail running shoes" },
     price: { EUR: 160, DOLLAR: 190 },
-    skus:[],
     sku: {
       "01010301": { color: "rojo", size: 44, imageSquare: "02_square-min.jpg", stock: 7 },
       "02020302": { color: "azul", size: 45, imageSquare: "06_square-min.jpg", stock: 8 },
@@ -3110,10 +2971,5967 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Terrex Agravic Ultra", en: "Adidas Terrex Agravic Ultra" },
     description: { es: "Zapatillas de trail running Adidas Terrex Agravic Ultra", en: "Adidas Terrex Agravic Ultra trail running shoes" },
     price: { EUR: 99, DOLLAR: 111 },
-    skus:[],
     sku: {
       "79821581": { color: "rojo", size: 44, imageSquare: "02_square-min.jpg", stock: 7 },
       "29821581": { color: "azul", size: 45, imageSquare: "06_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Air",
+      en: "Nike Air",
+    },
+    description: {
+      es: "Zapatillas deportivas Nike Air",
+      en: "Nike Air sports shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "22111111": {
+        color: "rojo",
+        size: 40,
+        imageSquare: "01_square_v1-min.jpg",
+        stock: 10,
+      },
+      "33222222": {
+        color: "verde",
+        size: 42,
+        imageSquare: "02_square_v1-min.jpg",
+        stock: 6,
+      },
+      "44333333": {
+        color: "beige",
+        size: 43,
+        imageSquare: "03_square-min.jpg",
+        stock: 9,
+      },
+      "55444444": {
+        color: "azul",
+        size: 44,
+        imageSquare: "04_square-min.jpg",
+        stock: 5,
+      },
+      "66555555": {
+        color: "negro",
+        size: 45,
+        imageSquare: "05_square-min.jpg",
+        stock: 2,
+      },
+    },
+    stock: 32,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Air MAX",
+      en: "Nike Air MAX",
+    },
+    description: {
+      es: "Zapatillas deportivas Nike Air MAX",
+      en: "Nike Air MAX sports shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "27131228": {
+        color: "rojo",
+        size: 40,
+        imageSquare: "06_square-min.jpg",
+        stock: 10,
+      },
+      "41424548": {
+        color: "azul",
+        size: 42,
+        imageSquare: "06_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Adidas Ultraboost",
+      en: "Adidas Ultraboost",
+    },
+    description: {
+      es: "Zapatillas deportivas Adidas Ultraboost",
+      en: "Adidas Ultraboost sports shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 170,
+    },
+    sku: {
+      "14599954": {
+        color: "negro",
+        size: 41,
+        imageSquare: "07_square-min.jpg",
+        stock: 8,
+      },
+      "24278723": {
+        color: "blanco",
+        size: 43,
+        imageSquare: "07_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Puma Running",
+      en: "Puma Running",
+    },
+    description: {
+      es: "Zapatillas de correr Puma",
+      en: "Puma running shoes",
+    },
+    price: {
+      EUR: 90,
+      DOLLAR: 110,
+    },
+    sku: {
+      "13763313": {
+        color: "verde",
+        size: 42,
+        imageSquare: "12_square-min.jpg",
+        stock: 12,
+      },
+      "71116878": {
+        color: "gris",
+        size: 44,
+        imageSquare: "12_square-min.jpg",
+        stock: 4,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Reebok Classic",
+      en: "Reebok Classic",
+    },
+    description: {
+      es: "Zapatillas clásicas Reebok",
+      en: "Reebok classic shoes",
+    },
+    price: {
+      EUR: 75,
+      DOLLAR: 95,
+    },
+    sku: {
+      "92333312": {
+        color: "negro",
+        size: 40,
+        imageSquare: "08_square-min.jpg",
+        stock: 7,
+      },
+      "3444343A": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "08_square-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Converse All Star",
+      en: "Converse All Star",
+    },
+    description: {
+      es: "Zapatillas Converse All Star",
+      en: "Converse All Star shoes",
+    },
+    price: {
+      EUR: 65,
+      DOLLAR: 80,
+    },
+    sku: {
+      "5656665B": {
+        color: "rojo",
+        size: 39,
+        imageSquare: "09_square-min.jpg",
+        stock: 9,
+      },
+      "7878187C": {
+        color: "azul",
+        size: 40,
+        imageSquare: "09_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "09_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Vans Old Skool",
+      en: "Vans Old Skool",
+    },
+    description: {
+      es: "Zapatillas Vans Old Skool",
+      en: "Vans Old Skool shoes",
+    },
+    price: {
+      EUR: 70,
+      DOLLAR: 85,
+    },
+    sku: {
+      "2323239F": {
+        color: "negro",
+        size: 42,
+        imageSquare: "05_square-min.jpg",
+        stock: 11,
+      },
+      "6565659G": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "05_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: {
+      es: "New Balance 574",
+      en: "New Balance 574",
+    },
+    description: {
+      es: "Zapatillas New Balance 574",
+      en: "New Balance 574 shoes",
+    },
+    price: {
+      EUR: 80,
+      DOLLAR: 100,
+    },
+    sku: {
+      "8989891H": {
+        color: "gris",
+        size: 43,
+        imageSquare: "11_square-min.jpg",
+        stock: 10,
+      },
+      "9898981I": {
+        color: "azul",
+        size: 44,
+        imageSquare: "11_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Asics Gel-Kayano",
+      en: "Asics Gel-Kayano",
+    },
+    description: {
+      es: "Zapatillas Asics Gel-Kayano",
+      en: "Asics Gel-Kayano shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "1212121J": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "13_square-min.jpg",
+        stock: 7,
+      },
+      "3232323K": {
+        color: "negro",
+        size: 41,
+        imageSquare: "13_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Fila Disruptor",
+      en: "Fila Disruptor",
+    },
+    description: {
+      es: "Zapatillas Fila Disruptor",
+      en: "Fila Disruptor shoes",
+    },
+    price: {
+      EUR: 85,
+      DOLLAR: 105,
+    },
+    sku: {
+      "2189898L": {
+        color: "blanco",
+        size: 39,
+        imageSquare: "03_square-min.jpg",
+        stock: 12,
+      },
+      "9912121M": {
+        color: "negro",
+        size: 40,
+        imageSquare: "03_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 20,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Under Armour HOVR",
+      en: "Under Armour HOVR",
+    },
+    description: {
+      es: "Zapatillas Under Armour HOVR",
+      en: "Under Armour HOVR shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "9867676N": {
+        color: "gris",
+        size: 43,
+        imageSquare: "01_square_v1-min.jpg",
+        stock: 7,
+      },
+      "9954545O": {
+        color: "azul",
+        size: 42,
+        imageSquare: "01_square_v1-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: {
+      es: "Salomon Speedcross",
+      en: "Salomon Speedcross",
+    },
+    description: {
+      es: "Zapatillas de trail Salomon Speedcross",
+      en: "Salomon Speedcross trail shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "3312121P": {
+        color: "azul",
+        size: 42,
+        imageSquare: "10_square-min.jpg",
+        stock: 8,
+      },
+      "65989898W": {
+        color: "negro",
+        size: 41,
+        imageSquare: "10_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "10_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Brooks Ghost",
+      en: "Brooks Ghost",
+    },
+    description: {
+      es: "Zapatillas Brooks Ghost",
+      en: "Brooks Ghost shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "11365656Q": {
+        color: "negro",
+        size: 40,
+        imageSquare: "15_square-min.jpg",
+        stock: 11,
+      },
+      "12187878R": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "15_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 20,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Mizuno Wave Rider",
+      en: "Mizuno Wave Rider",
+    },
+    description: {
+      es: "Zapatillas Mizuno Wave Rider",
+      en: "Mizuno Wave Rider shoes",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "98123232S": {
+        color: "azul",
+        size: 42,
+        imageSquare: "01_square_v1-min.jpg",
+        stock: 10,
+      },
+      "98221212T": {
+        color: "negro",
+        size: 43,
+        imageSquare: "02_square_v1-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: {
+      es: "Saucony Triumph",
+      en: "Saucony Triumph",
+    },
+    description: {
+      es: "Zapatillas Saucony Triumph",
+      en: "Saucony Triumph shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 145,
+    },
+    sku: {
+      "48622323C": {
+        color: "negro",
+        size: 41,
+        imageSquare: "02_square-min.jpg",
+        stock: 9,
+      },
+      "78143434A": {
+        color: "azul",
+        size: 42,
+        imageSquare: "02_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Hoka One One",
+      en: "Hoka One One",
+    },
+    description: {
+      es: "Zapatillas Hoka One One",
+      en: "Hoka One One shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "782BB478": {
+        color: "negro",
+        size: 40,
+        imageSquare: "03_square-min.jpg",
+        stock: 8,
+      },
+      "989874TR8": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "03_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Merrell Moab",
+      en: "Merrell Moab",
+    },
+    description: {
+      es: "Botas de senderismo Merrell Moab",
+      en: "Merrell Moab hiking boots",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "12121212": {
+        color: "marrón",
+        size: 42,
+        imageSquare: "04_square-min.jpg",
+        stock: 7,
+      },
+      "8978W6E89": {
+        color: "verde",
+        size: 43,
+        imageSquare: "04_square-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "04_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Timberland Chukka",
+      en: "Timberland Chukka",
+    },
+    description: {
+      es: "Botas Timberland Chukka",
+      en: "Timberland Chukka boots",
+    },
+    price: {
+      EUR: 150,
+      DOLLAR: 180,
+    },
+    sku: {
+      "6A6W1589": {
+        color: "marrón",
+        size: 41,
+        imageSquare: "05_square-min.jpg",
+        stock: 5,
+      },
+      "78A8475P": {
+        color: "negro",
+        size: 42,
+        imageSquare: "05_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Columbia Redmond",
+      en: "Columbia Redmond",
+    },
+    description: {
+      es: "Botas de senderismo Columbia Redmond",
+      en: "Columbia Redmond hiking boots",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "2999A3D3": {
+        color: "gris",
+        size: 44,
+        imageSquare: "06_square-min.jpg",
+        stock: 6,
+      },
+      "5454W46Z": {
+        color: "marrón",
+        size: 43,
+        imageSquare: "06_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: {
+      es: "The North Face Ultra",
+      en: "The North Face Ultra",
+    },
+    description: {
+      es: "Zapatillas de trail The North Face Ultra",
+      en: "The North Face Ultra trail shoes",
+    },
+    price: {
+      EUR: 125,
+      DOLLAR: 155,
+    },
+    sku: {
+      "12124D8Z": {
+        color: "negro",
+        size: 42,
+        imageSquare: "07_square-min.jpg",
+        stock: 7,
+      },
+      "3487U634": {
+        color: "azul",
+        size: 43,
+        imageSquare: "07_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Lowa Renegade",
+      en: "Lowa Renegade",
+    },
+    description: {
+      es: "Botas de senderismo Lowa Renegade",
+      en: "Lowa Renegade hiking boots",
+    },
+    price: {
+      EUR: 160,
+      DOLLAR: 200,
+    },
+    sku: {
+      "23239TU9": {
+        color: "marrón",
+        size: 42,
+        imageSquare: "08_square-min.jpg",
+        stock: 6,
+      },
+      "676888AA": {
+        color: "gris",
+        size: 43,
+        imageSquare: "08_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Arc'teryx Norvan",
+      en: "Arc'teryx Norvan",
+    },
+    description: {
+      es: "Zapatillas de trail Arc'teryx Norvan",
+      en: "Arc'teryx Norvan trail shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 175,
+    },
+    sku: {
+      "787AS7777": {
+        color: "negro",
+        size: 41,
+        imageSquare: "09_square-min.jpg",
+        stock: 9,
+      },
+      "95988A88": {
+        color: "azul",
+        size: 42,
+        imageSquare: "09_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "09_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Keen Targhee",
+      en: "Keen Targhee",
+    },
+    description: {
+      es: "Botas de senderismo Keen Targhee",
+      en: "Keen Targhee hiking boots",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "1E1RR412": {
+        color: "marrón",
+        size: 42,
+        imageSquare: "10_square-min.jpg",
+        stock: 10,
+      },
+      "451EO989": {
+        color: "verde",
+        size: 43,
+        imageSquare: "10_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "10_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Under Armour Charged",
+      en: "Under Armour Charged",
+    },
+    description: {
+      es: "Zapatillas Under Armour Charged",
+      en: "Under Armour Charged shoes",
+    },
+    price: {
+      EUR: 105,
+      DOLLAR: 130,
+    },
+    sku: {
+      "1221PE54": {
+        color: "negro",
+        size: 41,
+        imageSquare: "16_square-min.jpg",
+        stock: 8,
+      },
+      "13AU6767": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Pegasus",
+      en: "Nike Pegasus",
+    },
+    description: {
+      es: "Zapatillas Nike Pegasus",
+      en: "Nike Pegasus shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 140,
+    },
+    sku: {
+      "14417TL78": {
+        color: "azul",
+        size: 42,
+        imageSquare: "17_square-min.jpg",
+        stock: 9,
+      },
+      "N44198L8": {
+        color: "negro",
+        size: 43,
+        imageSquare: "17_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Adidas NMD",
+      en: "Adidas NMD",
+    },
+    description: {
+      es: "Zapatillas Adidas NMD",
+      en: "Adidas NMD shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "1M1412T": {
+        color: "blanco",
+        size: 40,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+      "22FE23434": {
+        color: "negro",
+        size: 41,
+        imageSquare: "18_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Puma Suede",
+      en: "Puma Suede",
+    },
+    description: {
+      es: "Zapatillas Puma Suede",
+      en: "Puma Suede shoes",
+    },
+    price: {
+      EUR: 75,
+      DOLLAR: 95,
+    },
+    sku: {
+      "156Y65499": {
+        color: "rojo",
+        size: 39,
+        imageSquare: "19_square-min.jpg",
+        stock: 10,
+      },
+      "6767E3410": {
+        color: "negro",
+        size: 40,
+        imageSquare: "19_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "New Balance 990",
+      en: "New Balance 990",
+    },
+    description: {
+      es: "Zapatillas New Balance 990",
+      en: "New Balance 990 shoes",
+    },
+    price: {
+      EUR: 150,
+      DOLLAR: 180,
+    },
+    sku: {
+      "000981K89": {
+        color: "gris",
+        size: 42,
+        imageSquare: "20_square-min.jpg",
+        stock: 7,
+      },
+      "00089P498": {
+        color: "azul",
+        size: 43,
+        imageSquare: "20_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "20_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Reebok Nano",
+      en: "Reebok Nano",
+    },
+    description: {
+      es: "Zapatillas Reebok Nano",
+      en: "Reebok Nano shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 145,
+    },
+    sku: {
+      "10101202E1": {
+        color: "negro",
+        size: 40,
+        imageSquare: "14_square-min.jpg",
+        stock: 6,
+      },
+      "04040434E2": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "14_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "06_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Asics Gel-Nimbus",
+      en: "Asics Gel-Nimbus",
+    },
+    description: {
+      es: "Zapatillas Asics Gel-Nimbus",
+      en: "Asics Gel-Nimbus shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 170,
+    },
+    sku: {
+      "54545400E3": {
+        color: "negro",
+        size: 41,
+        imageSquare: "15_square-min.jpg",
+        stock: 8,
+      },
+      "6767600E50": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "15_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "07_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Mizuno Wave Inspire",
+      en: "Mizuno Wave Inspire",
+    },
+    description: {
+      es: "Zapatillas Mizuno Wave Inspire",
+      en: "Mizuno Wave Inspire shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "787870SD01": {
+        color: "azul",
+        size: 41,
+        imageSquare: "16_square-min.jpg",
+        stock: 9,
+      },
+      "989892D002": {
+        color: "negro",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "08_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Saucony Kinvara",
+      en: "Saucony Kinvara",
+    },
+    description: {
+      es: "Zapatillas Saucony Kinvara",
+      en: "Saucony Kinvara shoes",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "121210F403": {
+        color: "negro",
+        size: 40,
+        imageSquare: "17_square-min.jpg",
+        stock: 7,
+      },
+      "346Y343004": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "17_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "09_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Fila Ray Tracer",
+      en: "Fila Ray Tracer",
+    },
+    description: {
+      es: "Zapatillas Fila Ray Tracer",
+      en: "Fila Ray Tracer shoes",
+    },
+    price: {
+      EUR: 95,
+      DOLLAR: 120,
+    },
+    sku: {
+      "54545H5005": {
+        color: "blanco",
+        size: 40,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+      "676J76006": {
+        color: "negro",
+        size: 41,
+        imageSquare: "18_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "10_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Brooks Adrenaline",
+      en: "Brooks Adrenaline",
+    },
+    description: {
+      es: "Zapatillas Brooks Adrenaline",
+      en: "Brooks Adrenaline shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "7872A80077": {
+        color: "negro",
+        size: 42,
+        imageSquare: "19_square-min.jpg",
+        stock: 9,
+      },
+      "9891A80117": {
+        color: "blanco",
+        size: 43,
+        imageSquare: "19_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "11_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "On Cloud",
+      en: "On Cloud",
+    },
+    description: {
+      es: "Zapatillas On Cloud",
+      en: "On Cloud shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "1A2121118J": {
+        color: "negro",
+        size: 41,
+        imageSquare: "16_square-min.jpg",
+        stock: 8,
+      },
+      "3F434311J9": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "06_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Altra Lone Peak",
+      en: "Altra Lone Peak",
+    },
+    description: {
+      es: "Zapatillas de trail Altra Lone Peak",
+      en: "Altra Lone Peak trail shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "5656F512G0": {
+        color: "negro",
+        size: 41,
+        imageSquare: "17_square-min.jpg",
+        stock: 10,
+      },
+      "676761SW21": {
+        color: "gris",
+        size: 42,
+        imageSquare: "17_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "07_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "New Balance Fresh Foam",
+      en: "New Balance Fresh Foam",
+    },
+    description: {
+      es: "Zapatillas New Balance Fresh Foam",
+      en: "New Balance Fresh Foam shoes",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "23232ES122": {
+        color: "azul",
+        size: 43,
+        imageSquare: "18_square-min.jpg",
+        stock: 9,
+      },
+      "8989ES8123": {
+        color: "rojo",
+        size: 44,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "08_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "La Sportiva Bushido",
+      en: "La Sportiva Bushido",
+    },
+    description: {
+      es: "Zapatillas de trail La Sportiva Bushido",
+      en: "La Sportiva Bushido trail shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 170,
+    },
+    sku: {
+      "343431U724": {
+        color: "negro",
+        size: 41,
+        imageSquare: "19_square-min.jpg",
+        stock: 7,
+      },
+      "78787N4125": {
+        color: "amarillo",
+        size: 42,
+        imageSquare: "19_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "09_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Topo Athletic MTN Racer",
+      en: "Topo Athletic MTN Racer",
+    },
+    description: {
+      es: "Zapatillas de trail Topo Athletic MTN Racer",
+      en: "Topo Athletic MTN Racer trail shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "12121S6126": {
+        color: "azul",
+        size: 42,
+        imageSquare: "20_square-min.jpg",
+        stock: 10,
+      },
+      "989891K827": {
+        color: "rojo",
+        size: 43,
+        imageSquare: "20_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "10_large-min.jpg",
+    imageSquare: "20_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Scarpa Spin Ultra",
+      en: "Scarpa Spin Ultra",
+    },
+    description: {
+      es: "Zapatillas de trail Scarpa Spin Ultra",
+      en: "Scarpa Spin Ultra trail shoes",
+    },
+    price: {
+      EUR: 135,
+      DOLLAR: 165,
+    },
+    sku: {
+      "676761K928": {
+        color: "negro",
+        size: 41,
+        imageSquare: "11_square-min.jpg",
+        stock: 8,
+      },
+      "89898R2129": {
+        color: "verde",
+        size: 42,
+        imageSquare: "11_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "11_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Dynafit Alpine Pro",
+      en: "Dynafit Alpine Pro",
+    },
+    description: {
+      es: "Zapatillas de trail Dynafit Alpine Pro",
+      en: "Dynafit Alpine Pro trail shoes",
+    },
+    price: {
+      EUR: 125,
+      DOLLAR: 155,
+    },
+    sku: {
+      "3434A03130": {
+        color: "negro",
+        size: 40,
+        imageSquare: "12_square-min.jpg",
+        stock: 9,
+      },
+      "7878F37131": {
+        color: "naranja",
+        size: 41,
+        imageSquare: "12_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "12_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Zoom Pegasus",
+      en: "Nike Zoom Pegasus",
+    },
+    description: {
+      es: "Zapatillas Nike Zoom Pegasus",
+      en: "Nike Zoom Pegasus shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 145,
+    },
+    sku: {
+      "12121FF133": {
+        color: "azul",
+        size: 42,
+        imageSquare: "13_square-min.jpg",
+        stock: 6,
+      },
+      "9898CCC9132": {
+        color: "negro",
+        size: 41,
+        imageSquare: "13_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "13_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Hoka Speedgoat",
+      en: "Hoka Speedgoat",
+    },
+    description: {
+      es: "Zapatillas de trail Hoka Speedgoat",
+      en: "Hoka Speedgoat trail shoes",
+    },
+    price: {
+      EUR: 150,
+      DOLLAR: 180,
+    },
+    sku: {
+      "2323CV2134": {
+        color: "gris",
+        size: 41,
+        imageSquare: "14_square-min.jpg",
+        stock: 10,
+      },
+      "5454CB5135": {
+        color: "verde",
+        size: 42,
+        imageSquare: "14_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "14_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Salewa Ultra Train",
+      en: "Salewa Ultra Train",
+    },
+    description: {
+      es: "Zapatillas de trail Salewa Ultra Train",
+      en: "Salewa Ultra Train trail shoes",
+    },
+    price: {
+      EUR: 135,
+      DOLLAR: 165,
+    },
+    sku: {
+      "7C88787137": {
+        color: "azul",
+        size: 41,
+        imageSquare: "15_square-min.jpg",
+        stock: 9,
+      },
+      "898C981W38": {
+        color: "amarillo",
+        size: 42,
+        imageSquare: "15_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "15_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Adidas Terrex",
+      en: "Adidas Terrex",
+    },
+    description: {
+      es: "Zapatillas de trail running Adidas Terrex",
+      en: "Adidas Terrex trail running shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 140,
+    },
+    sku: {
+      "4545QW4139": {
+        color: "negro",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 9,
+      },
+      "5656EO5140": {
+        color: "verde",
+        size: 43,
+        imageSquare: "16_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "16_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Free RN",
+      en: "Nike Free RN",
+    },
+    description: {
+      es: "Zapatillas minimalistas Nike Free RN",
+      en: "Nike Free RN minimalist shoes",
+    },
+    price: {
+      EUR: 95,
+      DOLLAR: 120,
+    },
+    sku: {
+      "2121YO2142": {
+        color: "rosa",
+        size: 41,
+        imageSquare: "17_square-min.jpg",
+        stock: 7,
+      },
+      "8787A18141": {
+        color: "blanco",
+        size: 40,
+        imageSquare: "17_square-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "17_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Under Armour Curry",
+      en: "Under Armour Curry",
+    },
+    description: {
+      es: "Zapatillas de baloncesto Under Armour Curry",
+      en: "Under Armour Curry basketball shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 170,
+    },
+    sku: {
+      "1010M114G4": {
+        color: "negro",
+        size: 44,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+      "9W9999G143": {
+        color: "azul",
+        size: 43,
+        imageSquare: "18_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "18_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Puma RS-X",
+      en: "Puma RS-X",
+    },
+    description: {
+      es: "Zapatillas deportivas Puma RS-X",
+      en: "Puma RS-X sports shoes",
+    },
+    price: {
+      EUR: 105,
+      DOLLAR: 130,
+    },
+    sku: {
+      "1311F31145": {
+        color: "blanco",
+        size: 39,
+        imageSquare: "19_square-min.jpg",
+        stock: 12,
+      },
+      "1414J51146": {
+        color: "morado",
+        size: 40,
+        imageSquare: "19_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "19_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "New Balance 880",
+      en: "New Balance 880",
+    },
+    description: {
+      es: "Zapatillas de running New Balance 880",
+      en: "New Balance 880 running shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "15V151K147": {
+        color: "gris",
+        size: 42,
+        imageSquare: "20_square-min.jpg",
+        stock: 10,
+      },
+      "16161V14V8": {
+        color: "negro",
+        size: 43,
+        imageSquare: "20_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "20_large-min.jpg",
+    imageSquare: "20_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Skechers Go Run",
+      en: "Skechers Go Run",
+    },
+    description: {
+      es: "Zapatillas de running Skechers Go Run",
+      en: "Skechers Go Run running shoes",
+    },
+    price: {
+      EUR: 85,
+      DOLLAR: 105,
+    },
+    sku: {
+      "17U171150U": {
+        color: "negro",
+        size: 41,
+        imageSquare: "11_square-min.jpg",
+        stock: 11,
+      },
+      "181U8U1151": {
+        color: "rosa",
+        size: 42,
+        imageSquare: "11_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 20,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Hoka Clifton",
+      en: "Hoka Clifton",
+    },
+    description: {
+      es: "Zapatillas de running Hoka Clifton",
+      en: "Hoka Clifton running shoes",
+    },
+    price: {
+      EUR: 125,
+      DOLLAR: 155,
+    },
+    sku: {
+      "19U1911O52": {
+        color: "azul",
+        size: 43,
+        imageSquare: "12_square-min.jpg",
+        stock: 8,
+      },
+      "220202153W": {
+        color: "blanco",
+        size: 44,
+        imageSquare: "12_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Brooks Glycerin",
+      en: "Brooks Glycerin",
+    },
+    description: {
+      es: "Zapatillas de running Brooks Glycerin",
+      en: "Brooks Glycerin running shoes",
+    },
+    price: {
+      EUR: 135,
+      DOLLAR: 165,
+    },
+    sku: {
+      W21212154W: {
+        color: "negro",
+        size: 40,
+        imageSquare: "13_square-min.jpg",
+        stock: 7,
+      },
+      W2W2222155: {
+        color: "gris",
+        size: 41,
+        imageSquare: "13_square-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Saucony Endorphin",
+      en: "Saucony Endorphin",
+    },
+    description: {
+      es: "Zapatillas de running Saucony Endorphin",
+      en: "Saucony Endorphin running shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      F232321D56: {
+        color: "blanco",
+        size: 42,
+        imageSquare: "14_square-min.jpg",
+        stock: 9,
+      },
+      DD24242157: {
+        color: "naranja",
+        size: 43,
+        imageSquare: "14_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Altra Torin",
+      en: "Altra Torin",
+    },
+    description: {
+      es: "Zapatillas de running Altra Torin",
+      en: "Altra Torin running shoes",
+    },
+    price: {
+      EUR: 105,
+      DOLLAR: 130,
+    },
+    sku: {
+      D25252158A: {
+        color: "azul",
+        size: 39,
+        imageSquare: "15_square-min.jpg",
+        stock: 12,
+      },
+      D262621592: {
+        color: "negro",
+        size: 40,
+        imageSquare: "15_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Topo Athletic Phantom",
+      en: "Topo Athletic Phantom",
+    },
+    description: {
+      es: "Zapatillas de running Topo Athletic Phantom",
+      en: "Topo Athletic Phantom running shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "272G7216N0": {
+        color: "gris",
+        size: 41,
+        imageSquare: "16_square-min.jpg",
+        stock: 8,
+      },
+      "282821M61M": {
+        color: "rojo",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "On Running Cloudflow",
+      en: "On Running Cloudflow",
+    },
+    description: {
+      es: "Zapatillas de running On Running Cloudflow",
+      en: "On Running Cloudflow running shoes",
+    },
+    price: {
+      EUR: 135,
+      DOLLAR: 165,
+    },
+    sku: {
+      "292R9216M3": {
+        color: "blanco",
+        size: 43,
+        imageSquare: "17_square-min.jpg",
+        stock: 6,
+      },
+      "R3030R3111": {
+        color: "negro",
+        size: 44,
+        imageSquare: "17_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Salomon Sense Ride",
+      en: "Salomon Sense Ride",
+    },
+    description: {
+      es: "Zapatillas de trail running Salomon Sense Ride",
+      en: "Salomon Sense Ride trail running shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 140,
+    },
+    sku: {
+      "131313164H": {
+        color: "verde",
+        size: 40,
+        imageSquare: "18_square-min.jpg",
+        stock: 10,
+      },
+      "H323231625": {
+        color: "azul",
+        size: 41,
+        imageSquare: "18_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Munich CLIK",
+      en: "Munich CLIK",
+    },
+    description: {
+      es: "Zapatillas de moda Munich CLIK",
+      en: "Munich CLIK moda shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 115,
+    },
+    sku: {
+      "A3131A3166": {
+        color: "verde",
+        size: 37,
+        imageSquare: "18_square-min.jpg",
+        stock: 10,
+      },
+      "32F3231697": {
+        color: "azul",
+        size: 38,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike React",
+      en: "Nike React",
+    },
+    description: {
+      es: "Zapatillas Nike React",
+      en: "Nike React shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "4343416T78": {
+        color: "negro",
+        size: 39,
+        imageSquare: "19_square-min.jpg",
+        stock: 9,
+      },
+      "454541T869": {
+        color: "blanco",
+        size: 40,
+        imageSquare: "19_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Adidas Stan Smith",
+      en: "Adidas Stan Smith",
+    },
+    description: {
+      es: "Zapatillas Adidas Stan Smith",
+      en: "Adidas Stan Smith shoes",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 120,
+    },
+    sku: {
+      "56565Y6170": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "20_square-min.jpg",
+        stock: 8,
+      },
+      "67676Q34171": {
+        color: "verde",
+        size: 42,
+        imageSquare: "20_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "20_square-min.jpg",
+  },
+  {
+    title: { es: "Converse Chuck Taylor", en: "Converse Chuck Taylor" },
+    description: { es: "Zapatillas Converse Chuck Taylor", en: "Converse Chuck Taylor shoes" },
+    price: { EUR: 55, DOLLAR: 70 },
+    sku: {
+      "727AZ27172": { color: "negro", size: 40, imageSquare: "01_square_v1-min.jpg", stock: 15 },
+      "7373CQ7173": { color: "blanco", size: 41, imageSquare: "02_square_v1-min.jpg", stock: 12 },
+    },
+    stock: 27,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: { es: "Vans Slip-On", en: "Vans Slip-On" },
+    description: { es: "Zapatillas sin cordones Vans Slip-On", en: "Vans Slip-On shoes" },
+    price: { EUR: 60, DOLLAR: 75 },
+    sku: {
+      "74733247174": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 8 },
+      "75775717JJ75": { color: "cuadros", size: 43, imageSquare: "04_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Dr. Martens 1460", en: "Dr. Martens 1460" },
+    description: { es: "Botas Dr. Martens 1460", en: "Dr. Martens 1460 boots" },
+    price: { EUR: 160, DOLLAR: 195 },
+    sku: {
+      "767GT67176": { color: "negro", size: 41, imageSquare: "05_square-min.jpg", stock: 5 },
+      "777AA77177N": { color: "cereza", size: 42, imageSquare: "01_square_v1-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+
+  {
+    title: { es: "Converse Chuck Taylor", en: "Converse Chuck Taylor" },
+    description: { es: "Zapatillas Converse Chuck Taylor", en: "Converse Chuck Taylor shoes" },
+    price: { EUR: 55, DOLLAR: 70 },
+    sku: {
+      "7E272N71I72": { color: "negro", size: 40, imageSquare: "17_square-min.jpg", stock: 15 },
+      "7B373717K3": { color: "blanco", size: 41, imageSquare: "18_square-min.jpg", stock: 12 },
+    },
+    stock: 27,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: { es: "Vans Slip-On", en: "Vans Slip-On" },
+    description: { es: "Zapatillas sin cordones Vans Slip-On", en: "Vans Slip-On shoes" },
+    price: { EUR: 60, DOLLAR: 75 },
+    sku: {
+      "7A47S471A74": { color: "negro", size: 42, imageSquare: "08_square-min.jpg", stock: 8 },
+      "757C5717V5": { color: "cuadros", size: 43, imageSquare: "09_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Dr. Martens 1460", en: "Dr. Martens 1460" },
+    description: { es: "Botas Dr. Martens 1460", en: "Dr. Martens 1460 boots" },
+    price: { EUR: 160, DOLLAR: 195 },
+    sku: {
+      "7676A717AQ6": { color: "negro", size: 41, imageSquare: "13_square-min.jpg", stock: 5 },
+      "771777C177": { color: "cereza", size: 42, imageSquare: "13_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Nike Blazer", en: "Nike Blazer" },
+    description: { es: "Zapatillas Nike Blazer", en: "Nike Blazer shoes" },
+    price: { EUR: 90, DOLLAR: 110 },
+    sku: {
+      "1111F117L2": { color: "blanco", size: 42, imageSquare: "13_square-min.jpg", stock: 8 },
+      "2L2222G273": { color: "negro", size: 43, imageSquare: "13_square-min.jpg", stock: 5 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Superstar", en: "Adidas Superstar" },
+    description: { es: "Zapatillas Adidas Superstar", en: "Adidas Superstar shoes" },
+    price: { EUR: 80, DOLLAR: 100 },
+    sku: {
+      "3W333337RT4": { color: "blanco", size: 41, imageSquare: "01_square_v1-min.jpg", stock: 12 },
+      "444412S4475": { color: "negro", size: 42, imageSquare: "01_square_v2-min.jpg", stock: 10 },
+    },
+    stock: 22,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: { es: "Puma Cali", en: "Puma Cali" },
+    description: { es: "Zapatillas Puma Cali", en: "Puma Cali shoes" },
+    price: { EUR: 70, DOLLAR: 85 },
+    sku: {
+      "55Q555C57A6": { color: "blanco", size: 38, imageSquare: "02_square-min.jpg", stock: 7 },
+      "66S66F6A677": { color: "rosa", size: 39, imageSquare: "02_square-min.jpg", stock: 9 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Nike Air Force 1", en: "Nike Air Force 1" },
+    description: { es: "Zapatillas icónicas Nike Air Force 1", en: "Iconic Nike Air Force 1 shoes" },
+    price: { EUR: 100, DOLLAR: 120 },
+    sku: {
+      "9C49C49A184": { color: "blanco", size: 41, imageSquare: "02_square-min.jpg", stock: 10 },
+      "9Q5959IA185": { color: "negro", size: 42, imageSquare: "07_square-min.jpg", stock: 8 },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Stan Smith", en: "Adidas Stan Smith" },
+    description: { es: "Zapatillas clásicas Adidas Stan Smith", en: "Classic Adidas Stan Smith shoes" },
+    price: { EUR: 85, DOLLAR: 105 },
+    sku: {
+      "96CV969AS186": { color: "blanco", size: 40, imageSquare: "11_square-min.jpg", stock: 12 },
+      "97979VAAQ187": { color: "verde", size: 41, imageSquare: "15_square-min.jpg", stock: 9 },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: { es: "Puma RS-X3", en: "Puma RS-X3" },
+    description: { es: "Zapatillas deportivas Puma RS-X3", en: "Puma RS-X3 sports shoes" },
+    price: { EUR: 110, DOLLAR: 135 },
+    sku: {
+      "TR989732I88": { color: "negro", size: 42, imageSquare: "18_square-min.jpg", stock: 7 },
+      "99B12399A89": { color: "blanco", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: { es: "Reebok Club C 85", en: "Reebok Club C 85" },
+    description: { es: "Zapatillas clásicas Reebok Club C 85", en: "Reebok Club C 85 classic shoes" },
+    price: { EUR: 70, DOLLAR: 85 },
+    sku: {
+      "0101C9FFF": { color: "blanco", size: 40, imageSquare: "02_square-min.jpg", stock: 14 },
+      "02020A191": { color: "verde", size: 41, imageSquare: "08_square-min.jpg", stock: 11 },
+    },
+    stock: 25,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Converse One Star", en: "Converse One Star" },
+    description: { es: "Zapatillas Converse One Star", en: "Converse One Star shoes" },
+    price: { EUR: 65, DOLLAR: 80 },
+    sku: {
+      "03030ATA2": { color: "negro", size: 42, imageSquare: "12_square-min.jpg", stock: 9 },
+      "0BBA40193": { color: "amarillo", size: 43, imageSquare: "16_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Vans Authentic", en: "Vans Authentic" },
+    description: { es: "Zapatillas Vans Authentic", en: "Vans Authentic shoes" },
+    price: { EUR: 60, DOLLAR: 75 },
+    sku: {
+      "05050Q1WD4": { color: "negro", size: 39, imageSquare: "06_square-min.jpg", stock: 10 },
+      "06Q0AD0195": { color: "cuadros", size: 40, imageSquare: "14_square-min.jpg", stock: 8 },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: { es: "New Balance 327", en: "New Balance 327" },
+    description: { es: "Zapatillas New Balance 327", en: "New Balance 327 shoes" },
+    price: { EUR: 95, DOLLAR: 115 },
+    sku: {
+      "070701AAT96": { color: "gris", size: 41, imageSquare: "07_square-min.jpg", stock: 11 },
+      "080801VVF97": { color: "naranja", size: 42, imageSquare: "10_square-min.jpg", stock: 13 },
+    },
+    stock: 24,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Fila MB", en: "Fila MB" },
+    description: { es: "Zapatillas Fila MB", en: "Fila MB shoes" },
+    price: { EUR: 80, DOLLAR: 100 },
+    sku: {
+      "090901112B8": { color: "blanco", size: 43, imageSquare: "03_square-min.jpg", stock: 6 },
+      "1010AVE0199": { color: "negro", size: 44, imageSquare: "09_square-min.jpg", stock: 7 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Asics Gel-Lyte III", en: "Asics Gel-Lyte III" },
+    description: { es: "Zapatillas Asics Gel-Lyte III", en: "Asics Gel-Lyte III shoes" },
+    price: { EUR: 110, DOLLAR: 135 },
+    sku: {
+      "21111C03F200": { color: "morado", size: 40, imageSquare: "11_square-min.jpg", stock: 8 },
+      "121AAAF30201": { color: "azul", size: 41, imageSquare: "17_square-min.jpg", stock: 9 },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: { es: "Saucony Jazz Original", en: "Saucony Jazz Original" },
+    description: { es: "Zapatillas Saucony Jazz Original", en: "Saucony Jazz Original shoes" },
+    price: { EUR: 75, DOLLAR: 95 },
+    sku: {
+      "131306HD202": { color: "gris", size: 42, imageSquare: "13_square-min.jpg", stock: 10 },
+      "1414S140203": { color: "beige", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Diadora Heritage", en: "Diadora Heritage" },
+    description: { es: "Zapatillas Diadora Heritage", en: "Diadora Heritage shoes" },
+    price: { EUR: 90, DOLLAR: 110 },
+    sku: {
+      "15I1502O04": { color: "blanco", size: 38, imageSquare: "08_square-min.jpg", stock: 12 },
+      "1Y616P0205": { color: "azul", size: 39, imageSquare: "18_square-min.jpg", stock: 8 },
+    },
+    stock: 20,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Nike Dunk Low", en: "Nike Dunk Low" },
+    description: { es: "Zapatillas Nike Dunk Low", en: "Nike Dunk Low shoes" },
+    price: { EUR: 110, DOLLAR: 135 },
+    sku: {
+      "172170H206": { color: "negro", size: 41, imageSquare: "06_square-min.jpg", stock: 7 },
+      "181D807207": { color: "blanco", size: 42, imageSquare: "12_square-min.jpg", stock: 9 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Forum", en: "Adidas Forum" },
+    description: { es: "Zapatillas Adidas Forum", en: "Adidas Forum shoes" },
+    price: { EUR: 95, DOLLAR: 115 },
+    sku: {
+      "19190DGT208": { color: "blanco", size: 43, imageSquare: "04_square-min.jpg", stock: 11 },
+      "2020053F209": { color: "azul", size: 44, imageSquare: "12_square-min.jpg", stock: 9 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: { es: "Puma Future Rider", en: "Puma Future Rider" },
+    description: { es: "Zapatillas deportivas Puma Future Rider", en: "Puma Future Rider sports shoes" },
+    price: { EUR: 100, DOLLAR: 125 },
+    sku: {
+      "2121FS022110": { color: "negro", size: 40, imageSquare: "09_square-min.jpg", stock: 8 },
+      "2222CVBN0211": { color: "rosa", size: 41, imageSquare: "13_square-min.jpg", stock: 10 },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "09_square-min.jpg",
+  },
+  {
+    title: { es: "Reebok Instapump Fury", en: "Reebok Instapump Fury" },
+    description: { es: "Zapatillas futuristas Reebok Instapump Fury", en: "Reebok Instapump Fury futuristic shoes" },
+    price: { EUR: 150, DOLLAR: 185 },
+    sku: {
+      "2352302HY12": { color: "negro", size: 42, imageSquare: "17_square-min.jpg", stock: 6 },
+      "24AA2Y40213": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 7 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: { es: "Converse Jack Purcell", en: "Converse Jack Purcell" },
+    description: { es: "Zapatillas minimalistas Converse Jack Purcell", en: "Converse Jack Purcell minimalist shoes" },
+    price: { EUR: 70, DOLLAR: 85 },
+    sku: {
+      "2525021400A": { color: "blanco", size: 39, imageSquare: "05_square-min.jpg", stock: 12 },
+      "2626021500A": { color: "azul marino", size: 40, imageSquare: "10_square-min.jpg", stock: 9 },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "Vans Sk8-Hi", en: "Vans Sk8-Hi" },
+    description: { es: "Zapatillas altas Vans Sk8-Hi", en: "Vans Sk8-Hi high-top shoes" },
+    price: { EUR: 75, DOLLAR: 95 },
+    sku: {
+      "2727021600A": { color: "negro", size: 41, imageSquare: "15_square-min.jpg", stock: 8 },
+      "2828021700A": { color: "cuadros", size: 42, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: { es: "Dr. Martens Jadon", en: "Dr. Martens Jadon" },
+    description: { es: "Botas con plataforma Dr. Martens Jadon", en: "Dr. Martens Jadon platform boots" },
+    price: { EUR: 180, DOLLAR: 220 },
+    sku: {
+      "2929021800A": { color: "negro", size: 38, imageSquare: "03_square-min.jpg", stock: 5 },
+      "3030021900A": { color: "blanco", size: 39, imageSquare: "07_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Timberland 6-Inch Premium", en: "Timberland 6-Inch Premium" },
+    description: { es: "Botas clásicas Timberland 6-Inch Premium", en: "Timberland 6-Inch Premium classic boots" },
+    price: { EUR: 190, DOLLAR: 230 },
+    sku: {
+      "3131022AA0A": { color: "amarillo", size: 42, imageSquare: "12_square-min.jpg", stock: 7 },
+      "32320CAC221": { color: "marrón", size: 43, imageSquare: "18_square-min.jpg", stock: 9 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Lacoste Carnaby Evo", en: "Lacoste Carnaby Evo" },
+    description: { es: "Zapatillas casuales Lacoste Carnaby Evo", en: "Lacoste Carnaby Evo casual shoes" },
+    price: { EUR: 80, DOLLAR: 100 },
+    sku: {
+      "333302ASDFA22": { color: "blanco", size: 41, imageSquare: "04_square-min.jpg", stock: 12 },
+      "34340DASDV223": { color: "verde", size: 42, imageSquare: "11_square-min.jpg", stock: 9 },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "04_square-min.jpg",
+  },
+  {
+    title: { es: "Karhu Fusion 2.0", en: "Karhu Fusion 2.0" },
+    description: { es: "Zapatillas deportivas Karhu Fusion 2.0", en: "Karhu Fusion 2.0 sports shoes" },
+    price: { EUR: 110, DOLLAR: 135 },
+    sku: {
+      "3535SVDSV0224": { color: "negro", size: 43, imageSquare: "16_square-min.jpg", stock: 7 },
+      "363602SSVVS25": { color: "azul", size: 44, imageSquare: "08_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: { es: "Veja V-10", en: "Veja V-10" },
+    description: { es: "Zapatillas sostenibles Veja V-10", en: "Veja V-10 sustainable shoes" },
+    price: { EUR: 120, DOLLAR: 145 },
+    sku: {
+      "37370DSFS226": { color: "blanco", size: 39, imageSquare: "03_square-min.jpg", stock: 10 },
+      "3838SFSFS0227": { color: "marrón", size: 40, imageSquare: "13_square-min.jpg", stock: 11 },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Filling Pieces Low Top", en: "Filling Pieces Low Top" },
+    description: { es: "Zapatillas de lujo Filling Pieces Low Top", en: "Filling Pieces Low Top luxury shoes" },
+    price: { EUR: 200, DOLLAR: 240 },
+    sku: {
+      "39390WERFF228": { color: "negro", size: 42, imageSquare: "06_square-min.jpg", stock: 5 },
+      "40400SDFSD229": { color: "blanco", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: { es: "Golden Goose Superstar", en: "Golden Goose Superstar" },
+    description: { es: "Zapatillas de lujo Golden Goose Superstar", en: "Golden Goose Superstar luxury shoes" },
+    price: { EUR: 450, DOLLAR: 550 },
+    sku: {
+      "414SDFSBN0230": { color: "blanco", size: 39, imageSquare: "07_square-min.jpg", stock: 3 },
+      "42420MBNM231": { color: "plata", size: 40, imageSquare: "11_square-min.jpg", stock: 2 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Axel Arigato Clean 90", en: "Axel Arigato Clean 90" },
+    description: { es: "Zapatillas minimalistas Axel Arigato Clean 90", en: "Axel Arigato Clean 90 minimalist shoes" },
+    price: { EUR: 180, DOLLAR: 220 },
+    sku: {
+      "434354E330232": { color: "blanco", size: 41, imageSquare: "12_square-min.jpg", stock: 8 },
+      "4444GGGGGD233": { color: "beige", size: 42, imageSquare: "18_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Common Projects Achilles", en: "Common Projects Achilles" },
+    description: { es: "Zapatillas de lujo Common Projects Achilles", en: "Common Projects Achilles luxury shoes" },
+    price: { EUR: 350, DOLLAR: 420 },
+    sku: {
+      "4545SDF0234": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 4 },
+      "464602SFS35": { color: "negro", size: 44, imageSquare: "09_square-min.jpg", stock: 5 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Yeezy Boost 350 V2", en: "Yeezy Boost 350 V2" },
+    description: { es: "Zapatillas Yeezy Boost 350 V2", en: "Yeezy Boost 350 V2 shoes" },
+    price: { EUR: 220, DOLLAR: 260 },
+    sku: {
+      "4747024R2336": { color: "beige", size: 41, imageSquare: "05_square-min.jpg", stock: 3 },
+      "484802423437": { color: "negro", size: 42, imageSquare: "14_square-min.jpg", stock: 2 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "Balenciaga Triple S", en: "Balenciaga Triple S" },
+    description: { es: "Zapatillas Balenciaga Triple S", en: "Balenciaga Triple S shoes" },
+    price: { EUR: 800, DOLLAR: 950 },
+    sku: {
+      "49490213D21238": { color: "blanco", size: 40, imageSquare: "08_square-min.jpg", stock: 4 },
+      "50501231CD0239": { color: "negro", size: 41, imageSquare: "12_square-min.jpg", stock: 3 },
+    },
+    stock: 7,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Off-White x Nike Air Jordan 1", en: "Off-White x Nike Air Jordan 1" },
+    description: { es: "Zapatillas Off-White x Nike Air Jordan 1", en: "Off-White x Nike Air Jordan 1 shoes" },
+    price: { EUR: 1200, DOLLAR: 1400 },
+    sku: {
+      "5A1510AA240": { color: "blanco", size: 42, imageSquare: "15_square-min.jpg", stock: 2 },
+      "525222S0241": { color: "negro", size: 43, imageSquare: "19_square-min.jpg", stock: 1 },
+    },
+    stock: 3,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: { es: "Gucci Ace", en: "Gucci Ace" },
+    description: { es: "Zapatillas Gucci Ace", en: "Gucci Ace shoes" },
+    price: { EUR: 650, DOLLAR: 780 },
+    sku: {
+      "53532SS0242": { color: "blanco", size: 39, imageSquare: "02_square-min.jpg", stock: 5 },
+      "54540AVG243": { color: "verde", size: 40, imageSquare: "06_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Prada Cloudbust Thunder", en: "Prada Cloudbust Thunder" },
+    description: { es: "Zapatillas Prada Cloudbust Thunder", en: "Prada Cloudbust Thunder shoes" },
+    price: { EUR: 750, DOLLAR: 900 },
+    sku: {
+      "55550ACAA244": { color: "negro", size: 41, imageSquare: "10_square-min.jpg", stock: 3 },
+      "565602ARROO45": { color: "blanco", size: 42, imageSquare: "14_square-min.jpg", stock: 2 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "10_square-min.jpg",
+  },
+  {
+    title: { es: "Alexander McQueen Oversized", en: "Alexander McQueen Oversized" },
+    description: { es: "Zapatillas Alexander McQueen Oversized", en: "Alexander McQueen Oversized shoes" },
+    price: { EUR: 500, DOLLAR: 600 },
+    sku: {
+      "5757024OPJAS6": { color: "blanco", size: 38, imageSquare: "17_square-min.jpg", stock: 4 },
+      "58AK580247": { color: "negro", size: 39, imageSquare: "03_square-min.jpg", stock: 3 },
+    },
+    stock: 7,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: { es: "Maison Margiela Replica", en: "Maison Margiela Replica" },
+    description: { es: "Zapatillas Maison Margiela Replica", en: "Maison Margiela Replica shoes" },
+    price: { EUR: 550, DOLLAR: 660 },
+    sku: {
+      "5S959ASD248": { color: "blanco", size: 40, imageSquare: "05_square-min.jpg", stock: 2 },
+      "A6060ASD0249": { color: "gris", size: 41, imageSquare: "09_square-min.jpg", stock: 3 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "Rick Owens DRKSHDW", en: "Rick Owens DRKSHDW" },
+    description: { es: "Zapatillas Rick Owens DRKSHDW", en: "Rick Owens DRKSHDW shoes" },
+    price: { EUR: 600, DOLLAR: 720 },
+    sku: {
+      "6161090679250": { color: "negro", size: 42, imageSquare: "13_square-min.jpg", stock: 4 },
+      "626OIOOU20251": { color: "blanco", size: 43, imageSquare: "17_square-min.jpg", stock: 2 },
+    },
+    stock: 6,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Saint Laurent Court Classic", en: "Saint Laurent Court Classic" },
+    description: { es: "Zapatillas Saint Laurent Court Classic", en: "Saint Laurent Court Classic shoes" },
+    price: { EUR: 500, DOLLAR: 600 },
+    sku: {
+      "6363OIUO0252": { color: "blanco", size: 38, imageSquare: "02_square-min.jpg", stock: 5 },
+      "646UOUTD40253": { color: "negro", size: 39, imageSquare: "06_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Valentino Garavani Rockstud", en: "Valentino Garavani Rockstud" },
+    description: { es: "Zapatillas Valentino Garavani Rockstud", en: "Valentino Garavani Rockstud shoes" },
+    price: { EUR: 700, DOLLAR: 840 },
+    sku: {
+      "6565OIUK0254": { color: "blanco", size: 40, imageSquare: "10_square-min.jpg", stock: 3 },
+      "666KGTUYK60255": { color: "rojo", size: 41, imageSquare: "14_square-min.jpg", stock: 2 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "10_square-min.jpg",
+  },
+  {
+    title: { es: "Versace Chain Reaction", en: "Versace Chain Reaction" },
+    description: { es: "Zapatillas Versace Chain Reaction", en: "Versace Chain Reaction shoes" },
+    price: { EUR: 850, DOLLAR: 1020 },
+    sku: {
+      "67670HFHT256": { color: "negro", size: 42, imageSquare: "18_square-min.jpg", stock: 4 },
+      "6868RTYRT0257": { color: "dorado", size: 43, imageSquare: "04_square-min.jpg", stock: 3 },
+    },
+    stock: 7,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: { es: "A Bathing Ape Bapesta", en: "A Bathing Ape Bapesta" },
+    description: { es: "Zapatillas A Bathing Ape Bapesta", en: "A Bathing Ape Bapesta shoes" },
+    price: { EUR: 300, DOLLAR: 360 },
+    sku: {
+      "6969ASDAVFAD0258": { color: "blanco", size: 42, imageSquare: "08_square-min.jpg", stock: 4 },
+      "707002ASDASCA59": { color: "camuflaje", size: 43, imageSquare: "16_square-min.jpg", stock: 3 },
+    },
+    stock: 7,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Visvim FBT", en: "Visvim FBT" },
+    description: { es: "Botas Visvim FBT", en: "Visvim FBT boots" },
+    price: { EUR: 650, DOLLAR: 780 },
+    sku: {
+      "71710DFA260": { color: "marrón", size: 41, imageSquare: "02_square-min.jpg", stock: 2 },
+      "72720FASF261": { color: "negro", size: 42, imageSquare: "10_square-min.jpg", stock: 3 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Nike SB Dunk Low", en: "Nike SB Dunk Low" },
+    description: { es: "Zapatillas de skate Nike SB Dunk Low", en: "Nike SB Dunk Low skate shoes" },
+    price: { EUR: 150, DOLLAR: 180 },
+    sku: {
+      "73730SDSF262": { color: "azul", size: 43, imageSquare: "14_square-min.jpg", stock: 6 },
+      "74740DF263": { color: "rojo", size: 44, imageSquare: "18_square-min.jpg", stock: 5 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: { es: "Clarks Wallabee", en: "Clarks Wallabee" },
+    description: { es: "Botines Clarks Wallabee", en: "Clarks Wallabee boots" },
+    price: { EUR: 130, DOLLAR: 155 },
+    sku: {
+      "11AAWE111190": { color: "beige", size: 42, imageSquare: "02_square-min.jpg", stock: 8 },
+      "22ASDAGG222191": { color: "marrón", size: 43, imageSquare: "07_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Dr. Martens Chelsea", en: "Dr. Martens Chelsea" },
+    description: { es: "Botines Chelsea Dr. Martens", en: "Dr. Martens Chelsea boots" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "33333DAS192": { color: "negro", size: 41, imageSquare: "12_square-min.jpg", stock: 9 },
+      "4444ADSA4193": { color: "marrón", size: 42, imageSquare: "16_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Red Wing Moc Toe", en: "Red Wing Moc Toe" },
+    description: { es: "Botas Red Wing Moc Toe", en: "Red Wing Moc Toe boots" },
+    price: { EUR: 280, DOLLAR: 330 },
+    sku: {
+      "5555ASDAC519Z4": { color: "marrón", size: 43, imageSquare: "03_square-min.jpg", stock: 5 },
+      "Z66666CC195": { color: "negro", size: 44, imageSquare: "08_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Timberland Earthkeepers", en: "Timberland Earthkeepers" },
+    description: { es: "Botas Timberland Earthkeepers", en: "Timberland Earthkeepers boots" },
+    price: { EUR: 170, DOLLAR: 200 },
+    sku: {
+      "777A771PIA96": { color: "marrón", size: 40, imageSquare: "13_square-min.jpg", stock: 8 },
+      "A8S88C881A97": { color: "verde", size: 41, imageSquare: "17_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Danner Mountain Light", en: "Danner Mountain Light" },
+    description: { es: "Botas de montaña Danner Mountain Light", en: "Danner Mountain Light hiking boots" },
+    price: { EUR: 350, DOLLAR: 410 },
+    sku: {
+      "999A9QA9198": { color: "marrón", size: 42, imageSquare: "05_square-min.jpg", stock: 5 },
+      "00XXX000C199": { color: "negro", size: 43, imageSquare: "10_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "Nike Air Zoom Alphafly NEXT%", en: "Nike Air Zoom Alphafly NEXT%" },
+    description: { es: "Zapatillas de running Nike Air Zoom Alphafly NEXT%", en: "Nike Air Zoom Alphafly NEXT% running shoes" },
+    price: { EUR: 250, DOLLAR: 300 },
+    sku: {
+      "0101A02SA0A0": { color: "blanco", size: 41, imageSquare: "02_square-min.jpg", stock: 6 },
+      "0202AACSA201": { color: "negro", size: 42, imageSquare: "06_square-min.jpg", stock: 7 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Adizero Adios Pro", en: "Adidas Adizero Adios Pro" },
+    description: { es: "Zapatillas de running Adidas Adizero Adios Pro", en: "Adidas Adizero Adios Pro running shoes" },
+    price: { EUR: 220, DOLLAR: 260 },
+    sku: {
+      "ASDG233423": { color: "rojo", size: 43, imageSquare: "11_square-min.jpg", stock: 8 },
+      "0404020ASDA3": { color: "azul", size: 44, imageSquare: "15_square-min.jpg", stock: 5 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: { es: "Saucony Endorphin Pro", en: "Saucony Endorphin Pro" },
+    description: { es: "Zapatillas de running Saucony Endorphin Pro", en: "Saucony Endorphin Pro running shoes" },
+    price: { EUR: 200, DOLLAR: 240 },
+    sku: {
+      "050A5ASDA0204": { color: "blanco", size: 40, imageSquare: "07_square-min.jpg", stock: 9 },
+      "060602131231205": { color: "negro", size: 41, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Hoka Carbon X", en: "Hoka Carbon X" },
+    description: { es: "Zapatillas de running Hoka Carbon X", en: "Hoka Carbon X running shoes" },
+    price: { EUR: 180, DOLLAR: 215 },
+    sku: {
+      "07070A2DASDA06": { color: "blanco", size: 42, imageSquare: "04_square-min.jpg", stock: 7 },
+      "A080CAA802A07": { color: "negro", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "04_square-min.jpg",
+  },
+  {
+    title: { es: "Brooks Hyperion Elite", en: "Brooks Hyperion Elite" },
+    description: { es: "Zapatillas de running Brooks Hyperion Elite", en: "Brooks Hyperion Elite running shoes" },
+    price: { EUR: 210, DOLLAR: 250 },
+    sku: {
+      "090902C0CD8": { color: "negro", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
+      "0807AA02AA17": { color: "azul", size: 41, imageSquare: "13_square-min.jpg", stock: 8 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Brooks Hyperion Elite", en: "Brooks Hyperion Elite" },
+    description: { es: "Zapatillas de running Brooks Hyperion Elite", en: "Brooks Hyperion Elite running shoes" },
+    price: { EUR: 210, DOLLAR: 250 },
+    sku: {
+      "0909VA0VH208": { color: "negro", size: 40, imageSquare: "08_square-min.jpg", stock: 7 },
+      "1010CW40209": { color: "azul", size: 41, imageSquare: "12_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Skechers GOrun Razor 3 Hyper", en: "Skechers GOrun Razor 3 Hyper" },
+    description: { es: "Zapatillas de running Skechers GOrun Razor 3 Hyper", en: "Skechers GOrun Razor 3 Hyper running shoes" },
+    price: { EUR: 130, DOLLAR: 155 },
+    sku: {
+      "1AD11C102BB10": { color: "naranja", size: 42, imageSquare: "16_square-min.jpg", stock: 9 },
+      "DCV121SA2S0211": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 6 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: { es: "Newton Gravity 10", en: "Newton Gravity 10" },
+    description: { es: "Zapatillas de running Newton Gravity 10", en: "Newton Gravity 10 running shoes" },
+    price: { EUR: 170, DOLLAR: 200 },
+    sku: {
+      "1A31A3A0212A": { color: "azul", size: 44, imageSquare: "07_square-min.jpg", stock: 5 },
+      "1A414CZ021Z3": { color: "negro", size: 45, imageSquare: "11_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Topo Athletic Fli-Lyte 3", en: "Topo Athletic Fli-Lyte 3" },
+    description: { es: "Zapatillas de running Topo Athletic Fli-Lyte 3", en: "Topo Athletic Fli-Lyte 3 running shoes" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "AA15150VBG214": { color: "rojo", size: 40, imageSquare: "15_square-min.jpg", stock: 8 },
+      "A1616AC0215": { color: "verde", size: 41, imageSquare: "19_square-min.jpg", stock: 7 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: { es: "Altra Escalante 2.5", en: "Altra Escalante 2.5" },
+    description: { es: "Zapatillas de running Altra Escalante 2.5", en: "Altra Escalante 2.5 running shoes" },
+    price: { EUR: 130, DOLLAR: 155 },
+    sku: {
+      "17A170DV216": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 6 },
+      "18V180AC217": { color: "azul", size: 43, imageSquare: "09_square-min.jpg", stock: 9 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "On Running Cloudstratus", en: "On Running Cloudstratus" },
+    description: { es: "Zapatillas de running On Running Cloudstratus", en: "On Running Cloudstratus running shoes" },
+    price: { EUR: 160, DOLLAR: 190 },
+    sku: {
+      "1919AA02AC18": { color: "blanco", size: 44, imageSquare: "13_square-min.jpg", stock: 7 },
+      "2020CC02AAI19": { color: "gris", size: 45, imageSquare: "17_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Salming Trail 5", en: "Salming Trail 5" },
+    description: { es: "Zapatillas de trail running Salming Trail 5", en: "Salming Trail 5 trail running shoes" },
+    price: { EUR: 135, DOLLAR: 160 },
+    sku: {
+      "2W1S210I220": { color: "negro", size: 41, imageSquare: "04_square-min.jpg", stock: 8 },
+      "222E2SXR0221": { color: "verde", size: 42, imageSquare: "10_square-min.jpg", stock: 7 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "04_square-min.jpg",
+  },
+  {
+    title: { es: "Inov-8 Trailfly Ultra G 280", en: "Inov-8 Trailfly Ultra G 280" },
+    description: { es: "Zapatillas de trail running Inov-8 Trailfly Ultra G 280", en: "Inov-8 Trailfly Ultra G 280 trail running shoes" },
+    price: { EUR: 160, DOLLAR: 190 },
+    sku: {
+      "2323D02SD22": { color: "negro", size: 43, imageSquare: "14_square-min.jpg", stock: 6 },
+      "2D424SA0223": { color: "rojo", size: 44, imageSquare: "18_square-min.jpg", stock: 5 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: { es: "Scott Kinabalu RC 2.0", en: "Scott Kinabalu RC 2.0" },
+    description: { es: "Zapatillas de trail running Scott Kinabalu RC 2.0", en: "Scott Kinabalu RC 2.0 trail running shoes" },
+    price: { EUR: 120, DOLLAR: 145 },
+    sku: {
+      "25250EEEA224": { color: "azul", size: 40, imageSquare: "02_square-min.jpg", stock: 9 },
+      "26EAA260F225": { color: "verde", size: 41, imageSquare: "06_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Merrell Trail Glove 5", en: "Merrell Trail Glove 5" },
+    description: { es: "Zapatillas minimalistas Merrell Trail Glove 5", en: "Merrell Trail Glove 5 minimalist shoes" },
+    price: { EUR: 110, DOLLAR: 130 },
+    sku: {
+      "272C70CB2S26": { color: "negro", size: 42, imageSquare: "11_square-min.jpg", stock: 8 },
+      "28C2A802AC27": { color: "naranja", size: 43, imageSquare: "15_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: { es: "Vivobarefoot Ra II", en: "Vivobarefoot Ra II" },
+    description: { es: "Zapatillas minimalistas Vivobarefoot Ra II", en: "Vivobarefoot Ra II minimalist shoes" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "29BA29022B8": { color: "negro", size: 44, imageSquare: "19_square-min.jpg", stock: 5 },
+      "3A030B0229": { color: "marrón", size: 45, imageSquare: "03_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: { es: "Salomon XA Pro 3D", en: "Salomon XA Pro 3D" },
+    description: { es: "Zapatillas de trail running Salomon XA Pro 3D", en: "Salomon XA Pro 3D trail running shoes" },
+    price: { EUR: 125, DOLLAR: 150 },
+    sku: {
+      "85W850T285": { color: "negro", size: 42, imageSquare: "08_square-min.jpg", stock: 7 },
+      "86WE860R286": { color: "verde", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "La Sportiva Kaptiva", en: "La Sportiva Kaptiva" },
+    description: { es: "Zapatillas de trail running La Sportiva Kaptiva", en: "La Sportiva Kaptiva trail running shoes" },
+    price: { EUR: 150, DOLLAR: 180 },
+    sku: {
+      "87GG7028AC7": { color: "rojo", size: 41, imageSquare: "16_square-min.jpg", stock: 6 },
+      "88VAA80288Q": { color: "azul", size: 42, imageSquare: "02_square-min.jpg", stock: 5 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: { es: "Hoka Torrent 2", en: "Hoka Torrent 2" },
+    description: { es: "Zapatillas de trail running Hoka Torrent 2", en: "Hoka Torrent 2 trail running shoes" },
+    price: { EUR: 130, DOLLAR: 155 },
+    sku: {
+      "89I8H90KL289": { color: "negro", size: 43, imageSquare: "07_square-min.jpg", stock: 9 },
+      "9KJK09002H90": { color: "naranja", size: 44, imageSquare: "11_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Brooks Cascadia 14", en: "Brooks Cascadia 14" },
+    description: { es: "Zapatillas de trail running Brooks Cascadia 14", en: "Brooks Cascadia 14 trail running shoes" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "91G9102H91": { color: "gris", size: 40, imageSquare: "15_square-min.jpg", stock: 8 },
+      "9G2920H292": { color: "azul", size: 41, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: { es: "Saucony Peregrine 10", en: "Saucony Peregrine 10" },
+    description: { es: "Zapatillas de trail running Saucony Peregrine 10", en: "Saucony Peregrine 10 trail running shoes" },
+    price: { EUR: 125, DOLLAR: 150 },
+    sku: {
+      "939GM3OI0293": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 10 },
+      "9494PPP94": { color: "verde", size: 43, imageSquare: "09_square-min.jpg", stock: 7 },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Altra Timp 3", en: "Altra Timp 3" },
+    description: { es: "Zapatillas de trail running Altra Timp 3", en: "Altra Timp 3 trail running shoes" },
+    price: { EUR: 135, DOLLAR: 160 },
+    sku: {
+      "95950WR295": { color: "azul", size: 44, imageSquare: "13_square-min.jpg", stock: 8 },
+      "9696WR0296": { color: "rojo", size: 45, imageSquare: "17_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Topo Athletic Ultraventure 2", en: "Topo Athletic Ultraventure 2" },
+    description: { es: "Zapatillas de trail running Topo Athletic Ultraventure 2", en: "Topo Athletic Ultraventure 2 trail running shoes" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "97971AD02QQ97": { color: "gris", size: 40, imageSquare: "05_square-min.jpg", stock: 9 },
+      "9XXXA820Q298": { color: "naranja", size: 41, imageSquare: "09_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "On Running Cloudventure", en: "On Running Cloudventure" },
+    description: { es: "Zapatillas de trail running On Running Cloudventure", en: "On Running Cloudventure trail running shoes" },
+    price: { EUR: 150, DOLLAR: 180 },
+    sku: {
+      "9Q99RW90299": { color: "negro", size: 42, imageSquare: "12_square-min.jpg", stock: 6 },
+      "0000030IYT0": { color: "blanco", size: 43, imageSquare: "18_square-min.jpg", stock: 5 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Nike ZoomX Zegama", en: "Nike ZoomX Zegama" },
+    description: { es: "Zapatillas de trail running Nike ZoomX Zegama", en: "Nike ZoomX Zegama trail running shoes" },
+    price: { EUR: 160, DOLLAR: 190 },
+    sku: {
+      "010Q103Q01": { color: "rojo", size: 44, imageSquare: "02_square-min.jpg", stock: 7 },
+      "02Q020302W": { color: "azul", size: 45, imageSquare: "06_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Terrex Agravic Ultra", en: "Adidas Terrex Agravic Ultra" },
+    description: { es: "Zapatillas de trail running Adidas Terrex Agravic Ultra", en: "Adidas Terrex Agravic Ultra trail running shoes" },
+    price: { EUR: 99, DOLLAR: 111 },
+    sku: {
+      "79QQ82158W1": { color: "rojo", size: 44, imageSquare: "02_square-min.jpg", stock: 7 },
+      "298QQQ21R81": { color: "azul", size: 45, imageSquare: "06_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Air",
+      en: "Nike Air",
+    },
+    description: {
+      es: "Zapatillas deportivas Nike Air",
+      en: "Nike Air sports shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "11111111MM": {
+        color: "rojo",
+        size: 40,
+        imageSquare: "01_square_v1-min.jpg",
+        stock: 10,
+      },
+      "22222222NNB": {
+        color: "verde",
+        size: 42,
+        imageSquare: "02_square_v1-min.jpg",
+        stock: 6,
+      },
+      "33333333BBB": {
+        color: "beige",
+        size: 43,
+        imageSquare: "03_square-min.jpg",
+        stock: 9,
+      },
+      "44444444VVV": {
+        color: "azul",
+        size: 44,
+        imageSquare: "04_square-min.jpg",
+        stock: 5,
+      },
+      "55555555CCC": {
+        color: "negro",
+        size: 45,
+        imageSquare: "05_square-min.jpg",
+        stock: 2,
+      },
+    },
+    stock: 32,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Air MAX",
+      en: "Nike Air MAX",
+    },
+    description: {
+      es: "Zapatillas deportivas Nike Air MAX",
+      en: "Nike Air MAX sports shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "23131222AAA": {
+        color: "rojo",
+        size: 40,
+        imageSquare: "06_square-min.jpg",
+        stock: 10,
+      },
+      "41424444WWW": {
+        color: "azul",
+        size: 42,
+        imageSquare: "06_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Adidas Ultraboost",
+      en: "Adidas Ultraboost",
+    },
+    description: {
+      es: "Zapatillas deportivas Adidas Ultraboost",
+      en: "Adidas Ultraboost sports shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 170,
+    },
+    sku: {
+      "14545454WEWW": {
+        color: "negro",
+        size: 41,
+        imageSquare: "07_square-min.jpg",
+        stock: 8,
+      },
+      "242QWE32323": {
+        color: "blanco",
+        size: 43,
+        imageSquare: "07_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Puma Running",
+      en: "Puma Running",
+    },
+    description: {
+      es: "Zapatillas de correr Puma",
+      en: "Puma running shoes",
+    },
+    price: {
+      EUR: 90,
+      DOLLAR: 110,
+    },
+    sku: {
+      "616Q676EQWE7": {
+        color: "verde",
+        size: 42,
+        imageSquare: "12_square-min.jpg",
+        stock: 12,
+      },
+      "717QWERQW87878": {
+        color: "gris",
+        size: 44,
+        imageSquare: "12_square-min.jpg",
+        stock: 4,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Reebok Classic",
+      en: "Reebok Classic",
+    },
+    description: {
+      es: "Zapatillas clásicas Reebok",
+      en: "Reebok classic shoes",
+    },
+    price: {
+      EUR: 75,
+      DOLLAR: 95,
+    },
+    sku: {
+      "123212RQWRQWR12": {
+        color: "negro",
+        size: 40,
+        imageSquare: "08_square-min.jpg",
+        stock: 7,
+      },
+      "34443QWRQWR434": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "08_square-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Converse All Star",
+      en: "Converse All Star",
+    },
+    description: {
+      es: "Zapatillas Converse All Star",
+      en: "Converse All Star shoes",
+    },
+    price: {
+      EUR: 65,
+      DOLLAR: 80,
+    },
+    sku: {
+      "5656YTEYRT6656": {
+        color: "rojo",
+        size: 39,
+        imageSquare: "09_square-min.jpg",
+        stock: 9,
+      },
+      "7878TUTYU1878": {
+        color: "azul",
+        size: 40,
+        imageSquare: "09_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "09_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Vans Old Skool",
+      en: "Vans Old Skool",
+    },
+    description: {
+      es: "Zapatillas Vans Old Skool",
+      en: "Vans Old Skool shoes",
+    },
+    price: {
+      EUR: 70,
+      DOLLAR: 85,
+    },
+    sku: {
+      "23232UTYURT393": {
+        color: "negro",
+        size: 42,
+        imageSquare: "05_square-min.jpg",
+        stock: 11,
+      },
+      "65ETRW656595": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "05_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: {
+      es: "New Balance 574",
+      en: "New Balance 574",
+    },
+    description: {
+      es: "Zapatillas New Balance 574",
+      en: "New Balance 574 shoes",
+    },
+    price: {
+      EUR: 80,
+      DOLLAR: 100,
+    },
+    sku: {
+      "8989891IUUOI9": {
+        color: "gris",
+        size: 43,
+        imageSquare: "11_square-min.jpg",
+        stock: 10,
+      },
+      "9ERE89898UOIRT18": {
+        color: "azul",
+        size: 44,
+        imageSquare: "11_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Asics Gel-Kayano",
+      en: "Asics Gel-Kayano",
+    },
+    description: {
+      es: "Zapatillas Asics Gel-Kayano",
+      en: "Asics Gel-Kayano shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "121RETEY21210": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "13_square-min.jpg",
+        stock: 7,
+      },
+      "3WWE232323YE0": {
+        color: "negro",
+        size: 41,
+        imageSquare: "13_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Fila Disruptor",
+      en: "Fila Disruptor",
+    },
+    description: {
+      es: "Zapatillas Fila Disruptor",
+      en: "Fila Disruptor shoes",
+    },
+    price: {
+      EUR: 85,
+      DOLLAR: 105,
+    },
+    sku: {
+      "21898RWE989": {
+        color: "blanco",
+        size: 39,
+        imageSquare: "03_square-min.jpg",
+        stock: 12,
+      },
+      "9912WER1212": {
+        color: "negro",
+        size: 40,
+        imageSquare: "03_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 20,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Under Armour HOVR",
+      en: "Under Armour HOVR",
+    },
+    description: {
+      es: "Zapatillas Under Armour HOVR",
+      en: "Under Armour HOVR shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "9T867WERWT6767": {
+        color: "gris",
+        size: 43,
+        imageSquare: "01_square_v1-min.jpg",
+        stock: 7,
+      },
+      "995TWET4WW5454": {
+        color: "azul",
+        size: 42,
+        imageSquare: "01_square_v1-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: {
+      es: "Salomon Speedcross",
+      en: "Salomon Speedcross",
+    },
+    description: {
+      es: "Zapatillas de trail Salomon Speedcross",
+      en: "Salomon Speedcross trail shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "3WR3121WW2W12W": {
+        color: "azul",
+        size: 42,
+        imageSquare: "10_square-min.jpg",
+        stock: 8,
+      },
+      "659RWQ89Q89Q8": {
+        color: "negro",
+        size: 41,
+        imageSquare: "10_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "10_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Brooks Ghost",
+      en: "Brooks Ghost",
+    },
+    description: {
+      es: "Zapatillas Brooks Ghost",
+      en: "Brooks Ghost shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "1TR136Q56Q5R6": {
+        color: "negro",
+        size: 40,
+        imageSquare: "15_square-min.jpg",
+        stock: 11,
+      },
+      "1218U78IOO78": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "15_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 20,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Mizuno Wave Rider",
+      en: "Mizuno Wave Rider",
+    },
+    description: {
+      es: "Zapatillas Mizuno Wave Rider",
+      en: "Mizuno Wave Rider shoes",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "9SA81F23232A": {
+        color: "azul",
+        size: 42,
+        imageSquare: "01_square_v1-min.jpg",
+        stock: 10,
+      },
+      "98F221A2A12": {
+        color: "negro",
+        size: 43,
+        imageSquare: "02_square_v1-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: {
+      es: "Saucony Triumph",
+      en: "Saucony Triumph",
+    },
+    description: {
+      es: "Zapatillas Saucony Triumph",
+      en: "Saucony Triumph shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 145,
+    },
+    sku: {
+      "A486A22F3A23": {
+        color: "negro",
+        size: 41,
+        imageSquare: "02_square-min.jpg",
+        stock: 9,
+      },
+      "78F14F3A43AQ4": {
+        color: "azul",
+        size: 42,
+        imageSquare: "02_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Hoka One One",
+      en: "Hoka One One",
+    },
+    description: {
+      es: "Zapatillas Hoka One One",
+      en: "Hoka One One shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "78A257AQ4A7A8": {
+        color: "negro",
+        size: 40,
+        imageSquare: "03_square-min.jpg",
+        stock: 8,
+      },
+      "9A8987D4A98": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "03_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Merrell Moab",
+      en: "Merrell Moab",
+    },
+    description: {
+      es: "Botas de senderismo Merrell Moab",
+      en: "Merrell Moab hiking boots",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "1A21A21FF212": {
+        color: "marrón",
+        size: 42,
+        imageSquare: "04_square-min.jpg",
+        stock: 7,
+      },
+      "89F78FR6A3A9": {
+        color: "verde",
+        size: 43,
+        imageSquare: "04_square-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "04_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Timberland Chukka",
+      en: "Timberland Chukka",
+    },
+    description: {
+      es: "Botas Timberland Chukka",
+      en: "Timberland Chukka boots",
+    },
+    price: {
+      EUR: 150,
+      DOLLAR: 180,
+    },
+    sku: {
+      "676R71QQ58A9": {
+        color: "marrón",
+        size: 41,
+        imageSquare: "05_square-min.jpg",
+        stock: 5,
+      },
+      "787A8T47C51": {
+        color: "negro",
+        size: 42,
+        imageSquare: "05_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Columbia Redmond",
+      en: "Columbia Redmond",
+    },
+    description: {
+      es: "Botas de senderismo Columbia Redmond",
+      en: "Columbia Redmond hiking boots",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "239992153CC23": {
+        color: "gris",
+        size: 44,
+        imageSquare: "06_square-min.jpg",
+        stock: 6,
+      },
+      "5454JGHJ1463": {
+        color: "marrón",
+        size: 43,
+        imageSquare: "06_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: {
+      es: "The North Face Ultra",
+      en: "The North Face Ultra",
+    },
+    description: {
+      es: "Zapatillas de trail The North Face Ultra",
+      en: "The North Face Ultra trail shoes",
+    },
+    price: {
+      EUR: 125,
+      DOLLAR: 155,
+    },
+    sku: {
+      "12A1245FSDFA87": {
+        color: "negro",
+        size: 42,
+        imageSquare: "07_square-min.jpg",
+        stock: 7,
+      },
+      "34874FASA634": {
+        color: "azul",
+        size: 43,
+        imageSquare: "07_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Lowa Renegade",
+      en: "Lowa Renegade",
+    },
+    description: {
+      es: "Botas de senderismo Lowa Renegade",
+      en: "Lowa Renegade hiking boots",
+    },
+    price: {
+      EUR: 160,
+      DOLLAR: 200,
+    },
+    sku: {
+      "2F32FASFS39999": {
+        color: "marrón",
+        size: 42,
+        imageSquare: "08_square-min.jpg",
+        stock: 6,
+      },
+      "6768FASDF8881": {
+        color: "gris",
+        size: 43,
+        imageSquare: "08_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Arc'teryx Norvan",
+      en: "Arc'teryx Norvan",
+    },
+    description: {
+      es: "Zapatillas de trail Arc'teryx Norvan",
+      en: "Arc'teryx Norvan trail shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 175,
+    },
+    sku: {
+      "7878DASD777A7": {
+        color: "negro",
+        size: 41,
+        imageSquare: "09_square-min.jpg",
+        stock: 9,
+      },
+      "A989A888FA8": {
+        color: "azul",
+        size: 42,
+        imageSquare: "09_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "09_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Keen Targhee",
+      en: "Keen Targhee",
+    },
+    description: {
+      es: "Botas de senderismo Keen Targhee",
+      en: "Keen Targhee hiking boots",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "1A2A12A7DA412": {
+        color: "marrón",
+        size: 42,
+        imageSquare: "10_square-min.jpg",
+        stock: 10,
+      },
+      "4E5A12DF8989": {
+        color: "verde",
+        size: 43,
+        imageSquare: "10_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "10_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Under Armour Charged",
+      en: "Under Armour Charged",
+    },
+    description: {
+      es: "Zapatillas Under Armour Charged",
+      en: "Under Armour Charged shoes",
+    },
+    price: {
+      EUR: 105,
+      DOLLAR: 130,
+    },
+    sku: {
+      "12Q215A4A54C": {
+        color: "negro",
+        size: 41,
+        imageSquare: "16_square-min.jpg",
+        stock: 8,
+      },
+      "13V31AA676WE7": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Pegasus",
+      en: "Nike Pegasus",
+    },
+    description: {
+      es: "Zapatillas Nike Pegasus",
+      en: "Nike Pegasus shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 140,
+    },
+    sku: {
+      "1441A7D8F278": {
+        color: "azul",
+        size: 42,
+        imageSquare: "17_square-min.jpg",
+        stock: 9,
+      },
+      "1441JTEF989W8": {
+        color: "negro",
+        size: 43,
+        imageSquare: "17_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Adidas NMD",
+      en: "Adidas NMD",
+    },
+    description: {
+      es: "Zapatillas Adidas NMD",
+      en: "Adidas NMD shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "1A414S121AS1K2": {
+        color: "blanco",
+        size: 40,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+      "22A2234VA34": {
+        color: "negro",
+        size: 41,
+        imageSquare: "18_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Puma Suede",
+      en: "Puma Suede",
+    },
+    description: {
+      es: "Zapatillas Puma Suede",
+      en: "Puma Suede shoes",
+    },
+    price: {
+      EUR: 75,
+      DOLLAR: 95,
+    },
+    sku: {
+      "15685JURQ499": {
+        color: "rojo",
+        size: 39,
+        imageSquare: "19_square-min.jpg",
+        stock: 10,
+      },
+      "A676S774Q10": {
+        color: "negro",
+        size: 40,
+        imageSquare: "19_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "New Balance 990",
+      en: "New Balance 990",
+    },
+    description: {
+      es: "Zapatillas New Balance 990",
+      en: "New Balance 990 shoes",
+    },
+    price: {
+      EUR: 150,
+      DOLLAR: 180,
+    },
+    sku: {
+      "00R098UY989": {
+        color: "gris",
+        size: 42,
+        imageSquare: "20_square-min.jpg",
+        stock: 7,
+      },
+      "0010829181S98": {
+        color: "azul",
+        size: 43,
+        imageSquare: "20_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "20_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Reebok Nano",
+      en: "Reebok Nano",
+    },
+    description: {
+      es: "Zapatillas Reebok Nano",
+      en: "Reebok Nano shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 145,
+    },
+    sku: {
+      "A101012FV02": {
+        color: "negro",
+        size: 40,
+        imageSquare: "14_square-min.jpg",
+        stock: 6,
+      },
+      "04040F1TU434": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "14_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "06_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Asics Gel-Nimbus",
+      en: "Asics Gel-Nimbus",
+    },
+    description: {
+      es: "Zapatillas Asics Gel-Nimbus",
+      en: "Asics Gel-Nimbus shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 170,
+    },
+    sku: {
+      "545S45T5400": {
+        color: "negro",
+        size: 41,
+        imageSquare: "15_square-min.jpg",
+        stock: 8,
+      },
+      "6733676YGS000": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "15_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "07_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Mizuno Wave Inspire",
+      en: "Mizuno Wave Inspire",
+    },
+    description: {
+      es: "Zapatillas Mizuno Wave Inspire",
+      en: "Mizuno Wave Inspire shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "A78A87S001O": {
+        color: "azul",
+        size: 41,
+        imageSquare: "16_square-min.jpg",
+        stock: 9,
+      },
+      "9C8989AD002": {
+        color: "negro",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "08_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Saucony Kinvara",
+      en: "Saucony Kinvara",
+    },
+    description: {
+      es: "Zapatillas Saucony Kinvara",
+      en: "Saucony Kinvara shoes",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "1A21A21C00S": {
+        color: "negro",
+        size: 40,
+        imageSquare: "17_square-min.jpg",
+        stock: 7,
+      },
+      "3A43A4C300IA4": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "17_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "09_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Fila Ray Tracer",
+      en: "Fila Ray Tracer",
+    },
+    description: {
+      es: "Zapatillas Fila Ray Tracer",
+      en: "Fila Ray Tracer shoes",
+    },
+    price: {
+      EUR: 95,
+      DOLLAR: 120,
+    },
+    sku: {
+      "5454450FABV05": {
+        color: "blanco",
+        size: 40,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+      "67E6760AG06": {
+        color: "negro",
+        size: 41,
+        imageSquare: "18_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "10_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Brooks Adrenaline",
+      en: "Brooks Adrenaline",
+    },
+    description: {
+      es: "Zapatillas Brooks Adrenaline",
+      en: "Brooks Adrenaline shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "AV787A800A77": {
+        color: "negro",
+        size: 42,
+        imageSquare: "19_square-min.jpg",
+        stock: 9,
+      },
+      "98I801KM17": {
+        color: "blanco",
+        size: 43,
+        imageSquare: "19_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "11_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "On Cloud",
+      en: "On Cloud",
+    },
+    description: {
+      es: "Zapatillas On Cloud",
+      en: "On Cloud shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "1D121118": {
+        color: "negro",
+        size: 41,
+        imageSquare: "16_square-min.jpg",
+        stock: 8,
+      },
+      "34F43119": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "06_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Altra Lone Peak",
+      en: "Altra Lone Peak",
+    },
+    description: {
+      es: "Zapatillas de trail Altra Lone Peak",
+      en: "Altra Lone Peak trail shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "565651VV0": {
+        color: "negro",
+        size: 41,
+        imageSquare: "17_square-min.jpg",
+        stock: 10,
+      },
+      "W67AA6121": {
+        color: "gris",
+        size: 42,
+        imageSquare: "17_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "07_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "New Balance Fresh Foam",
+      en: "New Balance Fresh Foam",
+    },
+    description: {
+      es: "Zapatillas New Balance Fresh Foam",
+      en: "New Balance Fresh Foam shoes",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 125,
+    },
+    sku: {
+      "2E232A12A2": {
+        color: "azul",
+        size: 43,
+        imageSquare: "18_square-min.jpg",
+        stock: 9,
+      },
+      "8928A812AA3": {
+        color: "rojo",
+        size: 44,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "08_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "La Sportiva Bushido",
+      en: "La Sportiva Bushido",
+    },
+    description: {
+      es: "Zapatillas de trail La Sportiva Bushido",
+      en: "La Sportiva Bushido trail shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 170,
+    },
+    sku: {
+      "3S434S31A24": {
+        color: "negro",
+        size: 41,
+        imageSquare: "19_square-min.jpg",
+        stock: 7,
+      },
+      "7UW87871I25": {
+        color: "amarillo",
+        size: 42,
+        imageSquare: "19_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "09_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Topo Athletic MTN Racer",
+      en: "Topo Athletic MTN Racer",
+    },
+    description: {
+      es: "Zapatillas de trail Topo Athletic MTN Racer",
+      en: "Topo Athletic MTN Racer trail shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "1V21211Y526": {
+        color: "azul",
+        size: 42,
+        imageSquare: "20_square-min.jpg",
+        stock: 10,
+      },
+      "9898KI89127": {
+        color: "rojo",
+        size: 43,
+        imageSquare: "20_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "10_large-min.jpg",
+    imageSquare: "20_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Scarpa Spin Ultra",
+      en: "Scarpa Spin Ultra",
+    },
+    description: {
+      es: "Zapatillas de trail Scarpa Spin Ultra",
+      en: "Scarpa Spin Ultra trail shoes",
+    },
+    price: {
+      EUR: 135,
+      DOLLAR: 165,
+    },
+    sku: {
+      "JU67676128": {
+        color: "negro",
+        size: 41,
+        imageSquare: "11_square-min.jpg",
+        stock: 8,
+      },
+      "KI89898129": {
+        color: "verde",
+        size: 42,
+        imageSquare: "11_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "11_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Dynafit Alpine Pro",
+      en: "Dynafit Alpine Pro",
+    },
+    description: {
+      es: "Zapatillas de trail Dynafit Alpine Pro",
+      en: "Dynafit Alpine Pro trail shoes",
+    },
+    price: {
+      EUR: 125,
+      DOLLAR: 155,
+    },
+    sku: {
+      "LO34343130": {
+        color: "negro",
+        size: 40,
+        imageSquare: "12_square-min.jpg",
+        stock: 9,
+      },
+      "NP78787131": {
+        color: "naranja",
+        size: 41,
+        imageSquare: "12_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "12_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Zoom Pegasus",
+      en: "Nike Zoom Pegasus",
+    },
+    description: {
+      es: "Zapatillas Nike Zoom Pegasus",
+      en: "Nike Zoom Pegasus shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 145,
+    },
+    sku: {
+      "QA12121133": {
+        color: "azul",
+        size: 42,
+        imageSquare: "13_square-min.jpg",
+        stock: 6,
+      },
+      "9AQ8989132": {
+        color: "negro",
+        size: 41,
+        imageSquare: "13_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "13_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Hoka Speedgoat",
+      en: "Hoka Speedgoat",
+    },
+    description: {
+      es: "Zapatillas de trail Hoka Speedgoat",
+      en: "Hoka Speedgoat trail shoes",
+    },
+    price: {
+      EUR: 150,
+      DOLLAR: 180,
+    },
+    sku: {
+      "DF23232134": {
+        color: "gris",
+        size: 41,
+        imageSquare: "14_square-min.jpg",
+        stock: 10,
+      },
+      "FD54545135": {
+        color: "verde",
+        size: 42,
+        imageSquare: "14_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "14_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Salewa Ultra Train",
+      en: "Salewa Ultra Train",
+    },
+    description: {
+      es: "Zapatillas de trail Salewa Ultra Train",
+      en: "Salewa Ultra Train trail shoes",
+    },
+    price: {
+      EUR: 135,
+      DOLLAR: 165,
+    },
+    sku: {
+      "7VC87871V37": {
+        color: "azul",
+        size: 41,
+        imageSquare: "15_square-min.jpg",
+        stock: 9,
+      },
+      "VX89898138": {
+        color: "amarillo",
+        size: 42,
+        imageSquare: "15_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "15_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Adidas Terrex",
+      en: "Adidas Terrex",
+    },
+    description: {
+      es: "Zapatillas de trail running Adidas Terrex",
+      en: "Adidas Terrex trail running shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 140,
+    },
+    sku: {
+      "XV45454139": {
+        color: "negro",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 9,
+      },
+      "5VX6565140": {
+        color: "verde",
+        size: 43,
+        imageSquare: "16_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "16_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike Free RN",
+      en: "Nike Free RN",
+    },
+    description: {
+      es: "Zapatillas minimalistas Nike Free RN",
+      en: "Nike Free RN minimalist shoes",
+    },
+    price: {
+      EUR: 95,
+      DOLLAR: 120,
+    },
+    sku: {
+      "2XX1212142": {
+        color: "rosa",
+        size: 41,
+        imageSquare: "17_square-min.jpg",
+        stock: 7,
+      },
+      "878781VBB": {
+        color: "blanco",
+        size: 40,
+        imageSquare: "17_square-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "17_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Under Armour Curry",
+      en: "Under Armour Curry",
+    },
+    description: {
+      es: "Zapatillas de baloncesto Under Armour Curry",
+      en: "Under Armour Curry basketball shoes",
+    },
+    price: {
+      EUR: 140,
+      DOLLAR: 170,
+    },
+    sku: {
+      "101FFFFAA": {
+        color: "negro",
+        size: 44,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+      "9FCA12312A": {
+        color: "azul",
+        size: 43,
+        imageSquare: "18_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "18_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Puma RS-X",
+      en: "Puma RS-X",
+    },
+    description: {
+      es: "Zapatillas deportivas Puma RS-X",
+      en: "Puma RS-X sports shoes",
+    },
+    price: {
+      EUR: 105,
+      DOLLAR: 130,
+    },
+    sku: {
+      "1313A1145": {
+        color: "blanco",
+        size: 39,
+        imageSquare: "19_square-min.jpg",
+        stock: 12,
+      },
+      "1A41A41146": {
+        color: "morado",
+        size: 40,
+        imageSquare: "19_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "19_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "New Balance 880",
+      en: "New Balance 880",
+    },
+    description: {
+      es: "Zapatillas de running New Balance 880",
+      en: "New Balance 880 running shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "1C51511FD47": {
+        color: "gris",
+        size: 42,
+        imageSquare: "20_square-min.jpg",
+        stock: 10,
+      },
+      "1C6161148C": {
+        color: "negro",
+        size: 43,
+        imageSquare: "20_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "20_large-min.jpg",
+    imageSquare: "20_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Skechers Go Run",
+      en: "Skechers Go Run",
+    },
+    description: {
+      es: "Zapatillas de running Skechers Go Run",
+      en: "Skechers Go Run running shoes",
+    },
+    price: {
+      EUR: 85,
+      DOLLAR: 105,
+    },
+    sku: {
+      "17D171D150": {
+        color: "negro",
+        size: 41,
+        imageSquare: "11_square-min.jpg",
+        stock: 11,
+      },
+      "1A8181W151": {
+        color: "rosa",
+        size: 42,
+        imageSquare: "11_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 20,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Hoka Clifton",
+      en: "Hoka Clifton",
+    },
+    description: {
+      es: "Zapatillas de running Hoka Clifton",
+      en: "Hoka Clifton running shoes",
+    },
+    price: {
+      EUR: 125,
+      DOLLAR: 155,
+    },
+    sku: {
+      "W191911W52": {
+        color: "azul",
+        size: 43,
+        imageSquare: "12_square-min.jpg",
+        stock: 8,
+      },
+      "20QA2021A53": {
+        color: "blanco",
+        size: 44,
+        imageSquare: "12_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Brooks Glycerin",
+      en: "Brooks Glycerin",
+    },
+    description: {
+      es: "Zapatillas de running Brooks Glycerin",
+      en: "Brooks Glycerin running shoes",
+    },
+    price: {
+      EUR: 135,
+      DOLLAR: 165,
+    },
+    sku: {
+      "2Q121W2Q154": {
+        color: "negro",
+        size: 40,
+        imageSquare: "13_square-min.jpg",
+        stock: 7,
+      },
+      "22V22QZ21A55": {
+        color: "gris",
+        size: 41,
+        imageSquare: "13_square-min.jpg",
+        stock: 10,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Saucony Endorphin",
+      en: "Saucony Endorphin",
+    },
+    description: {
+      es: "Zapatillas de running Saucony Endorphin",
+      en: "Saucony Endorphin running shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 135,
+    },
+    sku: {
+      "23232ASDA156": {
+        color: "blanco",
+        size: 42,
+        imageSquare: "14_square-min.jpg",
+        stock: 9,
+      },
+      "242412EDA2157": {
+        color: "naranja",
+        size: 43,
+        imageSquare: "14_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Altra Torin",
+      en: "Altra Torin",
+    },
+    description: {
+      es: "Zapatillas de running Altra Torin",
+      en: "Altra Torin running shoes",
+    },
+    price: {
+      EUR: 105,
+      DOLLAR: 130,
+    },
+    sku: {
+      "2525212EAA158": {
+        color: "azul",
+        size: 39,
+        imageSquare: "15_square-min.jpg",
+        stock: 12,
+      },
+      "AAC26262159": {
+        color: "negro",
+        size: 40,
+        imageSquare: "15_square-min.jpg",
+        stock: 5,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Topo Athletic Phantom",
+      en: "Topo Athletic Phantom",
+    },
+    description: {
+      es: "Zapatillas de running Topo Athletic Phantom",
+      en: "Topo Athletic Phantom running shoes",
+    },
+    price: {
+      EUR: 120,
+      DOLLAR: 150,
+    },
+    sku: {
+      "ACA27272160": {
+        color: "gris",
+        size: 41,
+        imageSquare: "16_square-min.jpg",
+        stock: 8,
+      },
+      "2ADA8282161": {
+        color: "rojo",
+        size: 42,
+        imageSquare: "16_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: {
+      es: "On Running Cloudflow",
+      en: "On Running Cloudflow",
+    },
+    description: {
+      es: "Zapatillas de running On Running Cloudflow",
+      en: "On Running Cloudflow running shoes",
+    },
+    price: {
+      EUR: 135,
+      DOLLAR: 165,
+    },
+    sku: {
+      "292A92163FA": {
+        color: "blanco",
+        size: 43,
+        imageSquare: "17_square-min.jpg",
+        stock: 6,
+      },
+      "30303AQA111": {
+        color: "negro",
+        size: 44,
+        imageSquare: "17_square-min.jpg",
+        stock: 9,
+      },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Salomon Sense Ride",
+      en: "Salomon Sense Ride",
+    },
+    description: {
+      es: "Zapatillas de trail running Salomon Sense Ride",
+      en: "Salomon Sense Ride trail running shoes",
+    },
+    price: {
+      EUR: 115,
+      DOLLAR: 140,
+    },
+    sku: {
+      "313131AAT64": {
+        color: "verde",
+        size: 40,
+        imageSquare: "18_square-min.jpg",
+        stock: 10,
+      },
+      "3232E1A3165": {
+        color: "azul",
+        size: 41,
+        imageSquare: "18_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Munich CLIK",
+      en: "Munich CLIK",
+    },
+    description: {
+      es: "Zapatillas de moda Munich CLIK",
+      en: "Munich CLIK moda shoes",
+    },
+    price: {
+      EUR: 110,
+      DOLLAR: 115,
+    },
+    sku: {
+      "313131VAA66": {
+        color: "verde",
+        size: 37,
+        imageSquare: "18_square-min.jpg",
+        stock: 10,
+      },
+      "3232R31R6R7": {
+        color: "azul",
+        size: 38,
+        imageSquare: "18_square-min.jpg",
+        stock: 8,
+      },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Nike React",
+      en: "Nike React",
+    },
+    description: {
+      es: "Zapatillas Nike React",
+      en: "Nike React shoes",
+    },
+    price: {
+      EUR: 130,
+      DOLLAR: 160,
+    },
+    sku: {
+      "4A343A41168": {
+        color: "negro",
+        size: 39,
+        imageSquare: "19_square-min.jpg",
+        stock: 9,
+      },
+      "45A454S1169": {
+        color: "blanco",
+        size: 40,
+        imageSquare: "19_square-min.jpg",
+        stock: 7,
+      },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: {
+      es: "Adidas Stan Smith",
+      en: "Adidas Stan Smith",
+    },
+    description: {
+      es: "Zapatillas Adidas Stan Smith",
+      en: "Adidas Stan Smith shoes",
+    },
+    price: {
+      EUR: 100,
+      DOLLAR: 120,
+    },
+    sku: {
+      "51651651E70": {
+        color: "blanco",
+        size: 41,
+        imageSquare: "20_square-min.jpg",
+        stock: 8,
+      },
+      "67676312171": {
+        color: "verde",
+        size: 42,
+        imageSquare: "20_square-min.jpg",
+        stock: 6,
+      },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "20_square-min.jpg",
+  },
+  {
+    title: { es: "Converse Chuck Taylor", en: "Converse Chuck Taylor" },
+    description: { es: "Zapatillas Converse Chuck Taylor", en: "Converse Chuck Taylor shoes" },
+    price: { EUR: 55, DOLLAR: 70 },
+    sku: {
+      "7F2727FF172": { color: "negro", size: 40, imageSquare: "01_square_v1-min.jpg", stock: 15 },
+      "7F737F17AF3": { color: "blanco", size: 41, imageSquare: "02_square_v1-min.jpg", stock: 12 },
+    },
+    stock: 27,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: { es: "Vans Slip-On", en: "Vans Slip-On" },
+    description: { es: "Zapatillas sin cordones Vans Slip-On", en: "Vans Slip-On shoes" },
+    price: { EUR: 60, DOLLAR: 75 },
+    sku: {
+      "Q7474Q7A174": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 8 },
+      "75A75717VV5": { color: "cuadros", size: 43, imageSquare: "04_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Dr. Martens 1460", en: "Dr. Martens 1460" },
+    description: { es: "Botas Dr. Martens 1460", en: "Dr. Martens 1460 boots" },
+    price: { EUR: 160, DOLLAR: 195 },
+    sku: {
+      "7V6767V176": { color: "negro", size: 41, imageSquare: "05_square-min.jpg", stock: 5 },
+      "77VV777V177": { color: "cereza", size: 42, imageSquare: "01_square_v1-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+
+  {
+    title: { es: "Converse Chuck Taylor", en: "Converse Chuck Taylor" },
+    description: { es: "Zapatillas Converse Chuck Taylor", en: "Converse Chuck Taylor shoes" },
+    price: { EUR: 55, DOLLAR: 70 },
+    sku: {
+      "7272Y717I2": { color: "negro", size: 40, imageSquare: "17_square-min.jpg", stock: 15 },
+      "73737UO173": { color: "blanco", size: 41, imageSquare: "18_square-min.jpg", stock: 12 },
+    },
+    stock: 27,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: { es: "Vans Slip-On", en: "Vans Slip-On" },
+    description: { es: "Zapatillas sin cordones Vans Slip-On", en: "Vans Slip-On shoes" },
+    price: { EUR: 60, DOLLAR: 75 },
+    sku: {
+      "AA74747174": { color: "negro", size: 42, imageSquare: "08_square-min.jpg", stock: 8 },
+      "AA75757175": { color: "cuadros", size: 43, imageSquare: "09_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Dr. Martens 1460", en: "Dr. Martens 1460" },
+    description: { es: "Botas Dr. Martens 1460", en: "Dr. Martens 1460 boots" },
+    price: { EUR: 160, DOLLAR: 195 },
+    sku: {
+      "VG76767176": { color: "negro", size: 41, imageSquare: "13_square-min.jpg", stock: 5 },
+      "VG77777177": { color: "cereza", size: 42, imageSquare: "13_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Nike Blazer", en: "Nike Blazer" },
+    description: { es: "Zapatillas Nike Blazer", en: "Nike Blazer shoes" },
+    price: { EUR: 90, DOLLAR: 110 },
+    sku: {
+      "BG11111172": { color: "blanco", size: 42, imageSquare: "13_square-min.jpg", stock: 8 },
+      "BH22222273": { color: "negro", size: 43, imageSquare: "13_square-min.jpg", stock: 5 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Superstar", en: "Adidas Superstar" },
+    description: { es: "Zapatillas Adidas Superstar", en: "Adidas Superstar shoes" },
+    price: { EUR: 80, DOLLAR: 100 },
+    sku: {
+      "NH33333374": { color: "blanco", size: 41, imageSquare: "01_square_v1-min.jpg", stock: 12 },
+      "NM44444475": { color: "negro", size: 42, imageSquare: "01_square_v2-min.jpg", stock: 10 },
+    },
+    stock: 22,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "01_square_v1-min.jpg",
+  },
+  {
+    title: { es: "Puma Cali", en: "Puma Cali" },
+    description: { es: "Zapatillas Puma Cali", en: "Puma Cali shoes" },
+    price: { EUR: 70, DOLLAR: 85 },
+    sku: {
+      "1A55555576": { color: "blanco", size: 38, imageSquare: "02_square-min.jpg", stock: 7 },
+      "D666S66677": { color: "rosa", size: 39, imageSquare: "02_square-min.jpg", stock: 9 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Nike Air Force 1", en: "Nike Air Force 1" },
+    description: { es: "Zapatillas icónicas Nike Air Force 1", en: "Iconic Nike Air Force 1 shoes" },
+    price: { EUR: 100, DOLLAR: 120 },
+    sku: {
+      "D94949F184": { color: "blanco", size: 41, imageSquare: "02_square-min.jpg", stock: 10 },
+      "FA95959185": { color: "negro", size: 42, imageSquare: "07_square-min.jpg", stock: 8 },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Stan Smith", en: "Adidas Stan Smith" },
+    description: { es: "Zapatillas clásicas Adidas Stan Smith", en: "Classic Adidas Stan Smith shoes" },
+    price: { EUR: 85, DOLLAR: 105 },
+    sku: {
+      "96196FS9186": { color: "blanco", size: 40, imageSquare: "11_square-min.jpg", stock: 12 },
+      "S9179279187": { color: "verde", size: 41, imageSquare: "15_square-min.jpg", stock: 9 },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: { es: "Puma RS-X3", en: "Puma RS-X3" },
+    description: { es: "Zapatillas deportivas Puma RS-X3", en: "Puma RS-X3 sports shoes" },
+    price: { EUR: 110, DOLLAR: 135 },
+    sku: {
+      "9898191FF88": { color: "negro", size: 42, imageSquare: "18_square-min.jpg", stock: 7 },
+      "99SV99918S9": { color: "blanco", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: { es: "Reebok Club C 85", en: "Reebok Club C 85" },
+    description: { es: "Zapatillas clásicas Reebok Club C 85", en: "Reebok Club C 85 classic shoes" },
+    price: { EUR: 70, DOLLAR: 85 },
+    sku: {
+      "010C1AA0190": { color: "blanco", size: 40, imageSquare: "02_square-min.jpg", stock: 14 },
+      "0202V01A91": { color: "verde", size: 41, imageSquare: "08_square-min.jpg", stock: 11 },
+    },
+    stock: 25,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Converse One Star", en: "Converse One Star" },
+    description: { es: "Zapatillas Converse One Star", en: "Converse One Star shoes" },
+    price: { EUR: 65, DOLLAR: 80 },
+    sku: {
+      "0CS303C0192": { color: "negro", size: 42, imageSquare: "12_square-min.jpg", stock: 9 },
+      "0A404AA0193": { color: "amarillo", size: 43, imageSquare: "16_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Vans Authentic", en: "Vans Authentic" },
+    description: { es: "Zapatillas Vans Authentic", en: "Vans Authentic shoes" },
+    price: { EUR: 60, DOLLAR: 75 },
+    sku: {
+      "0R505R01F94": { color: "negro", size: 39, imageSquare: "06_square-min.jpg", stock: 10 },
+      "06F060F195": { color: "cuadros", size: 40, imageSquare: "14_square-min.jpg", stock: 8 },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: { es: "New Balance 327", en: "New Balance 327" },
+    description: { es: "Zapatillas New Balance 327", en: "New Balance 327 shoes" },
+    price: { EUR: 95, DOLLAR: 115 },
+    sku: {
+      "07070T19H6": { color: "gris", size: 41, imageSquare: "07_square-min.jpg", stock: 11 },
+      "08080G197H": { color: "naranja", size: 42, imageSquare: "10_square-min.jpg", stock: 13 },
+    },
+    stock: 24,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Fila MB", en: "Fila MB" },
+    description: { es: "Zapatillas Fila MB", en: "Fila MB shoes" },
+    price: { EUR: 80, DOLLAR: 100 },
+    sku: {
+      "09R0901G9R8": { color: "blanco", size: 43, imageSquare: "03_square-min.jpg", stock: 6 },
+      "1F0100G19K9": { color: "negro", size: 44, imageSquare: "09_square-min.jpg", stock: 7 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Asics Gel-Lyte III", en: "Asics Gel-Lyte III" },
+    description: { es: "Zapatillas Asics Gel-Lyte III", en: "Asics Gel-Lyte III shoes" },
+    price: { EUR: 110, DOLLAR: 135 },
+    sku: {
+      "1D11A10A200": { color: "morado", size: 40, imageSquare: "11_square-min.jpg", stock: 8 },
+      "1C21C20201": { color: "azul", size: 41, imageSquare: "17_square-min.jpg", stock: 9 },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: { es: "Saucony Jazz Original", en: "Saucony Jazz Original" },
+    description: { es: "Zapatillas Saucony Jazz Original", en: "Saucony Jazz Original shoes" },
+    price: { EUR: 75, DOLLAR: 95 },
+    sku: {
+      "131A302A02": { color: "gris", size: 42, imageSquare: "13_square-min.jpg", stock: 10 },
+      "141402C0S3": { color: "beige", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Diadora Heritage", en: "Diadora Heritage" },
+    description: { es: "Zapatillas Diadora Heritage", en: "Diadora Heritage shoes" },
+    price: { EUR: 90, DOLLAR: 110 },
+    sku: {
+      "1515AC0204A": { color: "blanco", size: 38, imageSquare: "08_square-min.jpg", stock: 12 },
+      "161CCC602C05": { color: "azul", size: 39, imageSquare: "18_square-min.jpg", stock: 8 },
+    },
+    stock: 20,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Nike Dunk Low", en: "Nike Dunk Low" },
+    description: { es: "Zapatillas Nike Dunk Low", en: "Nike Dunk Low shoes" },
+    price: { EUR: 110, DOLLAR: 135 },
+    sku: {
+      "17X1A702S06": { color: "negro", size: 41, imageSquare: "06_square-min.jpg", stock: 7 },
+      "181AA80207": { color: "blanco", size: 42, imageSquare: "12_square-min.jpg", stock: 9 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Forum", en: "Adidas Forum" },
+    description: { es: "Zapatillas Adidas Forum", en: "Adidas Forum shoes" },
+    price: { EUR: 95, DOLLAR: 115 },
+    sku: {
+      "191902TR08": { color: "blanco", size: 43, imageSquare: "04_square-min.jpg", stock: 11 },
+      "20200RY209": { color: "azul", size: 44, imageSquare: "12_square-min.jpg", stock: 9 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: { es: "Puma Future Rider", en: "Puma Future Rider" },
+    description: { es: "Zapatillas deportivas Puma Future Rider", en: "Puma Future Rider sports shoes" },
+    price: { EUR: 100, DOLLAR: 125 },
+    sku: {
+      "21210BGB210": { color: "negro", size: 40, imageSquare: "09_square-min.jpg", stock: 8 },
+      "22220WCA211": { color: "rosa", size: 41, imageSquare: "13_square-min.jpg", stock: 10 },
+    },
+    stock: 18,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "09_square-min.jpg",
+  },
+  {
+    title: { es: "Reebok Instapump Fury", en: "Reebok Instapump Fury" },
+    description: { es: "Zapatillas futuristas Reebok Instapump Fury", en: "Reebok Instapump Fury futuristic shoes" },
+    price: { EUR: 150, DOLLAR: 185 },
+    sku: {
+      "23Q23S0A212": { color: "negro", size: 42, imageSquare: "17_square-min.jpg", stock: 6 },
+      "24ZZ240A213": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 7 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: { es: "Converse Jack Purcell", en: "Converse Jack Purcell" },
+    description: { es: "Zapatillas minimalistas Converse Jack Purcell", en: "Converse Jack Purcell minimalist shoes" },
+    price: { EUR: 70, DOLLAR: 85 },
+    sku: {
+      "252502HJ1I4": { color: "blanco", size: 39, imageSquare: "05_square-min.jpg", stock: 12 },
+      "262602V1IP5": { color: "azul marino", size: 40, imageSquare: "10_square-min.jpg", stock: 9 },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "Vans Sk8-Hi", en: "Vans Sk8-Hi" },
+    description: { es: "Zapatillas altas Vans Sk8-Hi", en: "Vans Sk8-Hi high-top shoes" },
+    price: { EUR: 75, DOLLAR: 95 },
+    sku: {
+      "2Q727A02A16": { color: "negro", size: 41, imageSquare: "15_square-min.jpg", stock: 8 },
+      "2AA8A280217": { color: "cuadros", size: 42, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: { es: "Dr. Martens Jadon", en: "Dr. Martens Jadon" },
+    description: { es: "Botas con plataforma Dr. Martens Jadon", en: "Dr. Martens Jadon platform boots" },
+    price: { EUR: 180, DOLLAR: 220 },
+    sku: {
+      "2W9290W218": { color: "negro", size: 38, imageSquare: "03_square-min.jpg", stock: 5 },
+      "30A30Q0219": { color: "blanco", size: 39, imageSquare: "07_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Timberland 6-Inch Premium", en: "Timberland 6-Inch Premium" },
+    description: { es: "Botas clásicas Timberland 6-Inch Premium", en: "Timberland 6-Inch Premium classic boots" },
+    price: { EUR: 190, DOLLAR: 230 },
+    sku: {
+      "31310C2A2V0": { color: "amarillo", size: 42, imageSquare: "12_square-min.jpg", stock: 7 },
+      "323202CGG21": { color: "marrón", size: 43, imageSquare: "18_square-min.jpg", stock: 9 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Lacoste Carnaby Evo", en: "Lacoste Carnaby Evo" },
+    description: { es: "Zapatillas casuales Lacoste Carnaby Evo", en: "Lacoste Carnaby Evo casual shoes" },
+    price: { EUR: 80, DOLLAR: 100 },
+    sku: {
+      "33C33C0A22F2": { color: "blanco", size: 41, imageSquare: "04_square-min.jpg", stock: 12 },
+      "34343AC0F223": { color: "verde", size: 42, imageSquare: "11_square-min.jpg", stock: 9 },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "04_square-min.jpg",
+  },
+  {
+    title: { es: "Karhu Fusion 2.0", en: "Karhu Fusion 2.0" },
+    description: { es: "Zapatillas deportivas Karhu Fusion 2.0", en: "Karhu Fusion 2.0 sports shoes" },
+    price: { EUR: 110, DOLLAR: 135 },
+    sku: {
+      "3CA53502A24": { color: "negro", size: 43, imageSquare: "16_square-min.jpg", stock: 7 },
+      "3AA6360C225": { color: "azul", size: 44, imageSquare: "08_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: { es: "Veja V-10", en: "Veja V-10" },
+    description: { es: "Zapatillas sostenibles Veja V-10", en: "Veja V-10 sustainable shoes" },
+    price: { EUR: 120, DOLLAR: 145 },
+    sku: {
+      "373702IU26": { color: "blanco", size: 39, imageSquare: "03_square-min.jpg", stock: 10 },
+      "38380K22M7": { color: "marrón", size: 40, imageSquare: "13_square-min.jpg", stock: 11 },
+    },
+    stock: 21,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Filling Pieces Low Top", en: "Filling Pieces Low Top" },
+    description: { es: "Zapatillas de lujo Filling Pieces Low Top", en: "Filling Pieces Low Top luxury shoes" },
+    price: { EUR: 200, DOLLAR: 240 },
+    sku: {
+      "393T90J228": { color: "negro", size: 42, imageSquare: "06_square-min.jpg", stock: 5 },
+      "40T40022K9": { color: "blanco", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "06_square-min.jpg",
+  },
+  {
+    title: { es: "Golden Goose Superstar", en: "Golden Goose Superstar" },
+    description: { es: "Zapatillas de lujo Golden Goose Superstar", en: "Golden Goose Superstar luxury shoes" },
+    price: { EUR: 450, DOLLAR: 550 },
+    sku: {
+      "41410C23C0": { color: "blanco", size: 39, imageSquare: "07_square-min.jpg", stock: 3 },
+      "424202AA31": { color: "plata", size: 40, imageSquare: "11_square-min.jpg", stock: 2 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Axel Arigato Clean 90", en: "Axel Arigato Clean 90" },
+    description: { es: "Zapatillas minimalistas Axel Arigato Clean 90", en: "Axel Arigato Clean 90 minimalist shoes" },
+    price: { EUR: 180, DOLLAR: 220 },
+    sku: {
+      "4343A02A3A2": { color: "blanco", size: 41, imageSquare: "12_square-min.jpg", stock: 8 },
+      "44440SQ2S33": { color: "beige", size: 42, imageSquare: "18_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Common Projects Achilles", en: "Common Projects Achilles" },
+    description: { es: "Zapatillas de lujo Common Projects Achilles", en: "Common Projects Achilles luxury shoes" },
+    price: { EUR: 350, DOLLAR: 420 },
+    sku: {
+      "4C545Y0C234": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 4 },
+      "4A6460V2A5": { color: "negro", size: 44, imageSquare: "09_square-min.jpg", stock: 5 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Yeezy Boost 350 V2", en: "Yeezy Boost 350 V2" },
+    description: { es: "Zapatillas Yeezy Boost 350 V2", en: "Yeezy Boost 350 V2 shoes" },
+    price: { EUR: 220, DOLLAR: 260 },
+    sku: {
+      "4T74702YT36": { color: "beige", size: 41, imageSquare: "05_square-min.jpg", stock: 3 },
+      "484T80E23E7": { color: "negro", size: 42, imageSquare: "14_square-min.jpg", stock: 2 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "Balenciaga Triple S", en: "Balenciaga Triple S" },
+    description: { es: "Zapatillas Balenciaga Triple S", en: "Balenciaga Triple S shoes" },
+    price: { EUR: 800, DOLLAR: 950 },
+    sku: {
+      "4W94902T38V": { color: "blanco", size: 40, imageSquare: "08_square-min.jpg", stock: 4 },
+      "W50500E239B": { color: "negro", size: 41, imageSquare: "12_square-min.jpg", stock: 3 },
+    },
+    stock: 7,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Off-White x Nike Air Jordan 1", en: "Off-White x Nike Air Jordan 1" },
+    description: { es: "Zapatillas Off-White x Nike Air Jordan 1", en: "Off-White x Nike Air Jordan 1 shoes" },
+    price: { EUR: 1200, DOLLAR: 1400 },
+    sku: {
+      "5151V024V0": { color: "blanco", size: 42, imageSquare: "15_square-min.jpg", stock: 2 },
+      "52G52024T1": { color: "negro", size: 43, imageSquare: "19_square-min.jpg", stock: 1 },
+    },
+    stock: 3,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: { es: "Gucci Ace", en: "Gucci Ace" },
+    description: { es: "Zapatillas Gucci Ace", en: "Gucci Ace shoes" },
+    price: { EUR: 650, DOLLAR: 780 },
+    sku: {
+      "535W302R2T": { color: "blanco", size: 39, imageSquare: "02_square-min.jpg", stock: 5 },
+      "54EW540243": { color: "verde", size: 40, imageSquare: "06_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Prada Cloudbust Thunder", en: "Prada Cloudbust Thunder" },
+    description: { es: "Zapatillas Prada Cloudbust Thunder", en: "Prada Cloudbust Thunder shoes" },
+    price: { EUR: 750, DOLLAR: 900 },
+    sku: {
+      "55G5502H44O": { color: "negro", size: 41, imageSquare: "10_square-min.jpg", stock: 3 },
+      "56560JJ2N45": { color: "blanco", size: 42, imageSquare: "14_square-min.jpg", stock: 2 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "10_square-min.jpg",
+  },
+  {
+    title: { es: "Alexander McQueen Oversized", en: "Alexander McQueen Oversized" },
+    description: { es: "Zapatillas Alexander McQueen Oversized", en: "Alexander McQueen Oversized shoes" },
+    price: { EUR: 500, DOLLAR: 600 },
+    sku: {
+      "57P5702P46P": { color: "blanco", size: 38, imageSquare: "17_square-min.jpg", stock: 4 },
+      "585O80O2P47": { color: "negro", size: 39, imageSquare: "03_square-min.jpg", stock: 3 },
+    },
+    stock: 7,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "17_square-min.jpg",
+  },
+  {
+    title: { es: "Maison Margiela Replica", en: "Maison Margiela Replica" },
+    description: { es: "Zapatillas Maison Margiela Replica", en: "Maison Margiela Replica shoes" },
+    price: { EUR: 550, DOLLAR: 660 },
+    sku: {
+      "59O590248P": { color: "blanco", size: 40, imageSquare: "05_square-min.jpg", stock: 2 },
+      "606O0024P9": { color: "gris", size: 41, imageSquare: "09_square-min.jpg", stock: 3 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "Rick Owens DRKSHDW", en: "Rick Owens DRKSHDW" },
+    description: { es: "Zapatillas Rick Owens DRKSHDW", en: "Rick Owens DRKSHDW shoes" },
+    price: { EUR: 600, DOLLAR: 720 },
+    sku: {
+      "6161A02QS50": { color: "negro", size: 42, imageSquare: "13_square-min.jpg", stock: 4 },
+      "626C2025V1": { color: "blanco", size: 43, imageSquare: "17_square-min.jpg", stock: 2 },
+    },
+    stock: 6,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Saint Laurent Court Classic", en: "Saint Laurent Court Classic" },
+    description: { es: "Zapatillas Saint Laurent Court Classic", en: "Saint Laurent Court Classic shoes" },
+    price: { EUR: 500, DOLLAR: 600 },
+    sku: {
+      "6Q363025A2": { color: "blanco", size: 38, imageSquare: "02_square-min.jpg", stock: 5 },
+      "646J4025J3": { color: "negro", size: 39, imageSquare: "06_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Valentino Garavani Rockstud", en: "Valentino Garavani Rockstud" },
+    description: { es: "Zapatillas Valentino Garavani Rockstud", en: "Valentino Garavani Rockstud shoes" },
+    price: { EUR: 700, DOLLAR: 840 },
+    sku: {
+      "6GG5650T254": { color: "blanco", size: 40, imageSquare: "10_square-min.jpg", stock: 3 },
+      "666GS60T255": { color: "rojo", size: 41, imageSquare: "14_square-min.jpg", stock: 2 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "10_square-min.jpg",
+  },
+  {
+    title: { es: "Versace Chain Reaction", en: "Versace Chain Reaction" },
+    description: { es: "Zapatillas Versace Chain Reaction", en: "Versace Chain Reaction shoes" },
+    price: { EUR: 850, DOLLAR: 1020 },
+    sku: {
+      "676Q7025QG6": { color: "negro", size: 42, imageSquare: "18_square-min.jpg", stock: 4 },
+      "68680CCV257": { color: "dorado", size: 43, imageSquare: "04_square-min.jpg", stock: 3 },
+    },
+    stock: 7,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "18_square-min.jpg",
+  },
+  {
+    title: { es: "A Bathing Ape Bapesta", en: "A Bathing Ape Bapesta" },
+    description: { es: "Zapatillas A Bathing Ape Bapesta", en: "A Bathing Ape Bapesta shoes" },
+    price: { EUR: 300, DOLLAR: 360 },
+    sku: {
+      "696Q902C58": { color: "blanco", size: 42, imageSquare: "08_square-min.jpg", stock: 4 },
+      "7070C02A59": { color: "camuflaje", size: 43, imageSquare: "16_square-min.jpg", stock: 3 },
+    },
+    stock: 7,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Visvim FBT", en: "Visvim FBT" },
+    description: { es: "Botas Visvim FBT", en: "Visvim FBT boots" },
+    price: { EUR: 650, DOLLAR: 780 },
+    sku: {
+      "717102U6O0": { color: "marrón", size: 41, imageSquare: "02_square-min.jpg", stock: 2 },
+      "727202Y6I1": { color: "negro", size: 42, imageSquare: "10_square-min.jpg", stock: 3 },
+    },
+    stock: 5,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Nike SB Dunk Low", en: "Nike SB Dunk Low" },
+    description: { es: "Zapatillas de skate Nike SB Dunk Low", en: "Nike SB Dunk Low skate shoes" },
+    price: { EUR: 150, DOLLAR: 180 },
+    sku: {
+      "73J30J66LL2": { color: "azul", size: 43, imageSquare: "14_square-min.jpg", stock: 6 },
+      "74J402Y63JK": { color: "rojo", size: 44, imageSquare: "18_square-min.jpg", stock: 5 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: { es: "Clarks Wallabee", en: "Clarks Wallabee" },
+    description: { es: "Botines Clarks Wallabee", en: "Clarks Wallabee boots" },
+    price: { EUR: 130, DOLLAR: 155 },
+    sku: {
+      "111X111AQ90": { color: "beige", size: 42, imageSquare: "02_square-min.jpg", stock: 8 },
+      "22222S1X9A1": { color: "marrón", size: 43, imageSquare: "07_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Dr. Martens Chelsea", en: "Dr. Martens Chelsea" },
+    description: { es: "Botines Chelsea Dr. Martens", en: "Dr. Martens Chelsea boots" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "3H33V331HSA92": { color: "negro", size: 41, imageSquare: "12_square-min.jpg", stock: 9 },
+      "DD444H44XA193": { color: "marrón", size: 42, imageSquare: "16_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Red Wing Moc Toe", en: "Red Wing Moc Toe" },
+    description: { es: "Botas Red Wing Moc Toe", en: "Red Wing Moc Toe boots" },
+    price: { EUR: 280, DOLLAR: 330 },
+    sku: {
+      "55A5551DIN9V4": { color: "marrón", size: 43, imageSquare: "03_square-min.jpg", stock: 5 },
+      "66D666A1ABPP5": { color: "negro", size: 44, imageSquare: "08_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Timberland Earthkeepers", en: "Timberland Earthkeepers" },
+    description: { es: "Botas Timberland Earthkeepers", en: "Timberland Earthkeepers boots" },
+    price: { EUR: 170, DOLLAR: 200 },
+    sku: {
+      "77Q7O71PQ96": { color: "marrón", size: 40, imageSquare: "13_square-min.jpg", stock: 8 },
+      "888X8OO8197": { color: "verde", size: 41, imageSquare: "17_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Danner Mountain Light", en: "Danner Mountain Light" },
+    description: { es: "Botas de montaña Danner Mountain Light", en: "Danner Mountain Light hiking boots" },
+    price: { EUR: 350, DOLLAR: 410 },
+    sku: {
+      "99999198": { color: "marrón", size: 42, imageSquare: "05_square-min.jpg", stock: 5 },
+      "00000199": { color: "negro", size: 43, imageSquare: "10_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "Nike Air Zoom Alphafly NEXT%", en: "Nike Air Zoom Alphafly NEXT%" },
+    description: { es: "Zapatillas de running Nike Air Zoom Alphafly NEXT%", en: "Nike Air Zoom Alphafly NEXT% running shoes" },
+    price: { EUR: 250, DOLLAR: 300 },
+    sku: {
+      "01010QF20A0": { color: "blanco", size: 41, imageSquare: "02_square-min.jpg", stock: 6 },
+      "020202AF01": { color: "negro", size: 42, imageSquare: "06_square-min.jpg", stock: 7 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Adizero Adios Pro", en: "Adidas Adizero Adios Pro" },
+    description: { es: "Zapatillas de running Adidas Adizero Adios Pro", en: "Adidas Adizero Adios Pro running shoes" },
+    price: { EUR: 220, DOLLAR: 260 },
+    sku: {
+      "03A03S0A202V": { color: "rojo", size: 43, imageSquare: "11_square-min.jpg", stock: 8 },
+      "0404ASD02DASD03": { color: "azul", size: 44, imageSquare: "15_square-min.jpg", stock: 5 },
+    },
+    stock: 13,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: { es: "Saucony Endorphin Pro", en: "Saucony Endorphin Pro" },
+    description: { es: "Zapatillas de running Saucony Endorphin Pro", en: "Saucony Endorphin Pro running shoes" },
+    price: { EUR: 200, DOLLAR: 240 },
+    sku: {
+      "A0A5050ASR2S04": { color: "blanco", size: 40, imageSquare: "07_square-min.jpg", stock: 9 },
+      "06QA060ACFS205": { color: "negro", size: 41, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Hoka Carbon X", en: "Hoka Carbon X" },
+    description: { es: "Zapatillas de running Hoka Carbon X", en: "Hoka Carbon X running shoes" },
+    price: { EUR: 180, DOLLAR: 215 },
+    sku: {
+      "0707I0GP2C06": { color: "blanco", size: 42, imageSquare: "04_square-min.jpg", stock: 7 },
+      "080U8T0R2E07": { color: "negro", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "04_square-min.jpg",
+  },
+  {
+    title: { es: "Brooks Hyperion Elite", en: "Brooks Hyperion Elite" },
+    description: { es: "Zapatillas de running Brooks Hyperion Elite", en: "Brooks Hyperion Elite running shoes" },
+    price: { EUR: 210, DOLLAR: 250 },
+    sku: {
+      "09E0902E0U8": { color: "negro", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
+      "08E0702YYE7": { color: "azul", size: 41, imageSquare: "13_square-min.jpg", stock: 8 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Brooks Hyperion Elite", en: "Brooks Hyperion Elite" },
+    description: { es: "Zapatillas de running Brooks Hyperion Elite", en: "Brooks Hyperion Elite running shoes" },
+    price: { EUR: 210, DOLLAR: 250 },
+    sku: {
+      "0Y9090U2U08": { color: "negro", size: 40, imageSquare: "08_square-min.jpg", stock: 7 },
+      "10Y100Y2U09": { color: "azul", size: 41, imageSquare: "12_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "Skechers GOrun Razor 3 Hyper", en: "Skechers GOrun Razor 3 Hyper" },
+    description: { es: "Zapatillas de running Skechers GOrun Razor 3 Hyper", en: "Skechers GOrun Razor 3 Hyper running shoes" },
+    price: { EUR: 130, DOLLAR: 155 },
+    sku: {
+      "1U1110RR21U0": { color: "naranja", size: 42, imageSquare: "16_square-min.jpg", stock: 9 },
+      "1T21U2R0T211": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 6 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: { es: "Newton Gravity 10", en: "Newton Gravity 10" },
+    description: { es: "Zapatillas de running Newton Gravity 10", en: "Newton Gravity 10 running shoes" },
+    price: { EUR: 170, DOLLAR: 200 },
+    sku: {
+      "13R1302UO1Y2": { color: "azul", size: 44, imageSquare: "07_square-min.jpg", stock: 5 },
+      "1R41R40O2R13": { color: "negro", size: 45, imageSquare: "11_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Topo Athletic Fli-Lyte 3", en: "Topo Athletic Fli-Lyte 3" },
+    description: { es: "Zapatillas de running Topo Athletic Fli-Lyte 3", en: "Topo Athletic Fli-Lyte 3 running shoes" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "151EY502O14": { color: "rojo", size: 40, imageSquare: "15_square-min.jpg", stock: 8 },
+      "1TQ616I0215": { color: "verde", size: 41, imageSquare: "19_square-min.jpg", stock: 7 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: { es: "Altra Escalante 2.5", en: "Altra Escalante 2.5" },
+    description: { es: "Zapatillas de running Altra Escalante 2.5", en: "Altra Escalante 2.5 running shoes" },
+    price: { EUR: 130, DOLLAR: 155 },
+    sku: {
+      "1731Q702Q16": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 6 },
+      "1A818W0217": { color: "azul", size: 43, imageSquare: "09_square-min.jpg", stock: 9 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "On Running Cloudstratus", en: "On Running Cloudstratus" },
+    description: { es: "Zapatillas de running On Running Cloudstratus", en: "On Running Cloudstratus running shoes" },
+    price: { EUR: 160, DOLLAR: 190 },
+    sku: {
+      "19S1S190S218": { color: "blanco", size: 44, imageSquare: "13_square-min.jpg", stock: 7 },
+      "20A2XS002A19": { color: "gris", size: 45, imageSquare: "17_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Salming Trail 5", en: "Salming Trail 5" },
+    description: { es: "Zapatillas de trail running Salming Trail 5", en: "Salming Trail 5 trail running shoes" },
+    price: { EUR: 135, DOLLAR: 160 },
+    sku: {
+      "2121FC02WS20": { color: "negro", size: 41, imageSquare: "04_square-min.jpg", stock: 8 },
+      "22220S2BN2B1": { color: "verde", size: 42, imageSquare: "10_square-min.jpg", stock: 7 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "04_square-min.jpg",
+  },
+  {
+    title: { es: "Inov-8 Trailfly Ultra G 280", en: "Inov-8 Trailfly Ultra G 280" },
+    description: { es: "Zapatillas de trail running Inov-8 Trailfly Ultra G 280", en: "Inov-8 Trailfly Ultra G 280 trail running shoes" },
+    price: { EUR: 160, DOLLAR: 190 },
+    sku: {
+      "2E323R0BG222": { color: "negro", size: 43, imageSquare: "14_square-min.jpg", stock: 6 },
+      "2R42DD40F223": { color: "rojo", size: 44, imageSquare: "18_square-min.jpg", stock: 5 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "14_square-min.jpg",
+  },
+  {
+    title: { es: "Scott Kinabalu RC 2.0", en: "Scott Kinabalu RC 2.0" },
+    description: { es: "Zapatillas de trail running Scott Kinabalu RC 2.0", en: "Scott Kinabalu RC 2.0 trail running shoes" },
+    price: { EUR: 120, DOLLAR: 145 },
+    sku: {
+      "25X2V50224U": { color: "azul", size: 40, imageSquare: "02_square-min.jpg", stock: 9 },
+      "2626022CUYY5": { color: "verde", size: 41, imageSquare: "06_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Merrell Trail Glove 5", en: "Merrell Trail Glove 5" },
+    description: { es: "Zapatillas minimalistas Merrell Trail Glove 5", en: "Merrell Trail Glove 5 minimalist shoes" },
+    price: { EUR: 110, DOLLAR: 130 },
+    sku: {
+      "272S7YW02Y26": { color: "negro", size: 42, imageSquare: "11_square-min.jpg", stock: 8 },
+      "282802VVVN27": { color: "naranja", size: 43, imageSquare: "15_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "11_square-min.jpg",
+  },
+  {
+    title: { es: "Vivobarefoot Ra II", en: "Vivobarefoot Ra II" },
+    description: { es: "Zapatillas minimalistas Vivobarefoot Ra II", en: "Vivobarefoot Ra II minimalist shoes" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "2J929MJ022C8": { color: "negro", size: 44, imageSquare: "19_square-min.jpg", stock: 5 },
+      "3J0J002MMM29": { color: "marrón", size: 45, imageSquare: "03_square-min.jpg", stock: 4 },
+    },
+    stock: 9,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "19_square-min.jpg",
+  },
+  {
+    title: { es: "Salomon XA Pro 3D", en: "Salomon XA Pro 3D" },
+    description: { es: "Zapatillas de trail running Salomon XA Pro 3D", en: "Salomon XA Pro 3D trail running shoes" },
+    price: { EUR: 125, DOLLAR: 150 },
+    sku: {
+      "85850QYMM285": { color: "negro", size: 42, imageSquare: "08_square-min.jpg", stock: 7 },
+      "868R6S0H286": { color: "verde", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "08_square-min.jpg",
+  },
+  {
+    title: { es: "La Sportiva Kaptiva", en: "La Sportiva Kaptiva" },
+    description: { es: "Zapatillas de trail running La Sportiva Kaptiva", en: "La Sportiva Kaptiva trail running shoes" },
+    price: { EUR: 150, DOLLAR: 180 },
+    sku: {
+      "87870JMJ287": { color: "rojo", size: 41, imageSquare: "16_square-min.jpg", stock: 6 },
+      "8Y88J802YM88": { color: "azul", size: 42, imageSquare: "02_square-min.jpg", stock: 5 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "16_square-min.jpg",
+  },
+  {
+    title: { es: "Hoka Torrent 2", en: "Hoka Torrent 2" },
+    description: { es: "Zapatillas de trail running Hoka Torrent 2", en: "Hoka Torrent 2 trail running shoes" },
+    price: { EUR: 130, DOLLAR: 155 },
+    sku: {
+      "898N902MM89": { color: "negro", size: 43, imageSquare: "07_square-min.jpg", stock: 9 },
+      "90900YM290": { color: "naranja", size: 44, imageSquare: "11_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "05_large-min.jpg",
+    imageSquare: "07_square-min.jpg",
+  },
+  {
+    title: { es: "Brooks Cascadia 14", en: "Brooks Cascadia 14" },
+    description: { es: "Zapatillas de trail running Brooks Cascadia 14", en: "Brooks Cascadia 14 trail running shoes" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "9W19E102MUY91": { color: "gris", size: 40, imageSquare: "15_square-min.jpg", stock: 8 },
+      "9292T02YYYW92": { color: "azul", size: 41, imageSquare: "19_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "15_square-min.jpg",
+  },
+  {
+    title: { es: "Saucony Peregrine 10", en: "Saucony Peregrine 10" },
+    description: { es: "Zapatillas de trail running Saucony Peregrine 10", en: "Saucony Peregrine 10 trail running shoes" },
+    price: { EUR: 125, DOLLAR: 150 },
+    sku: {
+      "93O930YT2UM93": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 10 },
+      "949I4T02MY94": { color: "verde", size: 43, imageSquare: "09_square-min.jpg", stock: 7 },
+    },
+    stock: 17,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "03_square-min.jpg",
+  },
+  {
+    title: { es: "Altra Timp 3", en: "Altra Timp 3" },
+    description: { es: "Zapatillas de trail running Altra Timp 3", en: "Altra Timp 3 trail running shoes" },
+    price: { EUR: 135, DOLLAR: 160 },
+    sku: {
+      "95N95SSS0295": { color: "azul", size: 44, imageSquare: "13_square-min.jpg", stock: 8 },
+      "96M96AAA0296": { color: "rojo", size: 45, imageSquare: "17_square-min.jpg", stock: 6 },
+    },
+    stock: 14,
+    featured: true,
+    imageLarge: "01_large-min.jpg",
+    imageSquare: "13_square-min.jpg",
+  },
+  {
+    title: { es: "Topo Athletic Ultraventure 2", en: "Topo Athletic Ultraventure 2" },
+    description: { es: "Zapatillas de trail running Topo Athletic Ultraventure 2", en: "Topo Athletic Ultraventure 2 trail running shoes" },
+    price: { EUR: 140, DOLLAR: 165 },
+    sku: {
+      "9797A0298K7": { color: "gris", size: 40, imageSquare: "05_square-min.jpg", stock: 9 },
+      "989C8029,8": { color: "naranja", size: 41, imageSquare: "09_square-min.jpg", stock: 7 },
+    },
+    stock: 16,
+    featured: true,
+    imageLarge: "03_large-min.jpg",
+    imageSquare: "05_square-min.jpg",
+  },
+  {
+    title: { es: "On Running Cloudventure", en: "On Running Cloudventure" },
+    description: { es: "Zapatillas de trail running On Running Cloudventure", en: "On Running Cloudventure trail running shoes" },
+    price: { EUR: 150, DOLLAR: 180 },
+    sku: {
+      "C999902CC99": { color: "negro", size: 42, imageSquare: "12_square-min.jpg", stock: 6 },
+      "00A000A300": { color: "blanco", size: 43, imageSquare: "18_square-min.jpg", stock: 5 },
+    },
+    stock: 11,
+    featured: true,
+    imageLarge: "04_large-min.jpg",
+    imageSquare: "12_square-min.jpg",
+  },
+  {
+    title: { es: "Nike ZoomX Zegama", en: "Nike ZoomX Zegama" },
+    description: { es: "Zapatillas de trail running Nike ZoomX Zegama", en: "Nike ZoomX Zegama trail running shoes" },
+    price: { EUR: 160, DOLLAR: 190 },
+    sku: {
+      "0Y101A0301": { color: "rojo", size: 44, imageSquare: "02_square-min.jpg", stock: 7 },
+      "0Y20V20302": { color: "azul", size: 45, imageSquare: "06_square-min.jpg", stock: 8 },
+    },
+    stock: 15,
+    featured: true,
+    imageLarge: "02_large-min.jpg",
+    imageSquare: "02_square-min.jpg",
+  },
+  {
+    title: { es: "Adidas Terrex Agravic Ultra", en: "Adidas Terrex Agravic Ultra" },
+    description: { es: "Zapatillas de trail running Adidas Terrex Agravic Ultra", en: "Adidas Terrex Agravic Ultra trail running shoes" },
+    price: { EUR: 99, DOLLAR: 111 },
+    sku: {
+      "798215CC81": { color: "rojo", size: 44, imageSquare: "02_square-min.jpg", stock: 7 },
+      "2982158XX1": { color: "azul", size: 45, imageSquare: "06_square-min.jpg", stock: 8 },
     },
     stock: 15,
     featured: true,
