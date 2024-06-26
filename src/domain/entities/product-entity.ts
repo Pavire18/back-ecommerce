@@ -16,6 +16,7 @@ export interface IProduct {
   title: Record<string, string>;
   description: Record<string, string>;
   price: Record<string, number>;
+  skus: string[];
   sku: Record<string, { color: string; size: number; imageSquare: string; stock: number; }>;
   stock: number;
   category?: ObjectId;
@@ -39,6 +40,10 @@ const productSchema = new Schema<IProduct>(
     price: {
       type: Map,
       of: Number,
+      required: true,
+    },
+    skus: {
+      type: [String],
       required: true,
     },
     sku: {
@@ -72,5 +77,7 @@ const productSchema = new Schema<IProduct>(
     timestamps: true,
   }
 );
+
+productSchema.index({ skus: 1 });
 
 export const Product = mongoose.model<IProduct>("Product", productSchema);

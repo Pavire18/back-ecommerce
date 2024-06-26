@@ -30,7 +30,8 @@ async function populateBBDD(): Promise<void> {
     const productDocuments = productos.map((product) => new Product(product));
     for (let i = 0; i < productDocuments.length; i++) {
       const product = productDocuments[i];
-      product.category = categoryDocuments[randomNumber(categoryDocuments.length, 0)].id
+      product.category = categoryDocuments[randomNumber(categoryDocuments.length, 0)].id;
+      product.skus= [...Object.keys(JSON.parse(JSON.stringify(product.sku)))]
       await product.save();
     }
 

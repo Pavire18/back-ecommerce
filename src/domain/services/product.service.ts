@@ -45,17 +45,9 @@ export const getProductBySku = async (req: Request, res: Response, next: NextFun
   const skuId = req.params.skuId.toString();
 
   try {
-    const products: IProduct[] = await productOdm.getAllProducts(1, 0);
-    const filteredProducts = products.filter((product) => {
-      const skuKeys = Object.keys(JSON.parse(JSON.stringify(product.sku)));
-      if (skuKeys.includes(skuId)) {
-        return product;
-      }
-      return null;
-    });
-
-    if (filteredProducts?.length) {
-      res.json(filteredProducts);
+    const products = await productOdm.getProductBySku(skuId);
+    if (products?.length) {
+      res.json(products);
     } else {
       res.status(404).json({ message: "Products not found" });
     }
@@ -105,6 +97,6 @@ export const prductService = {
   getProducts,
   getProductsByCategory,
   getProductById,
-  getProductBySku,
-  getFeaturedProducts
+  getFeaturedProducts,
+  getProductBySku
 };

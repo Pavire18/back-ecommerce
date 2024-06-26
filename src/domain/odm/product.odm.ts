@@ -16,6 +16,11 @@ const getProductsByCategory = async (categoryId: string): Promise<any> => {
   return await Product.find({ category: categoryId }).populate("category");
 };
 
+const getProductBySku = async (skuId: string): Promise<any> => {
+  return await Product.find({ skus: skuId }).populate("category");
+};
+
+
 const getFeaturedProducts = async (page: number, limit: number): Promise<any> => {
   return await Product.find({ featured: true }).limit(limit)
     .skip((page - 1) * limit).populate("category");
@@ -31,5 +36,6 @@ export const productOdm = {
   getProductsByCategory,
   getProductById,
   getFeaturedProducts,
-  getFeaturedProductsCount
+  getFeaturedProductsCount,
+  getProductBySku
 }

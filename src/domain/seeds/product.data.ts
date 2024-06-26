@@ -14,6 +14,7 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
+    skus:[],
     sku: {
       "11111111": {
         color: "rojo",
@@ -64,6 +65,7 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
+    skus:[],
     sku: {
       "23131222": {
         color: "rojo",
@@ -96,6 +98,7 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 170,
     },
+    skus:[],
     sku: {
       "14545454": {
         color: "negro",
@@ -128,6 +131,7 @@ export const productos: IProduct[] = [
       EUR: 90,
       DOLLAR: 110,
     },
+    skus:[],
     sku: {
       "61676767": {
         color: "verde",
@@ -160,6 +164,7 @@ export const productos: IProduct[] = [
       EUR: 75,
       DOLLAR: 95,
     },
+    skus:[],
     sku: {
       "12321212": {
         color: "negro",
@@ -192,6 +197,7 @@ export const productos: IProduct[] = [
       EUR: 65,
       DOLLAR: 80,
     },
+    skus:[],
     sku: {
       "56566656": {
         color: "rojo",
@@ -224,6 +230,7 @@ export const productos: IProduct[] = [
       EUR: 70,
       DOLLAR: 85,
     },
+    skus:[],
     sku: {
       "23232393": {
         color: "negro",
@@ -256,6 +263,7 @@ export const productos: IProduct[] = [
       EUR: 80,
       DOLLAR: 100,
     },
+    skus:[],
     sku: {
       "89898919": {
         color: "gris",
@@ -288,6 +296,7 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
+    skus:[],
     sku: {
       "12121210": {
         color: "blanco",
@@ -320,6 +329,7 @@ export const productos: IProduct[] = [
       EUR: 85,
       DOLLAR: 105,
     },
+    skus:[],
     sku: {
       "21898989": {
         color: "blanco",
@@ -352,6 +362,7 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
+    skus:[],
     sku: {
       "98676767": {
         color: "gris",
@@ -384,6 +395,7 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
+    skus:[],
     sku: {
       "33121212": {
         color: "azul",
@@ -416,6 +428,7 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
+    skus:[],
     sku: {
       "11365656": {
         color: "negro",
@@ -448,6 +461,7 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
+    skus:[],
     sku: {
       "98123232": {
         color: "azul",
@@ -480,6 +494,7 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 145,
     },
+    skus:[],
     sku: {
       "48622323": {
         color: "negro",
@@ -512,6 +527,7 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
+    skus:[],
     sku: {
       "78257478": {
         color: "negro",
@@ -544,6 +560,7 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
+    skus:[],
     sku: {
       "12121212": {
         color: "marrón",
@@ -576,6 +593,7 @@ export const productos: IProduct[] = [
       EUR: 150,
       DOLLAR: 180,
     },
+    skus:[],
     sku: {
       "67671589": {
         color: "marrón",
@@ -608,6 +626,7 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
+    skus:[],
     sku: {
       "29992323": {
         color: "gris",
@@ -640,6 +659,7 @@ export const productos: IProduct[] = [
       EUR: 125,
       DOLLAR: 155,
     },
+    skus:[],
     sku: {
       "12124587": {
         color: "negro",
@@ -672,6 +692,7 @@ export const productos: IProduct[] = [
       EUR: 160,
       DOLLAR: 200,
     },
+    skus:[],
     sku: {
       "23239999": {
         color: "marrón",
@@ -704,6 +725,7 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 175,
     },
+    skus:[],
     sku: {
       "78787777": {
         color: "negro",
@@ -736,6 +758,7 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
+    skus:[],
     sku: {
       "12127412": {
         color: "marrón",
@@ -768,6 +791,7 @@ export const productos: IProduct[] = [
       EUR: 105,
       DOLLAR: 130,
     },
+    skus:[],
     sku: {
       "12215454": {
         color: "negro",
@@ -800,6 +824,7 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 140,
     },
+    skus:[],
     sku: {
       "14417878": {
         color: "azul",
@@ -832,6 +857,7 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
+    skus:[],
     sku: {
       "14141212": {
         color: "blanco",
@@ -864,6 +890,7 @@ export const productos: IProduct[] = [
       EUR: 75,
       DOLLAR: 95,
     },
+    skus:[],
     sku: {
       "15685499": {
         color: "rojo",
@@ -896,6 +923,7 @@ export const productos: IProduct[] = [
       EUR: 150,
       DOLLAR: 180,
     },
+    skus:[],
     sku: {
       "00098989": {
         color: "gris",
@@ -928,6 +956,7 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 145,
     },
+    skus:[],
     sku: {
       "10101202": {
         color: "negro",
@@ -960,6 +989,7 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 170,
     },
+    skus:[],
     sku: {
       "54545400": {
         color: "negro",
@@ -992,6 +1022,7 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
+    skus:[],
     sku: {
       "78787001": {
         color: "azul",
@@ -1024,6 +1055,7 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
+    skus:[],
     sku: {
       "12121003": {
         color: "negro",
@@ -1056,6 +1088,7 @@ export const productos: IProduct[] = [
       EUR: 95,
       DOLLAR: 120,
     },
+    skus:[],
     sku: {
       "54545005": {
         color: "blanco",
@@ -1088,6 +1121,7 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
+    skus:[],
     sku: {
       "78780077": {
         color: "negro",
@@ -1120,6 +1154,7 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
+    skus:[],
     sku: {
       "12121118": {
         color: "negro",
@@ -1152,6 +1187,7 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
+    skus:[],
     sku: {
       "56565120": {
         color: "negro",
@@ -1184,6 +1220,7 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 125,
     },
+    skus:[],
     sku: {
       "23232122": {
         color: "azul",
@@ -1216,6 +1253,7 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 170,
     },
+    skus:[],
     sku: {
       "34343124": {
         color: "negro",
@@ -1248,6 +1286,7 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
+    skus:[],
     sku: {
       "12121126": {
         color: "azul",
@@ -1280,6 +1319,7 @@ export const productos: IProduct[] = [
       EUR: 135,
       DOLLAR: 165,
     },
+    skus:[],
     sku: {
       "67676128": {
         color: "negro",
@@ -1312,6 +1352,7 @@ export const productos: IProduct[] = [
       EUR: 125,
       DOLLAR: 155,
     },
+    skus:[],
     sku: {
       "34343130": {
         color: "negro",
@@ -1344,6 +1385,7 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 145,
     },
+    skus:[],
     sku: {
       "12121133": {
         color: "azul",
@@ -1376,6 +1418,7 @@ export const productos: IProduct[] = [
       EUR: 150,
       DOLLAR: 180,
     },
+    skus:[],
     sku: {
       "23232134": {
         color: "gris",
@@ -1408,6 +1451,7 @@ export const productos: IProduct[] = [
       EUR: 135,
       DOLLAR: 165,
     },
+    skus:[],
     sku: {
       "78787137": {
         color: "azul",
@@ -1440,6 +1484,7 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 140,
     },
+    skus:[],
     sku: {
       "45454139": {
         color: "negro",
@@ -1472,6 +1517,7 @@ export const productos: IProduct[] = [
       EUR: 95,
       DOLLAR: 120,
     },
+    skus:[],
     sku: {
       "21212142": {
         color: "rosa",
@@ -1504,6 +1550,7 @@ export const productos: IProduct[] = [
       EUR: 140,
       DOLLAR: 170,
     },
+    skus:[],
     sku: {
       "10101144": {
         color: "negro",
@@ -1536,6 +1583,7 @@ export const productos: IProduct[] = [
       EUR: 105,
       DOLLAR: 130,
     },
+    skus:[],
     sku: {
       "13131145": {
         color: "blanco",
@@ -1568,6 +1616,7 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
+    skus:[],
     sku: {
       "15151147": {
         color: "gris",
@@ -1600,6 +1649,7 @@ export const productos: IProduct[] = [
       EUR: 85,
       DOLLAR: 105,
     },
+    skus:[],
     sku: {
       "17171150": {
         color: "negro",
@@ -1632,6 +1682,7 @@ export const productos: IProduct[] = [
       EUR: 125,
       DOLLAR: 155,
     },
+    skus:[],
     sku: {
       "19191152": {
         color: "azul",
@@ -1664,6 +1715,7 @@ export const productos: IProduct[] = [
       EUR: 135,
       DOLLAR: 165,
     },
+    skus:[],
     sku: {
       "21212154": {
         color: "negro",
@@ -1696,6 +1748,7 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 135,
     },
+    skus:[],
     sku: {
       "23232156": {
         color: "blanco",
@@ -1728,6 +1781,7 @@ export const productos: IProduct[] = [
       EUR: 105,
       DOLLAR: 130,
     },
+    skus:[],
     sku: {
       "25252158": {
         color: "azul",
@@ -1760,6 +1814,7 @@ export const productos: IProduct[] = [
       EUR: 120,
       DOLLAR: 150,
     },
+    skus:[],
     sku: {
       "27272160": {
         color: "gris",
@@ -1792,6 +1847,7 @@ export const productos: IProduct[] = [
       EUR: 135,
       DOLLAR: 165,
     },
+    skus:[],
     sku: {
       "29292163": {
         color: "blanco",
@@ -1824,6 +1880,7 @@ export const productos: IProduct[] = [
       EUR: 115,
       DOLLAR: 140,
     },
+    skus:[],
     sku: {
       "31313164": {
         color: "verde",
@@ -1856,6 +1913,7 @@ export const productos: IProduct[] = [
       EUR: 110,
       DOLLAR: 115,
     },
+    skus:[],
     sku: {
       "31313166": {
         color: "verde",
@@ -1888,6 +1946,7 @@ export const productos: IProduct[] = [
       EUR: 130,
       DOLLAR: 160,
     },
+    skus:[],
     sku: {
       "43434168": {
         color: "negro",
@@ -1920,6 +1979,7 @@ export const productos: IProduct[] = [
       EUR: 100,
       DOLLAR: 120,
     },
+    skus:[],
     sku: {
       "56565170": {
         color: "blanco",
@@ -1943,6 +2003,7 @@ export const productos: IProduct[] = [
     title: { es: "Converse Chuck Taylor", en: "Converse Chuck Taylor" },
     description: { es: "Zapatillas Converse Chuck Taylor", en: "Converse Chuck Taylor shoes" },
     price: { EUR: 55, DOLLAR: 70 },
+    skus:[],
     sku: {
       "72727172": { color: "negro", size: 40, imageSquare: "01_square_v1-min.jpg", stock: 15 },
       "73737173": { color: "blanco", size: 41, imageSquare: "02_square_v1-min.jpg", stock: 12 },
@@ -1956,6 +2017,7 @@ export const productos: IProduct[] = [
     title: { es: "Vans Slip-On", en: "Vans Slip-On" },
     description: { es: "Zapatillas sin cordones Vans Slip-On", en: "Vans Slip-On shoes" },
     price: { EUR: 60, DOLLAR: 75 },
+    skus:[],
     sku: {
       "74747174": { color: "negro", size: 42, imageSquare: "03_square_v1-min.jpg", stock: 8 },
       "75757175": { color: "cuadros", size: 43, imageSquare: "04_square_v1-min.jpg", stock: 6 },
@@ -1969,6 +2031,7 @@ export const productos: IProduct[] = [
     title: { es: "Dr. Martens 1460", en: "Dr. Martens 1460" },
     description: { es: "Botas Dr. Martens 1460", en: "Dr. Martens 1460 boots" },
     price: { EUR: 160, DOLLAR: 195 },
+    skus:[],
     sku: {
       "76767176": { color: "negro", size: 41, imageSquare: "05_square_v1-min.jpg", stock: 5 },
       "77777177": { color: "cereza", size: 42, imageSquare: "01_square_v1-min.jpg", stock: 4 },
@@ -1983,6 +2046,7 @@ export const productos: IProduct[] = [
     title: { es: "Converse Chuck Taylor", en: "Converse Chuck Taylor" },
     description: { es: "Zapatillas Converse Chuck Taylor", en: "Converse Chuck Taylor shoes" },
     price: { EUR: 55, DOLLAR: 70 },
+    skus:[],
     sku: {
       "72727172": { color: "negro", size: 40, imageSquare: "17_square-min.jpg", stock: 15 },
       "73737173": { color: "blanco", size: 41, imageSquare: "18_square-min.jpg", stock: 12 },
@@ -1996,6 +2060,7 @@ export const productos: IProduct[] = [
     title: { es: "Vans Slip-On", en: "Vans Slip-On" },
     description: { es: "Zapatillas sin cordones Vans Slip-On", en: "Vans Slip-On shoes" },
     price: { EUR: 60, DOLLAR: 75 },
+    skus:[],
     sku: {
       "74747174": { color: "negro", size: 42, imageSquare: "08_square-min.jpg", stock: 8 },
       "75757175": { color: "cuadros", size: 43, imageSquare: "09_square-min.jpg", stock: 6 },
@@ -2009,6 +2074,7 @@ export const productos: IProduct[] = [
     title: { es: "Dr. Martens 1460", en: "Dr. Martens 1460" },
     description: { es: "Botas Dr. Martens 1460", en: "Dr. Martens 1460 boots" },
     price: { EUR: 160, DOLLAR: 195 },
+    skus:[],
     sku: {
       "76767176": { color: "negro", size: 41, imageSquare: "13_square-min.jpg", stock: 5 },
       "77777177": { color: "cereza", size: 42, imageSquare: "13_square-min.jpg", stock: 4 },
@@ -2022,6 +2088,7 @@ export const productos: IProduct[] = [
     title: { es: "Nike Blazer", en: "Nike Blazer" },
     description: { es: "Zapatillas Nike Blazer", en: "Nike Blazer shoes" },
     price: { EUR: 90, DOLLAR: 110 },
+    skus:[],
     sku: {
       "11111172": { color: "blanco", size: 42, imageSquare: "13_square-min.jpg", stock: 8 },
       "22222273": { color: "negro", size: 43, imageSquare: "13_square-min.jpg", stock: 5 },
@@ -2035,6 +2102,7 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Superstar", en: "Adidas Superstar" },
     description: { es: "Zapatillas Adidas Superstar", en: "Adidas Superstar shoes" },
     price: { EUR: 80, DOLLAR: 100 },
+    skus:[],
     sku: {
       "33333374": { color: "blanco", size: 41, imageSquare: "01_square_v1-min.jpg", stock: 12 },
       "44444475": { color: "negro", size: 42, imageSquare: "01_square_v2-min.jpg", stock: 10 },
@@ -2048,6 +2116,7 @@ export const productos: IProduct[] = [
     title: { es: "Puma Cali", en: "Puma Cali" },
     description: { es: "Zapatillas Puma Cali", en: "Puma Cali shoes" },
     price: { EUR: 70, DOLLAR: 85 },
+    skus:[],
     sku: {
       "55555576": { color: "blanco", size: 38, imageSquare: "02_square-min.jpg", stock: 7 },
       "66666677": { color: "rosa", size: 39, imageSquare: "02_square-min.jpg", stock: 9 },
@@ -2061,6 +2130,7 @@ export const productos: IProduct[] = [
     title: { es: "Nike Air Force 1", en: "Nike Air Force 1" },
     description: { es: "Zapatillas icónicas Nike Air Force 1", en: "Iconic Nike Air Force 1 shoes" },
     price: { EUR: 100, DOLLAR: 120 },
+    skus:[],
     sku: {
       "94949184": { color: "blanco", size: 41, imageSquare: "02_square-min.jpg", stock: 10 },
       "95959185": { color: "negro", size: 42, imageSquare: "07_square-min.jpg", stock: 8 },
@@ -2074,6 +2144,7 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Stan Smith", en: "Adidas Stan Smith" },
     description: { es: "Zapatillas clásicas Adidas Stan Smith", en: "Classic Adidas Stan Smith shoes" },
     price: { EUR: 85, DOLLAR: 105 },
+    skus:[],
     sku: {
       "96969186": { color: "blanco", size: 40, imageSquare: "11_square-min.jpg", stock: 12 },
       "97979187": { color: "verde", size: 41, imageSquare: "15_square-min.jpg", stock: 9 },
@@ -2087,6 +2158,7 @@ export const productos: IProduct[] = [
     title: { es: "Puma RS-X3", en: "Puma RS-X3" },
     description: { es: "Zapatillas deportivas Puma RS-X3", en: "Puma RS-X3 sports shoes" },
     price: { EUR: 110, DOLLAR: 135 },
+    skus:[],
     sku: {
       "98989188": { color: "negro", size: 42, imageSquare: "18_square-min.jpg", stock: 7 },
       "99999189": { color: "blanco", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2100,6 +2172,7 @@ export const productos: IProduct[] = [
     title: { es: "Reebok Club C 85", en: "Reebok Club C 85" },
     description: { es: "Zapatillas clásicas Reebok Club C 85", en: "Reebok Club C 85 classic shoes" },
     price: { EUR: 70, DOLLAR: 85 },
+    skus:[],
     sku: {
       "01010190": { color: "blanco", size: 40, imageSquare: "02_square-min.jpg", stock: 14 },
       "02020191": { color: "verde", size: 41, imageSquare: "08_square-min.jpg", stock: 11 },
@@ -2113,6 +2186,7 @@ export const productos: IProduct[] = [
     title: { es: "Converse One Star", en: "Converse One Star" },
     description: { es: "Zapatillas Converse One Star", en: "Converse One Star shoes" },
     price: { EUR: 65, DOLLAR: 80 },
+    skus:[],
     sku: {
       "03030192": { color: "negro", size: 42, imageSquare: "12_square-min.jpg", stock: 9 },
       "04040193": { color: "amarillo", size: 43, imageSquare: "16_square-min.jpg", stock: 7 },
@@ -2126,6 +2200,7 @@ export const productos: IProduct[] = [
     title: { es: "Vans Authentic", en: "Vans Authentic" },
     description: { es: "Zapatillas Vans Authentic", en: "Vans Authentic shoes" },
     price: { EUR: 60, DOLLAR: 75 },
+    skus:[],
     sku: {
       "05050194": { color: "negro", size: 39, imageSquare: "06_square-min.jpg", stock: 10 },
       "06060195": { color: "cuadros", size: 40, imageSquare: "14_square-min.jpg", stock: 8 },
@@ -2139,6 +2214,7 @@ export const productos: IProduct[] = [
     title: { es: "New Balance 327", en: "New Balance 327" },
     description: { es: "Zapatillas New Balance 327", en: "New Balance 327 shoes" },
     price: { EUR: 95, DOLLAR: 115 },
+    skus:[],
     sku: {
       "07070196": { color: "gris", size: 41, imageSquare: "07_square-min.jpg", stock: 11 },
       "08080197": { color: "naranja", size: 42, imageSquare: "10_square-min.jpg", stock: 13 },
@@ -2152,6 +2228,7 @@ export const productos: IProduct[] = [
     title: { es: "Fila MB", en: "Fila MB" },
     description: { es: "Zapatillas Fila MB", en: "Fila MB shoes" },
     price: { EUR: 80, DOLLAR: 100 },
+    skus:[],
     sku: {
       "09090198": { color: "blanco", size: 43, imageSquare: "03_square-min.jpg", stock: 6 },
       "10100199": { color: "negro", size: 44, imageSquare: "09_square-min.jpg", stock: 7 },
@@ -2165,6 +2242,7 @@ export const productos: IProduct[] = [
     title: { es: "Asics Gel-Lyte III", en: "Asics Gel-Lyte III" },
     description: { es: "Zapatillas Asics Gel-Lyte III", en: "Asics Gel-Lyte III shoes" },
     price: { EUR: 110, DOLLAR: 135 },
+    skus:[],
     sku: {
       "11110200": { color: "morado", size: 40, imageSquare: "11_square-min.jpg", stock: 8 },
       "12120201": { color: "azul", size: 41, imageSquare: "17_square-min.jpg", stock: 9 },
@@ -2178,6 +2256,7 @@ export const productos: IProduct[] = [
     title: { es: "Saucony Jazz Original", en: "Saucony Jazz Original" },
     description: { es: "Zapatillas Saucony Jazz Original", en: "Saucony Jazz Original shoes" },
     price: { EUR: 75, DOLLAR: 95 },
+    skus:[],
     sku: {
       "13130202": { color: "gris", size: 42, imageSquare: "13_square-min.jpg", stock: 10 },
       "14140203": { color: "beige", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2191,6 +2270,7 @@ export const productos: IProduct[] = [
     title: { es: "Diadora Heritage", en: "Diadora Heritage" },
     description: { es: "Zapatillas Diadora Heritage", en: "Diadora Heritage shoes" },
     price: { EUR: 90, DOLLAR: 110 },
+    skus:[],
     sku: {
       "15150204": { color: "blanco", size: 38, imageSquare: "08_square-min.jpg", stock: 12 },
       "16160205": { color: "azul", size: 39, imageSquare: "18_square-min.jpg", stock: 8 },
@@ -2204,6 +2284,7 @@ export const productos: IProduct[] = [
     title: { es: "Nike Dunk Low", en: "Nike Dunk Low" },
     description: { es: "Zapatillas Nike Dunk Low", en: "Nike Dunk Low shoes" },
     price: { EUR: 110, DOLLAR: 135 },
+    skus:[],
     sku: {
       "17170206": { color: "negro", size: 41, imageSquare: "06_square-min.jpg", stock: 7 },
       "18180207": { color: "blanco", size: 42, imageSquare: "12_square-min.jpg", stock: 9 },
@@ -2217,6 +2298,7 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Forum", en: "Adidas Forum" },
     description: { es: "Zapatillas Adidas Forum", en: "Adidas Forum shoes" },
     price: { EUR: 95, DOLLAR: 115 },
+    skus:[],
     sku: {
       "19190208": { color: "blanco", size: 43, imageSquare: "04_square-min.jpg", stock: 11 },
       "20200209": { color: "azul", size: 44, imageSquare: "12_square-min.jpg", stock: 9 },
@@ -2230,6 +2312,7 @@ export const productos: IProduct[] = [
     title: { es: "Puma Future Rider", en: "Puma Future Rider" },
     description: { es: "Zapatillas deportivas Puma Future Rider", en: "Puma Future Rider sports shoes" },
     price: { EUR: 100, DOLLAR: 125 },
+    skus:[],
     sku: {
       "21210210": { color: "negro", size: 40, imageSquare: "09_square-min.jpg", stock: 8 },
       "22220211": { color: "rosa", size: 41, imageSquare: "13_square-min.jpg", stock: 10 },
@@ -2243,6 +2326,7 @@ export const productos: IProduct[] = [
     title: { es: "Reebok Instapump Fury", en: "Reebok Instapump Fury" },
     description: { es: "Zapatillas futuristas Reebok Instapump Fury", en: "Reebok Instapump Fury futuristic shoes" },
     price: { EUR: 150, DOLLAR: 185 },
+    skus:[],
     sku: {
       "23230212": { color: "negro", size: 42, imageSquare: "17_square-min.jpg", stock: 6 },
       "24240213": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 7 },
@@ -2256,6 +2340,7 @@ export const productos: IProduct[] = [
     title: { es: "Converse Jack Purcell", en: "Converse Jack Purcell" },
     description: { es: "Zapatillas minimalistas Converse Jack Purcell", en: "Converse Jack Purcell minimalist shoes" },
     price: { EUR: 70, DOLLAR: 85 },
+    skus:[],
     sku: {
       "25250214": { color: "blanco", size: 39, imageSquare: "05_square-min.jpg", stock: 12 },
       "26260215": { color: "azul marino", size: 40, imageSquare: "10_square-min.jpg", stock: 9 },
@@ -2269,6 +2354,7 @@ export const productos: IProduct[] = [
     title: { es: "Vans Sk8-Hi", en: "Vans Sk8-Hi" },
     description: { es: "Zapatillas altas Vans Sk8-Hi", en: "Vans Sk8-Hi high-top shoes" },
     price: { EUR: 75, DOLLAR: 95 },
+    skus:[],
     sku: {
       "27270216": { color: "negro", size: 41, imageSquare: "15_square-min.jpg", stock: 8 },
       "28280217": { color: "cuadros", size: 42, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2282,6 +2368,7 @@ export const productos: IProduct[] = [
     title: { es: "Dr. Martens Jadon", en: "Dr. Martens Jadon" },
     description: { es: "Botas con plataforma Dr. Martens Jadon", en: "Dr. Martens Jadon platform boots" },
     price: { EUR: 180, DOLLAR: 220 },
+    skus:[],
     sku: {
       "29290218": { color: "negro", size: 38, imageSquare: "03_square-min.jpg", stock: 5 },
       "30300219": { color: "blanco", size: 39, imageSquare: "07_square-min.jpg", stock: 4 },
@@ -2295,6 +2382,7 @@ export const productos: IProduct[] = [
     title: { es: "Timberland 6-Inch Premium", en: "Timberland 6-Inch Premium" },
     description: { es: "Botas clásicas Timberland 6-Inch Premium", en: "Timberland 6-Inch Premium classic boots" },
     price: { EUR: 190, DOLLAR: 230 },
+    skus:[],
     sku: {
       "31310220": { color: "amarillo", size: 42, imageSquare: "12_square-min.jpg", stock: 7 },
       "32320221": { color: "marrón", size: 43, imageSquare: "18_square-min.jpg", stock: 9 },
@@ -2308,6 +2396,7 @@ export const productos: IProduct[] = [
     title: { es: "Lacoste Carnaby Evo", en: "Lacoste Carnaby Evo" },
     description: { es: "Zapatillas casuales Lacoste Carnaby Evo", en: "Lacoste Carnaby Evo casual shoes" },
     price: { EUR: 80, DOLLAR: 100 },
+    skus:[],
     sku: {
       "33330222": { color: "blanco", size: 41, imageSquare: "04_square-min.jpg", stock: 12 },
       "34340223": { color: "verde", size: 42, imageSquare: "11_square-min.jpg", stock: 9 },
@@ -2321,6 +2410,7 @@ export const productos: IProduct[] = [
     title: { es: "Karhu Fusion 2.0", en: "Karhu Fusion 2.0" },
     description: { es: "Zapatillas deportivas Karhu Fusion 2.0", en: "Karhu Fusion 2.0 sports shoes" },
     price: { EUR: 110, DOLLAR: 135 },
+    skus:[],
     sku: {
       "35350224": { color: "negro", size: 43, imageSquare: "16_square-min.jpg", stock: 7 },
       "36360225": { color: "azul", size: 44, imageSquare: "08_square-min.jpg", stock: 8 },
@@ -2334,6 +2424,7 @@ export const productos: IProduct[] = [
     title: { es: "Veja V-10", en: "Veja V-10" },
     description: { es: "Zapatillas sostenibles Veja V-10", en: "Veja V-10 sustainable shoes" },
     price: { EUR: 120, DOLLAR: 145 },
+    skus:[],
     sku: {
       "37370226": { color: "blanco", size: 39, imageSquare: "03_square-min.jpg", stock: 10 },
       "38380227": { color: "marrón", size: 40, imageSquare: "13_square-min.jpg", stock: 11 },
@@ -2347,6 +2438,7 @@ export const productos: IProduct[] = [
     title: { es: "Filling Pieces Low Top", en: "Filling Pieces Low Top" },
     description: { es: "Zapatillas de lujo Filling Pieces Low Top", en: "Filling Pieces Low Top luxury shoes" },
     price: { EUR: 200, DOLLAR: 240 },
+    skus:[],
     sku: {
       "39390228": { color: "negro", size: 42, imageSquare: "06_square-min.jpg", stock: 5 },
       "40400229": { color: "blanco", size: 43, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2360,6 +2452,7 @@ export const productos: IProduct[] = [
     title: { es: "Golden Goose Superstar", en: "Golden Goose Superstar" },
     description: { es: "Zapatillas de lujo Golden Goose Superstar", en: "Golden Goose Superstar luxury shoes" },
     price: { EUR: 450, DOLLAR: 550 },
+    skus:[],
     sku: {
       "41410230": { color: "blanco", size: 39, imageSquare: "07_square-min.jpg", stock: 3 },
       "42420231": { color: "plata", size: 40, imageSquare: "11_square-min.jpg", stock: 2 },
@@ -2373,6 +2466,7 @@ export const productos: IProduct[] = [
     title: { es: "Axel Arigato Clean 90", en: "Axel Arigato Clean 90" },
     description: { es: "Zapatillas minimalistas Axel Arigato Clean 90", en: "Axel Arigato Clean 90 minimalist shoes" },
     price: { EUR: 180, DOLLAR: 220 },
+    skus:[],
     sku: {
       "43430232": { color: "blanco", size: 41, imageSquare: "12_square-min.jpg", stock: 8 },
       "44440233": { color: "beige", size: 42, imageSquare: "18_square-min.jpg", stock: 6 },
@@ -2386,6 +2480,7 @@ export const productos: IProduct[] = [
     title: { es: "Common Projects Achilles", en: "Common Projects Achilles" },
     description: { es: "Zapatillas de lujo Common Projects Achilles", en: "Common Projects Achilles luxury shoes" },
     price: { EUR: 350, DOLLAR: 420 },
+    skus:[],
     sku: {
       "45450234": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 4 },
       "46460235": { color: "negro", size: 44, imageSquare: "09_square-min.jpg", stock: 5 },
@@ -2399,6 +2494,7 @@ export const productos: IProduct[] = [
     title: { es: "Yeezy Boost 350 V2", en: "Yeezy Boost 350 V2" },
     description: { es: "Zapatillas Yeezy Boost 350 V2", en: "Yeezy Boost 350 V2 shoes" },
     price: { EUR: 220, DOLLAR: 260 },
+    skus:[],
     sku: {
       "47470236": { color: "beige", size: 41, imageSquare: "05_square-min.jpg", stock: 3 },
       "48480237": { color: "negro", size: 42, imageSquare: "14_square-min.jpg", stock: 2 },
@@ -2412,6 +2508,7 @@ export const productos: IProduct[] = [
     title: { es: "Balenciaga Triple S", en: "Balenciaga Triple S" },
     description: { es: "Zapatillas Balenciaga Triple S", en: "Balenciaga Triple S shoes" },
     price: { EUR: 800, DOLLAR: 950 },
+    skus:[],
     sku: {
       "49490238": { color: "blanco", size: 40, imageSquare: "08_square-min.jpg", stock: 4 },
       "50500239": { color: "negro", size: 41, imageSquare: "12_square-min.jpg", stock: 3 },
@@ -2425,6 +2522,7 @@ export const productos: IProduct[] = [
     title: { es: "Off-White x Nike Air Jordan 1", en: "Off-White x Nike Air Jordan 1" },
     description: { es: "Zapatillas Off-White x Nike Air Jordan 1", en: "Off-White x Nike Air Jordan 1 shoes" },
     price: { EUR: 1200, DOLLAR: 1400 },
+    skus:[],
     sku: {
       "51510240": { color: "blanco", size: 42, imageSquare: "15_square-min.jpg", stock: 2 },
       "52520241": { color: "negro", size: 43, imageSquare: "19_square-min.jpg", stock: 1 },
@@ -2438,6 +2536,7 @@ export const productos: IProduct[] = [
     title: { es: "Gucci Ace", en: "Gucci Ace" },
     description: { es: "Zapatillas Gucci Ace", en: "Gucci Ace shoes" },
     price: { EUR: 650, DOLLAR: 780 },
+    skus:[],
     sku: {
       "53530242": { color: "blanco", size: 39, imageSquare: "02_square-min.jpg", stock: 5 },
       "54540243": { color: "verde", size: 40, imageSquare: "06_square-min.jpg", stock: 4 },
@@ -2451,6 +2550,7 @@ export const productos: IProduct[] = [
     title: { es: "Prada Cloudbust Thunder", en: "Prada Cloudbust Thunder" },
     description: { es: "Zapatillas Prada Cloudbust Thunder", en: "Prada Cloudbust Thunder shoes" },
     price: { EUR: 750, DOLLAR: 900 },
+    skus:[],
     sku: {
       "55550244": { color: "negro", size: 41, imageSquare: "10_square-min.jpg", stock: 3 },
       "56560245": { color: "blanco", size: 42, imageSquare: "14_square-min.jpg", stock: 2 },
@@ -2464,6 +2564,7 @@ export const productos: IProduct[] = [
     title: { es: "Alexander McQueen Oversized", en: "Alexander McQueen Oversized" },
     description: { es: "Zapatillas Alexander McQueen Oversized", en: "Alexander McQueen Oversized shoes" },
     price: { EUR: 500, DOLLAR: 600 },
+    skus:[],
     sku: {
       "57570246": { color: "blanco", size: 38, imageSquare: "17_square-min.jpg", stock: 4 },
       "58580247": { color: "negro", size: 39, imageSquare: "03_square-min.jpg", stock: 3 },
@@ -2477,6 +2578,7 @@ export const productos: IProduct[] = [
     title: { es: "Maison Margiela Replica", en: "Maison Margiela Replica" },
     description: { es: "Zapatillas Maison Margiela Replica", en: "Maison Margiela Replica shoes" },
     price: { EUR: 550, DOLLAR: 660 },
+    skus:[],
     sku: {
       "59590248": { color: "blanco", size: 40, imageSquare: "05_square-min.jpg", stock: 2 },
       "60600249": { color: "gris", size: 41, imageSquare: "09_square-min.jpg", stock: 3 },
@@ -2490,6 +2592,7 @@ export const productos: IProduct[] = [
     title: { es: "Rick Owens DRKSHDW", en: "Rick Owens DRKSHDW" },
     description: { es: "Zapatillas Rick Owens DRKSHDW", en: "Rick Owens DRKSHDW shoes" },
     price: { EUR: 600, DOLLAR: 720 },
+    skus:[],
     sku: {
       "61610250": { color: "negro", size: 42, imageSquare: "13_square-min.jpg", stock: 4 },
       "62620251": { color: "blanco", size: 43, imageSquare: "17_square-min.jpg", stock: 2 },
@@ -2503,6 +2606,7 @@ export const productos: IProduct[] = [
     title: { es: "Saint Laurent Court Classic", en: "Saint Laurent Court Classic" },
     description: { es: "Zapatillas Saint Laurent Court Classic", en: "Saint Laurent Court Classic shoes" },
     price: { EUR: 500, DOLLAR: 600 },
+    skus:[],
     sku: {
       "63630252": { color: "blanco", size: 38, imageSquare: "02_square-min.jpg", stock: 5 },
       "64640253": { color: "negro", size: 39, imageSquare: "06_square-min.jpg", stock: 4 },
@@ -2516,6 +2620,7 @@ export const productos: IProduct[] = [
     title: { es: "Valentino Garavani Rockstud", en: "Valentino Garavani Rockstud" },
     description: { es: "Zapatillas Valentino Garavani Rockstud", en: "Valentino Garavani Rockstud shoes" },
     price: { EUR: 700, DOLLAR: 840 },
+    skus:[],
     sku: {
       "65650254": { color: "blanco", size: 40, imageSquare: "10_square-min.jpg", stock: 3 },
       "66660255": { color: "rojo", size: 41, imageSquare: "14_square-min.jpg", stock: 2 },
@@ -2529,6 +2634,7 @@ export const productos: IProduct[] = [
     title: { es: "Versace Chain Reaction", en: "Versace Chain Reaction" },
     description: { es: "Zapatillas Versace Chain Reaction", en: "Versace Chain Reaction shoes" },
     price: { EUR: 850, DOLLAR: 1020 },
+    skus:[],
     sku: {
       "67670256": { color: "negro", size: 42, imageSquare: "18_square-min.jpg", stock: 4 },
       "68680257": { color: "dorado", size: 43, imageSquare: "04_square-min.jpg", stock: 3 },
@@ -2542,6 +2648,7 @@ export const productos: IProduct[] = [
     title: { es: "A Bathing Ape Bapesta", en: "A Bathing Ape Bapesta" },
     description: { es: "Zapatillas A Bathing Ape Bapesta", en: "A Bathing Ape Bapesta shoes" },
     price: { EUR: 300, DOLLAR: 360 },
+    skus:[],
     sku: {
       "69690258": { color: "blanco", size: 42, imageSquare: "08_square-min.jpg", stock: 4 },
       "70700259": { color: "camuflaje", size: 43, imageSquare: "16_square-min.jpg", stock: 3 },
@@ -2555,6 +2662,7 @@ export const productos: IProduct[] = [
     title: { es: "Visvim FBT", en: "Visvim FBT" },
     description: { es: "Botas Visvim FBT", en: "Visvim FBT boots" },
     price: { EUR: 650, DOLLAR: 780 },
+    skus:[],
     sku: {
       "71710260": { color: "marrón", size: 41, imageSquare: "02_square-min.jpg", stock: 2 },
       "72720261": { color: "negro", size: 42, imageSquare: "10_square-min.jpg", stock: 3 },
@@ -2568,6 +2676,7 @@ export const productos: IProduct[] = [
     title: { es: "Nike SB Dunk Low", en: "Nike SB Dunk Low" },
     description: { es: "Zapatillas de skate Nike SB Dunk Low", en: "Nike SB Dunk Low skate shoes" },
     price: { EUR: 150, DOLLAR: 180 },
+    skus:[],
     sku: {
       "73730262": { color: "azul", size: 43, imageSquare: "14_square-min.jpg", stock: 6 },
       "74740263": { color: "rojo", size: 44, imageSquare: "18_square-min.jpg", stock: 5 },
@@ -2581,6 +2690,7 @@ export const productos: IProduct[] = [
     title: { es: "Clarks Wallabee", en: "Clarks Wallabee" },
     description: { es: "Botines Clarks Wallabee", en: "Clarks Wallabee boots" },
     price: { EUR: 130, DOLLAR: 155 },
+    skus:[],
     sku: {
       "11111190": { color: "beige", size: 42, imageSquare: "02_square-min.jpg", stock: 8 },
       "22222191": { color: "marrón", size: 43, imageSquare: "07_square-min.jpg", stock: 6 },
@@ -2594,6 +2704,7 @@ export const productos: IProduct[] = [
     title: { es: "Dr. Martens Chelsea", en: "Dr. Martens Chelsea" },
     description: { es: "Botines Chelsea Dr. Martens", en: "Dr. Martens Chelsea boots" },
     price: { EUR: 140, DOLLAR: 165 },
+    skus:[],
     sku: {
       "33333192": { color: "negro", size: 41, imageSquare: "12_square-min.jpg", stock: 9 },
       "44444193": { color: "marrón", size: 42, imageSquare: "16_square-min.jpg", stock: 7 },
@@ -2607,6 +2718,7 @@ export const productos: IProduct[] = [
     title: { es: "Red Wing Moc Toe", en: "Red Wing Moc Toe" },
     description: { es: "Botas Red Wing Moc Toe", en: "Red Wing Moc Toe boots" },
     price: { EUR: 280, DOLLAR: 330 },
+    skus:[],
     sku: {
       "55555194": { color: "marrón", size: 43, imageSquare: "03_square-min.jpg", stock: 5 },
       "66666195": { color: "negro", size: 44, imageSquare: "08_square-min.jpg", stock: 4 },
@@ -2620,6 +2732,7 @@ export const productos: IProduct[] = [
     title: { es: "Timberland Earthkeepers", en: "Timberland Earthkeepers" },
     description: { es: "Botas Timberland Earthkeepers", en: "Timberland Earthkeepers boots" },
     price: { EUR: 170, DOLLAR: 200 },
+    skus:[],
     sku: {
       "77777196": { color: "marrón", size: 40, imageSquare: "13_square-min.jpg", stock: 8 },
       "88888197": { color: "verde", size: 41, imageSquare: "17_square-min.jpg", stock: 6 },
@@ -2633,6 +2746,7 @@ export const productos: IProduct[] = [
     title: { es: "Danner Mountain Light", en: "Danner Mountain Light" },
     description: { es: "Botas de montaña Danner Mountain Light", en: "Danner Mountain Light hiking boots" },
     price: { EUR: 350, DOLLAR: 410 },
+    skus:[],
     sku: {
       "99999198": { color: "marrón", size: 42, imageSquare: "05_square-min.jpg", stock: 5 },
       "00000199": { color: "negro", size: 43, imageSquare: "10_square-min.jpg", stock: 4 },
@@ -2646,6 +2760,7 @@ export const productos: IProduct[] = [
     title: { es: "Nike Air Zoom Alphafly NEXT%", en: "Nike Air Zoom Alphafly NEXT%" },
     description: { es: "Zapatillas de running Nike Air Zoom Alphafly NEXT%", en: "Nike Air Zoom Alphafly NEXT% running shoes" },
     price: { EUR: 250, DOLLAR: 300 },
+    skus:[],
     sku: {
       "01010200": { color: "blanco", size: 41, imageSquare: "02_square-min.jpg", stock: 6 },
       "02020201": { color: "negro", size: 42, imageSquare: "06_square-min.jpg", stock: 7 },
@@ -2659,6 +2774,7 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Adizero Adios Pro", en: "Adidas Adizero Adios Pro" },
     description: { es: "Zapatillas de running Adidas Adizero Adios Pro", en: "Adidas Adizero Adios Pro running shoes" },
     price: { EUR: 220, DOLLAR: 260 },
+    skus:[],
     sku: {
       "03030202": { color: "rojo", size: 43, imageSquare: "11_square-min.jpg", stock: 8 },
       "04040203": { color: "azul", size: 44, imageSquare: "15_square-min.jpg", stock: 5 },
@@ -2672,6 +2788,7 @@ export const productos: IProduct[] = [
     title: { es: "Saucony Endorphin Pro", en: "Saucony Endorphin Pro" },
     description: { es: "Zapatillas de running Saucony Endorphin Pro", en: "Saucony Endorphin Pro running shoes" },
     price: { EUR: 200, DOLLAR: 240 },
+    skus:[],
     sku: {
       "05050204": { color: "blanco", size: 40, imageSquare: "07_square-min.jpg", stock: 9 },
       "06060205": { color: "negro", size: 41, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2685,6 +2802,7 @@ export const productos: IProduct[] = [
     title: { es: "Hoka Carbon X", en: "Hoka Carbon X" },
     description: { es: "Zapatillas de running Hoka Carbon X", en: "Hoka Carbon X running shoes" },
     price: { EUR: 180, DOLLAR: 215 },
+    skus:[],
     sku: {
       "07070206": { color: "blanco", size: 42, imageSquare: "04_square-min.jpg", stock: 7 },
       "08080207": { color: "negro", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
@@ -2698,6 +2816,7 @@ export const productos: IProduct[] = [
     title: { es: "Brooks Hyperion Elite", en: "Brooks Hyperion Elite" },
     description: { es: "Zapatillas de running Brooks Hyperion Elite", en: "Brooks Hyperion Elite running shoes" },
     price: { EUR: 210, DOLLAR: 250 },
+    skus:[],
     sku: {
       "09090208": { color: "negro", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
       "08070217": { color: "azul", size: 41, imageSquare: "13_square-min.jpg", stock: 8 },
@@ -2711,6 +2830,7 @@ export const productos: IProduct[] = [
     title: { es: "Brooks Hyperion Elite", en: "Brooks Hyperion Elite" },
     description: { es: "Zapatillas de running Brooks Hyperion Elite", en: "Brooks Hyperion Elite running shoes" },
     price: { EUR: 210, DOLLAR: 250 },
+    skus:[],
     sku: {
       "09090208": { color: "negro", size: 40, imageSquare: "08_square-min.jpg", stock: 7 },
       "10100209": { color: "azul", size: 41, imageSquare: "12_square-min.jpg", stock: 8 },
@@ -2724,6 +2844,7 @@ export const productos: IProduct[] = [
     title: { es: "Skechers GOrun Razor 3 Hyper", en: "Skechers GOrun Razor 3 Hyper" },
     description: { es: "Zapatillas de running Skechers GOrun Razor 3 Hyper", en: "Skechers GOrun Razor 3 Hyper running shoes" },
     price: { EUR: 130, DOLLAR: 155 },
+    skus:[],
     sku: {
       "11110210": { color: "naranja", size: 42, imageSquare: "16_square-min.jpg", stock: 9 },
       "12120211": { color: "blanco", size: 43, imageSquare: "02_square-min.jpg", stock: 6 },
@@ -2737,6 +2858,7 @@ export const productos: IProduct[] = [
     title: { es: "Newton Gravity 10", en: "Newton Gravity 10" },
     description: { es: "Zapatillas de running Newton Gravity 10", en: "Newton Gravity 10 running shoes" },
     price: { EUR: 170, DOLLAR: 200 },
+    skus:[],
     sku: {
       "13130212": { color: "azul", size: 44, imageSquare: "07_square-min.jpg", stock: 5 },
       "14140213": { color: "negro", size: 45, imageSquare: "11_square-min.jpg", stock: 4 },
@@ -2750,6 +2872,7 @@ export const productos: IProduct[] = [
     title: { es: "Topo Athletic Fli-Lyte 3", en: "Topo Athletic Fli-Lyte 3" },
     description: { es: "Zapatillas de running Topo Athletic Fli-Lyte 3", en: "Topo Athletic Fli-Lyte 3 running shoes" },
     price: { EUR: 140, DOLLAR: 165 },
+    skus:[],
     sku: {
       "15150214": { color: "rojo", size: 40, imageSquare: "15_square-min.jpg", stock: 8 },
       "16160215": { color: "verde", size: 41, imageSquare: "19_square-min.jpg", stock: 7 },
@@ -2763,6 +2886,7 @@ export const productos: IProduct[] = [
     title: { es: "Altra Escalante 2.5", en: "Altra Escalante 2.5" },
     description: { es: "Zapatillas de running Altra Escalante 2.5", en: "Altra Escalante 2.5 running shoes" },
     price: { EUR: 130, DOLLAR: 155 },
+    skus:[],
     sku: {
       "17170216": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 6 },
       "18180217": { color: "azul", size: 43, imageSquare: "09_square-min.jpg", stock: 9 },
@@ -2776,6 +2900,7 @@ export const productos: IProduct[] = [
     title: { es: "On Running Cloudstratus", en: "On Running Cloudstratus" },
     description: { es: "Zapatillas de running On Running Cloudstratus", en: "On Running Cloudstratus running shoes" },
     price: { EUR: 160, DOLLAR: 190 },
+    skus:[],
     sku: {
       "19190218": { color: "blanco", size: 44, imageSquare: "13_square-min.jpg", stock: 7 },
       "20200219": { color: "gris", size: 45, imageSquare: "17_square-min.jpg", stock: 8 },
@@ -2789,6 +2914,7 @@ export const productos: IProduct[] = [
     title: { es: "Salming Trail 5", en: "Salming Trail 5" },
     description: { es: "Zapatillas de trail running Salming Trail 5", en: "Salming Trail 5 trail running shoes" },
     price: { EUR: 135, DOLLAR: 160 },
+    skus:[],
     sku: {
       "21210220": { color: "negro", size: 41, imageSquare: "04_square-min.jpg", stock: 8 },
       "22220221": { color: "verde", size: 42, imageSquare: "10_square-min.jpg", stock: 7 },
@@ -2802,6 +2928,7 @@ export const productos: IProduct[] = [
     title: { es: "Inov-8 Trailfly Ultra G 280", en: "Inov-8 Trailfly Ultra G 280" },
     description: { es: "Zapatillas de trail running Inov-8 Trailfly Ultra G 280", en: "Inov-8 Trailfly Ultra G 280 trail running shoes" },
     price: { EUR: 160, DOLLAR: 190 },
+    skus:[],
     sku: {
       "23230222": { color: "negro", size: 43, imageSquare: "14_square-min.jpg", stock: 6 },
       "24240223": { color: "rojo", size: 44, imageSquare: "18_square-min.jpg", stock: 5 },
@@ -2815,6 +2942,7 @@ export const productos: IProduct[] = [
     title: { es: "Scott Kinabalu RC 2.0", en: "Scott Kinabalu RC 2.0" },
     description: { es: "Zapatillas de trail running Scott Kinabalu RC 2.0", en: "Scott Kinabalu RC 2.0 trail running shoes" },
     price: { EUR: 120, DOLLAR: 145 },
+    skus:[],
     sku: {
       "25250224": { color: "azul", size: 40, imageSquare: "02_square-min.jpg", stock: 9 },
       "26260225": { color: "verde", size: 41, imageSquare: "06_square-min.jpg", stock: 7 },
@@ -2828,6 +2956,7 @@ export const productos: IProduct[] = [
     title: { es: "Merrell Trail Glove 5", en: "Merrell Trail Glove 5" },
     description: { es: "Zapatillas minimalistas Merrell Trail Glove 5", en: "Merrell Trail Glove 5 minimalist shoes" },
     price: { EUR: 110, DOLLAR: 130 },
+    skus:[],
     sku: {
       "27270226": { color: "negro", size: 42, imageSquare: "11_square-min.jpg", stock: 8 },
       "28280227": { color: "naranja", size: 43, imageSquare: "15_square-min.jpg", stock: 6 },
@@ -2841,6 +2970,7 @@ export const productos: IProduct[] = [
     title: { es: "Vivobarefoot Ra II", en: "Vivobarefoot Ra II" },
     description: { es: "Zapatillas minimalistas Vivobarefoot Ra II", en: "Vivobarefoot Ra II minimalist shoes" },
     price: { EUR: 140, DOLLAR: 165 },
+    skus:[],
     sku: {
       "29290228": { color: "negro", size: 44, imageSquare: "19_square-min.jpg", stock: 5 },
       "30300229": { color: "marrón", size: 45, imageSquare: "03_square-min.jpg", stock: 4 },
@@ -2854,6 +2984,7 @@ export const productos: IProduct[] = [
     title: { es: "Salomon XA Pro 3D", en: "Salomon XA Pro 3D" },
     description: { es: "Zapatillas de trail running Salomon XA Pro 3D", en: "Salomon XA Pro 3D trail running shoes" },
     price: { EUR: 125, DOLLAR: 150 },
+    skus:[],
     sku: {
       "85850285": { color: "negro", size: 42, imageSquare: "08_square-min.jpg", stock: 7 },
       "86860286": { color: "verde", size: 43, imageSquare: "12_square-min.jpg", stock: 8 },
@@ -2867,6 +2998,7 @@ export const productos: IProduct[] = [
     title: { es: "La Sportiva Kaptiva", en: "La Sportiva Kaptiva" },
     description: { es: "Zapatillas de trail running La Sportiva Kaptiva", en: "La Sportiva Kaptiva trail running shoes" },
     price: { EUR: 150, DOLLAR: 180 },
+    skus:[],
     sku: {
       "87870287": { color: "rojo", size: 41, imageSquare: "16_square-min.jpg", stock: 6 },
       "88880288": { color: "azul", size: 42, imageSquare: "02_square-min.jpg", stock: 5 },
@@ -2880,6 +3012,7 @@ export const productos: IProduct[] = [
     title: { es: "Hoka Torrent 2", en: "Hoka Torrent 2" },
     description: { es: "Zapatillas de trail running Hoka Torrent 2", en: "Hoka Torrent 2 trail running shoes" },
     price: { EUR: 130, DOLLAR: 155 },
+    skus:[],
     sku: {
       "89890289": { color: "negro", size: 43, imageSquare: "07_square-min.jpg", stock: 9 },
       "90900290": { color: "naranja", size: 44, imageSquare: "11_square-min.jpg", stock: 7 },
@@ -2893,6 +3026,7 @@ export const productos: IProduct[] = [
     title: { es: "Brooks Cascadia 14", en: "Brooks Cascadia 14" },
     description: { es: "Zapatillas de trail running Brooks Cascadia 14", en: "Brooks Cascadia 14 trail running shoes" },
     price: { EUR: 140, DOLLAR: 165 },
+    skus:[],
     sku: {
       "91910291": { color: "gris", size: 40, imageSquare: "15_square-min.jpg", stock: 8 },
       "92920292": { color: "azul", size: 41, imageSquare: "19_square-min.jpg", stock: 6 },
@@ -2906,6 +3040,7 @@ export const productos: IProduct[] = [
     title: { es: "Saucony Peregrine 10", en: "Saucony Peregrine 10" },
     description: { es: "Zapatillas de trail running Saucony Peregrine 10", en: "Saucony Peregrine 10 trail running shoes" },
     price: { EUR: 125, DOLLAR: 150 },
+    skus:[],
     sku: {
       "93930293": { color: "negro", size: 42, imageSquare: "03_square-min.jpg", stock: 10 },
       "94940294": { color: "verde", size: 43, imageSquare: "09_square-min.jpg", stock: 7 },
@@ -2919,6 +3054,7 @@ export const productos: IProduct[] = [
     title: { es: "Altra Timp 3", en: "Altra Timp 3" },
     description: { es: "Zapatillas de trail running Altra Timp 3", en: "Altra Timp 3 trail running shoes" },
     price: { EUR: 135, DOLLAR: 160 },
+    skus:[],
     sku: {
       "95950295": { color: "azul", size: 44, imageSquare: "13_square-min.jpg", stock: 8 },
       "96960296": { color: "rojo", size: 45, imageSquare: "17_square-min.jpg", stock: 6 },
@@ -2932,6 +3068,7 @@ export const productos: IProduct[] = [
     title: { es: "Topo Athletic Ultraventure 2", en: "Topo Athletic Ultraventure 2" },
     description: { es: "Zapatillas de trail running Topo Athletic Ultraventure 2", en: "Topo Athletic Ultraventure 2 trail running shoes" },
     price: { EUR: 140, DOLLAR: 165 },
+    skus:[],
     sku: {
       "97970297": { color: "gris", size: 40, imageSquare: "05_square-min.jpg", stock: 9 },
       "98980298": { color: "naranja", size: 41, imageSquare: "09_square-min.jpg", stock: 7 },
@@ -2945,6 +3082,7 @@ export const productos: IProduct[] = [
     title: { es: "On Running Cloudventure", en: "On Running Cloudventure" },
     description: { es: "Zapatillas de trail running On Running Cloudventure", en: "On Running Cloudventure trail running shoes" },
     price: { EUR: 150, DOLLAR: 180 },
+    skus:[],
     sku: {
       "99990299": { color: "negro", size: 42, imageSquare: "12_square-min.jpg", stock: 6 },
       "00000300": { color: "blanco", size: 43, imageSquare: "18_square-min.jpg", stock: 5 },
@@ -2958,6 +3096,7 @@ export const productos: IProduct[] = [
     title: { es: "Nike ZoomX Zegama", en: "Nike ZoomX Zegama" },
     description: { es: "Zapatillas de trail running Nike ZoomX Zegama", en: "Nike ZoomX Zegama trail running shoes" },
     price: { EUR: 160, DOLLAR: 190 },
+    skus:[],
     sku: {
       "01010301": { color: "rojo", size: 44, imageSquare: "02_square-min.jpg", stock: 7 },
       "02020302": { color: "azul", size: 45, imageSquare: "06_square-min.jpg", stock: 8 },
@@ -2971,6 +3110,7 @@ export const productos: IProduct[] = [
     title: { es: "Adidas Terrex Agravic Ultra", en: "Adidas Terrex Agravic Ultra" },
     description: { es: "Zapatillas de trail running Adidas Terrex Agravic Ultra", en: "Adidas Terrex Agravic Ultra trail running shoes" },
     price: { EUR: 99, DOLLAR: 111 },
+    skus:[],
     sku: {
       "79821581": { color: "rojo", size: 44, imageSquare: "02_square-min.jpg", stock: 7 },
       "29821581": { color: "azul", size: 45, imageSquare: "06_square-min.jpg", stock: 8 },
