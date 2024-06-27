@@ -3,20 +3,18 @@ import { productOdm } from "../odm/product.odm";
 
 export const getProducts = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
-    // Ternario que se queda con el parametro si llega
     const page = req.query.page ? parseInt(req.query.page as string) : 1;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
 
-    const users = await productOdm.getAllProducts(page, limit);
+    const products = await productOdm.getAllProducts(page, limit);
 
-    // Num total de elementos
     const totalElements = await productOdm.getProductsCount();
 
     const response = {
       totalItems: totalElements,
       totalPages: Math.ceil(totalElements / limit),
       currentPage: page,
-      data: users,
+      data: products,
     };
 
     res.json(response);
@@ -26,15 +24,23 @@ export const getProducts = async (req: Request, res: Response, next: NextFunctio
 };
 
 export const getProductsByCategory = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
-  const categoryId = req.params.categoryId;
-
   try {
-    const products = await productOdm.getProductsByCategory(categoryId);
-    if (products?.length) {
-      res.json(products);
-    } else {
-      res.status(404).json({ message: "Products not found" });
-    }
+    const categoryId = req.params.categoryId;
+    const page = req.query.page ? parseInt(req.query.page as string) : 1;
+    const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
+
+    const products = await productOdm.getProductsByCategory(page, limit, categoryId);
+
+    const totalElements = await productOdm.getProductsByCategoryCount(categoryId);
+
+    const response = {
+      totalItems: totalElements,
+      totalPages: Math.ceil(totalElements / limit),
+      currentPage: page,
+      data: products,
+    };
+
+    res.json(response);
   } catch (error) {
     next(error);
   }
@@ -70,20 +76,18 @@ export const getProductById = async (req: Request, res: Response, next: NextFunc
 
 export const getFeaturedProducts = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
-    // Ternario que se queda con el parametro si llega
     const page = req.query.page ? parseInt(req.query.page as string) : 1;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
 
-    const users = await productOdm.getFeaturedProducts(page, limit);
+    const products = await productOdm.getFeaturedProducts(page, limit);
 
-    // Num total de elementos
     const totalElements = await productOdm.getFeaturedProductsCount();
 
     const response = {
       totalItems: totalElements,
       totalPages: Math.ceil(totalElements / limit),
       currentPage: page,
-      data: users,
+      data: products,
     };
 
     res.json(response);
