@@ -1,17 +1,20 @@
 import { type Request, type Response, type NextFunction } from "express";
 import braintree from "braintree";
+import dotenv from "dotenv";
 
 export const checkOut = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
+    dotenv.config();
+
     // Ruta para crear una transacción
     const nonceFromTheClient = req.body.paymentMethodNonce;
     const amount = req.body.amount;
 
     const gateway = new braintree.BraintreeGateway({
       environment: braintree.Environment.Sandbox,
-      merchantId: "dw25mfqrppq3bf49",
-      publicKey: "p8krtfds6ksdk7c8",
-      privateKey: "1e16511a64598befbf89607dcb28c0c5",
+      merchantId: process.env.MERCHANT_ID as string,
+      publicKey: process.env.PUBLIC_KEY as string,
+      privateKey: process.env.PRIVATE_KEY as string,
     });
 
     const customerData = {

@@ -5,6 +5,7 @@ import { productRouter } from "./product.routes";
 import { categoryRouter } from "./category.routes";
 import { braintreeRouter } from "./brainTree.routes";
 import bodyParser from "body-parser";
+import { checkOutRouter } from "./checkOut.routes";
 
 export const configureRoutes = (app: any): any => {
   // Rutas
@@ -24,6 +25,7 @@ export const configureRoutes = (app: any): any => {
   // Usamos las rutas
   app.use("/product", productRouter);
   app.use("/categorie", categoryRouter);
+  app.use("/checkout", checkOutRouter)
   app.use("/braintree", braintreeRouter)
   app.use("/", router);
 
