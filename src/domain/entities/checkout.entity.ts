@@ -23,13 +23,13 @@ interface ICheckout extends Document {
   paymentMethod: PaymentGateway;
   externalTransactionId: string;
   orderNumber: string;
-  productList: {
+  productList: [{
     sku: string;
     price: number;
     quantity: number;
     title: string;
     totalPrice: number;
-  }[];
+  }];
   cardHolderName: string;
   cardCVV: string;
   cardExpirationDate: string;
@@ -60,9 +60,6 @@ const checkoutSchema = new Schema<ICheckout>(
         totalPrice: { type: Number, required: true },
       },
     ],
-    cardHolderName: { type: String, required: true },
-    cardCVV: { type: String, required: true },
-    cardExpirationDate: { type: String, required: true },
   },
   { timestamps: true }
 );
