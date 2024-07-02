@@ -1,7 +1,6 @@
 import { type Request, type Response, type NextFunction } from "express";
 import { checkoutOdm } from "../odm/checkout.odm";
 
-
 export const createCheckOut = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const createdCheckOut = await checkoutOdm.createCheckOut(req.body);
@@ -10,7 +9,6 @@ export const createCheckOut = async (req: Request, res: Response, next: NextFunc
     next(error);
   }
 };
-
 
 export const getCheckOutById = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {

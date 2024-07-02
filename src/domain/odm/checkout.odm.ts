@@ -13,7 +13,6 @@ const updateCheckOut = async (id: string, checkoutData: any): Promise<Document<I
   return await Checkout.findByIdAndUpdate(id, checkoutData, { new: true, runValidators: true });
 };
 
-
 const getCheckOutById = async (id: string): Promise<Document<ICheckout> | null> => {
   return await Checkout.findById(id);
 };
