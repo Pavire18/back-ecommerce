@@ -3,20 +3,20 @@ import express, { type NextFunction, type Response, type Request, type ErrorRequ
 import { mongoConnect } from "../domain/repositories/mongo-repository";
 import { productRouter } from "./product.routes";
 import { categoryRouter } from "./category.routes";
+import { braintreeRouter } from "./brainTree.routes";
+import bodyParser from "body-parser";
+import { checkOutRouter } from "./checkOut.routes";
 
 export const configureRoutes = (app: any): any => {
-  // Swagger
-  // const specs = swaggerJsDoc(swaggerOptions);
-  // app.use("/api-docs", swaggerUiExpress.serve, swaggerUiExpress.setup(specs));
+  // Rutas
+  const router = express.Router();
+  router.use(bodyParser.json());
 
   // Middleware de conexión a Mongo
   app.use(async (req: Request, res: Response, next: NextFunction) => {
     await mongoConnect();
     next();
   });
-
-  // Rutas
-  const router = express.Router();
 
   router.get("*", (req: Request, res: Response) => {
     res.status(404).send("Lo sentimos :( No hemos encontrado la página solicitada.");
@@ -25,6 +25,8 @@ export const configureRoutes = (app: any): any => {
   // Usamos las rutas
   app.use("/product", productRouter);
   app.use("/categorie", categoryRouter);
+  app.use("/checkout", checkOutRouter)
+  app.use("/braintree", braintreeRouter)
   app.use("/", router);
 
   // Middleware de gestión de errores
