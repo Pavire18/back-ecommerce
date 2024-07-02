@@ -1,4 +1,3 @@
-
 import mongoose, { Document, Schema } from "mongoose";
 import validator from "validator";
 import { Country } from "./countries.enum";
@@ -8,7 +7,7 @@ enum PaymentGateway {
   STRIPE = "stripe",
 }
 
-interface ICheckout extends Document {
+export interface ICheckout extends Document {
   firstName: string;
   lastName: string;
   secondLastName: string;
@@ -21,16 +20,17 @@ interface ICheckout extends Document {
   email: string;
   price: number;
   paymentMethod: PaymentGateway;
-  externalTransactionId: string;
-  orderNumber: string;
-  productList: [{
+  externalTransactionId?: string;
+  orderNumber: number;
+  productList: {
     sku: string;
     price: number;
     quantity: number;
     title: string;
     totalPrice: number;
-  }];
+  }[];
   cardHolderName: string;
+  card: string;
   cardCVV: string;
   cardExpirationDate: string;
 }
@@ -49,8 +49,8 @@ const checkoutSchema = new Schema<ICheckout>(
     email: { type: String, required: true, unique: true, validate: [validator.isEmail, "Invalid email address"] },
     price: { type: Number, required: true },
     paymentMethod: { type: String, enum: Object.values(PaymentGateway), required: true },
-    externalTransactionId: { type: String, required: true },
-    orderNumber: { type: String, required: true },
+    externalTransactionId: { type: String, required: false },
+    orderNumber: { type: Number },
     productList: [
       {
         sku: { type: String, required: true },
@@ -60,6 +60,10 @@ const checkoutSchema = new Schema<ICheckout>(
         totalPrice: { type: Number, required: true },
       },
     ],
+    cardHolderName: { type: String, required: false },
+    card: { type: String, required: false },
+    cardCVV: { type: String, required: false },
+    cardExpirationDate: { type: String, required: false },
   },
   { timestamps: true }
 );
