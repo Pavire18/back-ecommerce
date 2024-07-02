@@ -22,7 +22,7 @@ export const checkOut = async (req: Request, res: Response, next: NextFunction):
     };
 
     const saleRequest = {
-      amount: amount,
+      amount,
       paymentMethodNonce: nonceFromTheClient,
       customer: customerData,
       creditCard: {
@@ -48,7 +48,7 @@ export const checkOut = async (req: Request, res: Response, next: NextFunction):
     if (result.success) {
       res.json(result);
     } else {
-      res.status(500).json({ error: "Transaction failed", message: result.message });
+      res.status(400).json({ error: "Transaction failed", message: result.message });
     }
   } catch (error) {
     next(error);

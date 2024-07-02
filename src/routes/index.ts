@@ -4,21 +4,18 @@ import { mongoConnect } from "../domain/repositories/mongo-repository";
 import { productRouter } from "./product.routes";
 import { categoryRouter } from "./category.routes";
 import { braintreeRouter } from "./brainTree.routes";
+import bodyParser from "body-parser";
 
-const bodyParser = require('body-parser');
 export const configureRoutes = (app: any): any => {
- 
   // Rutas
   const router = express.Router();
   router.use(bodyParser.json());
-
 
   // Middleware de conexión a Mongo
   app.use(async (req: Request, res: Response, next: NextFunction) => {
     await mongoConnect();
     next();
   });
-
 
   router.get("*", (req: Request, res: Response) => {
     res.status(404).send("Lo sentimos :( No hemos encontrado la página solicitada.");
