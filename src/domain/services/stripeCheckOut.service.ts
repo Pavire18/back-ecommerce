@@ -10,6 +10,8 @@ export const checkOut = async (req: Request, res: Response, next: NextFunction):
   try {
     const { amount, paymentMethodId, email, name, address } = req.body;
 
+    const amountInCents = Math.round(amount * 100); // convertiendo el importe en centimos
+
     // Crear un cliente en Stripe
     const customer = await stripe.customers.create({
       email,
@@ -23,7 +25,7 @@ export const checkOut = async (req: Request, res: Response, next: NextFunction):
 
     // Crear el Intento de Pago
     const paymentIntent = await stripe.paymentIntents.create({
-      amount: Math.round(amount),
+      amount: Math.round(amountInCents),
       currency: "EUR",
       customer: customer.id,
       payment_method: paymentMethodId,
