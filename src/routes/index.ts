@@ -4,6 +4,7 @@ import { mongoConnect } from "../domain/repositories/mongo-repository";
 import { productRouter } from "./product.routes";
 import { categoryRouter } from "./category.routes";
 import { braintreeRouter } from "./brainTree.routes";
+import { stripeRouter } from "./stripe.routes";
 import bodyParser from "body-parser";
 import { checkOutRouter } from "./checkOut.routes";
 
@@ -27,6 +28,7 @@ export const configureRoutes = (app: any): any => {
   app.use("/categorie", categoryRouter);
   app.use("/checkout", checkOutRouter)
   app.use("/braintree", braintreeRouter)
+  app.use("/stripe", stripeRouter)
   app.use("/", router);
 
   // Middleware de gestión de errores

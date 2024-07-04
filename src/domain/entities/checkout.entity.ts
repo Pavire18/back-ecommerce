@@ -1,6 +1,5 @@
 import mongoose, { Document, Schema } from "mongoose";
 import validator from "validator";
-import { Country } from "./countries.enum";
 
 enum PaymentGateway {
   BRAINTREE = "braintree",
@@ -13,7 +12,7 @@ export interface ICheckout extends Document {
   secondLastName: string;
   address: string;
   postalCode: string;
-  country: Country;
+  country: string;
   locality: string;
   province: string;
   phone: string;
@@ -42,7 +41,7 @@ const checkoutSchema = new Schema<ICheckout>(
     secondLastName: { type: String, required: false },
     address: { type: String, required: true },
     postalCode: { type: String, required: true },
-    country: { type: String, enum: Object.values(Country), required: true },
+    country: { type: String, required: true },
     locality: { type: String, required: true },
     province: { type: String, required: true },
     phone: { type: String, required: true, validate: [validator.isMobilePhone, "Invalid phone number"] },
