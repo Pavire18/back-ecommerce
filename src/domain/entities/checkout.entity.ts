@@ -44,7 +44,7 @@ const checkoutSchema = new Schema<ICheckout>(
     country: { type: String, required: true },
     locality: { type: String, required: true },
     province: { type: String, required: true },
-    phone: { type: String, required: true, validate: [validator.isMobilePhone, "Invalid phone number"] },
+    phone: { type: String, required: true },
     email: { type: String, required: true, validate: [validator.isEmail, "Invalid email address"] },
     price: { type: Number, required: true },
     paymentMethod: { type: String, enum: Object.values(PaymentGateway), required: true },
